@@ -1,3 +1,7 @@
+:root {
+    --gray_400: #7F849C;
+}
+
 [scheme=vkcom_dark], .vkui--vkBase--dark, .vkui--vkCom--dark {
     --vkui--theme_name: 'vkontakteComDark';
     --vkui--gradient_tint: rgba(32, 32, 33, 0) 0%, rgba(32, 32, 33, 0.036) 13%, rgba(32, 32, 33, 0.15) 27%, rgba(32, 32, 33, 0.79) 68%, rgba(32, 32, 33, 0.95) 84%, rgba(32, 32, 33, 1) 100%;
@@ -283,15 +287,6 @@
     --vkui--vkontakte_color_snippet_background: #1B222A;
     --vkui--vkontakte_color_snippet_background--hover: #1B222A;
     --vkui--vkontakte_color_snippet_background--active: #1B222A;
-    --vkui--vkontakte_color_modal_card_border_alpha: rgba(255, 255, 255, 0.12);
-    --vkui--vkontakte_color_modal_card_border_alpha--hover: rgba(255, 255, 255, 0.16);
-    --vkui--vkontakte_color_modal_card_border_alpha--active: rgba(255, 255, 255, 0.2);
-    --vkui--vkontakte_color_landing_snippet_border_alpha: rgba(255, 255, 255, 0.16);
-    --vkui--vkontakte_color_landing_snippet_border_alpha--hover: rgba(255, 255, 255, 0.2);
-    --vkui--vkontakte_color_landing_snippet_border_alpha--active: rgba(255, 255, 255, 0.24);
-    --vkui--vkontakte_color_action_sheet_separator_alpha: rgba(255, 255, 255, 0.16);
-    --vkui--vkontakte_color_action_sheet_separator_alpha--hover: rgba(255, 255, 255, 0.2);
-    --vkui--vkontakte_color_action_sheet_separator_alpha--active: rgba(255, 255, 255, 0.24);
     --vkui--vkontakte_color_input_border: #1B222A;
     --vkui--vkontakte_color_input_border--hover: #5c5c5c;
     --vkui--vkontakte_color_input_border--active: #636363;
@@ -346,8 +341,6 @@
     --vkui--vkontakte_color_skeleton_shimmer_from: #222C37;
     --vkui--vkontakte_color_skeleton_shimmer_from--hover: #2b2b2b;
     --vkui--vkontakte_color_skeleton_shimmer_from--active: #343434;
-    --vkui--vkontakte_color_alpha_skeleton_shimmer_to--hover: rgba(255, 255, 255, 0.04);
-    --vkui--vkontakte_color_alpha_skeleton_shimmer_to--active: rgba(255, 255, 255, 0.08);
     --vkui--vkontakte_color_loader_background: #1B222A;
     --vkui--vkontakte_color_loader_background--hover: #5c5c5c;
     --vkui--vkontakte_color_loader_background--active: #636363;
