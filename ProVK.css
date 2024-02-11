@@ -280,9 +280,9 @@
     --vkui--vkontakte_color_snippet_border_alpha: #1B222A;
     --vkui--vkontakte_color_snippet_border_alpha--hover: #1B222A;
     --vkui--vkontakte_color_snippet_border_alpha--active: #1B222A;
-    --vkui--vkontakte_color_snippet_background: #272727;
-    --vkui--vkontakte_color_snippet_background--hover: #303030;
-    --vkui--vkontakte_color_snippet_background--active: #383838;
+    --vkui--vkontakte_color_snippet_background: #1B222A;
+    --vkui--vkontakte_color_snippet_background--hover: #1B222A;
+    --vkui--vkontakte_color_snippet_background--active: #1B222A;
     --vkui--vkontakte_color_modal_card_border_alpha: rgba(255, 255, 255, 0.12);
     --vkui--vkontakte_color_modal_card_border_alpha--hover: rgba(255, 255, 255, 0.16);
     --vkui--vkontakte_color_modal_card_border_alpha--active: rgba(255, 255, 255, 0.2);
