@@ -506,3 +506,6 @@
     background: #2A3742;
     color: #CDD6F4;
 }
+[dir] body .im-action_media:before, [dir] body .im-action_mute:before {
+    background-color: #CDD6F4;
+}
