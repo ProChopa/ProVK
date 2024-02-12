@@ -1,3 +1,5 @@
+/*@import url("https://prochopa.github.io/ProVK/ProVK.css");*/
+
 :root {
     --gray_400: #7F849C;
 }
@@ -66,11 +68,11 @@
     --vkui--color_background_positive_tint--hover: #374a37;
     --vkui--color_background_positive_tint--active: #405140;
     --vkui--color_field_background: #1B222A;
-    --vkui--color_field_background--hover: #323232;
-    --vkui--color_field_background--active: #3a3a3a;
+    --vkui--color_field_background--hover: #1B222A;
+    --vkui--color_field_background--active: #1B222A;
     --vkui--color_header_background: #222C37;
-    --vkui--color_header_background--hover: #2b2b2b;
-    --vkui--color_header_background--active: #343434;
+    --vkui--color_header_background--hover: #222C37;
+    --vkui--color_header_background--active: #222C37;
     --vkui--color_text_accent: #5785BA;
     --vkui--color_text_accent--hover: #5785BA;
     --vkui--color_text_accent--active: #5785BA;
@@ -83,8 +85,8 @@
     --vkui--color_text_primary_invariably--hover: #CDD6F4;
     --vkui--color_text_primary_invariably--active: #CDD6F4;
     --vkui--color_text_secondary: #7F849C;
-    --vkui--color_text_secondary--hover: #CDD6F4;
-    --vkui--color_text_secondary--active: #CDD6F4;
+    --vkui--color_text_secondary--hover: #7F849C;
+    --vkui--color_text_secondary--active: #7F849C;
     --vkui--color_text_subhead: #CDD6F4;
     --vkui--color_text_subhead--hover: #CDD6F4;
     --vkui--color_text_subhead--active: #CDD6F4;
@@ -94,10 +96,10 @@
     --vkui--color_text_contrast--hover: #CDD6F4;
     --vkui--color_text_contrast--active: #CDD6F4;
     --vkui--color_text_contrast_themed: #222C37;
-    --vkui--color_text_contrast_themed--hover: #CDD6F4;
-    --vkui--color_text_contrast_themed--active: #CDD6F4;
-    --vkui--color_text_positive--hover: #52b652;
-    --vkui--color_text_positive--active: #59b959;
+    --vkui--color_text_contrast_themed--hover: #222C37;
+    --vkui--color_text_contrast_themed--active: #222C37;
+    --vkui--color_text_positive--hover: #CDD6F4;
+    --vkui--color_text_positive--active: #CDD6F4;
     --vkui--color_text_negative: #CDD6F4;
     --vkui--color_text_negative--hover: #CDD6F4;
     --vkui--color_text_negative--active: #CDD6F4;
@@ -105,17 +107,17 @@
     --vkui--color_text_link--hover: #5785BA;
     --vkui--color_text_link--active: #5785BA;
     --vkui--color_text_link_themed: #CDD6F4;
-    --vkui--color_text_link_themed--hover: #5785BA;
-    --vkui--color_text_link_themed--active: #5785BA;
+    --vkui--color_text_link_themed--hover: #CDD6F4;
+    --vkui--color_text_link_themed--active: #CDD6F4;
     --vkui--color_text_link_tint--hover: #5785BA;
     --vkui--color_text_link_tint--active: #5785BA;
     --vkui--color_text_link_visited--hover: #5785BA;
     --vkui--color_text_link_visited--active: #5785BA;
     --vkui--color_text_muted: #CDD6F4;
-    --vkui--color_text_muted--hover: #cecece;
-    --vkui--color_text_muted--active: #d0d0d0;
-    --vkui--color_link_contrast--hover: #ebedf0;
-    --vkui--color_link_contrast--active: #d7d8db;
+    --vkui--color_text_muted--hover: #CDD6F4;
+    --vkui--color_text_muted--active: #CDD6F4;
+    --vkui--color_link_contrast--hover: #CDD6F4;
+    --vkui--color_link_contrast--active: #CDD6F4;
     --vkui--color_icon_accent: #5785BA;
     --vkui--color_icon_accent--hover: #5785BA;
     --vkui--color_icon_accent--active: #5785BA;
@@ -126,11 +128,11 @@
     --vkui--color_icon_primary--hover: #CDD6F4;
     --vkui--color_icon_primary--active: #CDD6F4;
     --vkui--color_icon_primary_invariably: #2A3742;
-    --vkui--color_icon_primary_invariably--hover: #3b3b3b;
-    --vkui--color_icon_primary_invariably--active: #434343;
+    --vkui--color_icon_primary_invariably--hover: #2A3742;
+    --vkui--color_icon_primary_invariably--active: #2A3742;
     --vkui--color_icon_medium: #CDD6F4;
-    --vkui--color_icon_medium--hover: #979797;
-    --vkui--color_icon_medium--active: #9c9c9c;
+    --vkui--color_icon_medium--hover: #CDD6F4;
+    --vkui--color_icon_medium--active: #CDD6F4;
     --vkui--color_icon_medium_alpha: #CDD6F4;
     --vkui--color_icon_medium_alpha--hover: #CDD6F4;
     --vkui--color_icon_medium_alpha--active: #CDD6F4;
@@ -152,13 +154,13 @@
     --vkui--color_icon_contrast_themed: #222C37;
     --vkui--color_icon_contrast_themed--hover: #CDD6F4;
     --vkui--color_icon_contrast_themed--active: #CDD6F4;
-    --vkui--color_icon_contrast_secondary--hover: #f3f3f5;
-    --vkui--color_icon_contrast_secondary--active: #f3f4f6;
-    --vkui--color_icon_positive--hover: #52b652;
-    --vkui--color_icon_positive--active: #59b959;
-    --vkui--color_icon_negative: #ff5c5c;
-    --vkui--color_icon_negative--hover: #ff6363;
-    --vkui--color_icon_negative--active: #ff6969;
+    --vkui--color_icon_contrast_secondary--hover: #CDD6F4;
+    --vkui--color_icon_contrast_secondary--active: #CDD6F4;
+    --vkui--color_icon_positive--hover: #CDD6F4;
+    --vkui--color_icon_positive--active: #CDD6F4;
+    --vkui--color_icon_negative: #CDD6F4;
+    --vkui--color_icon_negative--hover: #CDD6F4;
+    --vkui--color_icon_negative--active: #CDD6F4;
     --vkui--color_stroke_accent: #5785BA;
     --vkui--color_stroke_accent--hover: #5785BA;
     --vkui--color_stroke_accent--active: #5785BA;
@@ -230,37 +232,37 @@
     --vkui--color_action_sheet_text--active: #5785BA;
     --vkui--color_image_placeholder: #2A3742;
     --vkui--color_image_placeholder--hover: #2A3742;
-    --vkui--color_image_placeholder--active: #3b3c3d;
-    --vkui--color_image_placeholder_alpha: rgba(241, 247, 255, 0.08);
-    --vkui--color_image_placeholder_alpha--hover: rgba(241, 247, 255, 0.12);
-    --vkui--color_image_placeholder_alpha--active: rgba(241, 247, 255, 0.16);
+    --vkui--color_image_placeholder--active: #2A3742;
+    --vkui--color_image_placeholder_alpha: #2A3742;
+    --vkui--color_image_placeholder_alpha--hover: #2A3742;
+    --vkui--color_image_placeholder_alpha--active: #2A3742;
     --vkui--color_skeleton_from: #1B222A;
-    --vkui--color_skeleton_from--hover: #323232;
-    --vkui--color_skeleton_from--active: #3a3a3a;
+    --vkui--color_skeleton_from--hover: #1B222A;
+    --vkui--color_skeleton_from--active: #1B222A;
     --vkui--color_skeleton_to: #2A3742;
-    --vkui--color_skeleton_to--hover: #3b3b3b;
-    --vkui--color_skeleton_to--active: #434343;
+    --vkui--color_skeleton_to--hover: #2A3742;
+    --vkui--color_skeleton_to--active: #2A3742;
     --vkui--color_button_text: #CDD6F4;
-    --vkui--color_button_text--hover: #e2e4e7;
-    --vkui--color_button_text--active: #e3e5e8;
+    --vkui--color_button_text--hover: #CDD6F4;
+    --vkui--color_button_text--active: #CDD6F4;
     --vkui--color_button_icon: #CDD6F4;
-    --vkui--color_button_icon--hover: #e2e4e7;
-    --vkui--color_button_icon--active: #e3e5e8;
+    --vkui--color_button_icon--hover: #CDD6F4;
+    --vkui--color_button_icon--active: #CDD6F4;
     --vkui--color_button_stroke: #CDD6F4;
-    --vkui--color_button_stroke--hover: #e2e4e7;
-    --vkui--color_button_stroke--active: #e3e5e8;
+    --vkui--color_button_stroke--hover: #CDD6F4;
+    --vkui--color_button_stroke--active: #CDD6F4;
     --vkui--color_write_bar_icon: #CDD6F4;
-    --vkui--color_write_bar_icon--hover: #e2e4e7;
-    --vkui--color_write_bar_icon--active: #e3e5e8;
+    --vkui--color_write_bar_icon--hover: #CDD6F4;
+    --vkui--color_write_bar_icon--active: #CDD6F4;
     --vkui--color_write_bar_input_background: #1B222A;
     --vkui--color_write_bar_input_background--hover: #1B222A;
     --vkui--color_write_bar_input_background--active: #1B222A;
     --vkui--color_write_bar_input_border: #1B222A;
-    --vkui--color_write_bar_input_border--hover: #5c5c5c;
-    --vkui--color_write_bar_input_border--active: #636363;
-    --vkui--color_write_bar_input_border_alpha: rgba(255, 255, 255, 0.8);
-    --vkui--color_write_bar_input_border_alpha--hover: rgba(255, 255, 255, 0.84);
-    --vkui--color_write_bar_input_border_alpha--active: rgba(255, 255, 255, 0.88);
+    --vkui--color_write_bar_input_border--hover: #1B222A;
+    --vkui--color_write_bar_input_border--active: #1B222A;
+    --vkui--color_write_bar_input_border_alpha: #1B222A;
+    --vkui--color_write_bar_input_border_alpha--hover: #1B222A;
+    --vkui--color_write_bar_input_border_alpha--active: #1B222A;
     --vkui--color_track_background: #1B222A;
     --vkui--color_track_background--hover: #1B222A;
     --vkui--color_track_background--active: #1B222A;
@@ -500,9 +502,5 @@
     color: #CDD6F4;
 }
 [dir] body .im-action_media:before, [dir] body .im-action_mute:before {
-    color: #CDD6F4;
-}
-.im-navigation__button {
-    background: #2A3742;
     color: #CDD6F4;
 }
