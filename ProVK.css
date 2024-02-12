@@ -502,3 +502,6 @@
 [dir] body .im-action_media:before, [dir] body .im-action_mute:before {
     color: #CDD6F4;
 }
+.im-navigation__button {
+    background: #2A3742;
+}
