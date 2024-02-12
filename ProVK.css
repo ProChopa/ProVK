@@ -1,6 +1,5 @@
 :root {
     --gray_400: #7F849C;
-    --gray_800: #2a3742;
 }
 
 [scheme=vkcom_dark], .vkui--vkBase--dark, .vkui--vkCom--dark {
