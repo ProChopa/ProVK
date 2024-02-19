@@ -194,9 +194,9 @@
     --vkui--color_image_border_alpha: #2A3742;
     --vkui--color_image_border_alpha--hover: #2A3742;
     --vkui--color_image_border_alpha--active: #2A3742;
-    --vkui--color_field_border_alpha: rgba(255, 255, 255, 0.12);
-    --vkui--color_field_border_alpha--hover: rgba(255, 255, 255, 0.16);
-    --vkui--color_field_border_alpha--active: rgba(255, 255, 255, 0.2);
+    --vkui--color_field_border_alpha: #222C37;
+    --vkui--color_field_border_alpha--hover: #222C37;
+    --vkui--color_field_border_alpha--active: #222C37;
     --vkui--color_accent_blue: #397dcc;
     --vkui--color_accent_blue--hover: #4182ce;
     --vkui--color_accent_blue--active: #4987d0;
