@@ -55,8 +55,9 @@
     --vkui--color_background_warning: #857250;
     --vkui--color_background_warning--hover: #8a7857;
     --vkui--color_background_warning--active: #8f7d5e;
-    --vkui--color_background_positive--hover: #52b652;
-    --vkui--color_background_positive--active: #59b959;
+    --vkui--color_background_positive: #5785BA;
+    --vkui--color_background_positive--hover: #5785BA;
+    --vkui--color_background_positive--active: #5785BA;
     --vkui--color_background_negative: #ff5c5c;
     --vkui--color_background_negative--hover: #ff6363;
     --vkui--color_background_negative--active: #ff6969;
