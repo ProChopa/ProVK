@@ -503,6 +503,3 @@
 [dir] body .im-action_media:before, [dir] body .im-action_mute:before {
     color: #CDD6F4;
 }
-.checkbox::before {
-    background-image: #1B222A;
-}
