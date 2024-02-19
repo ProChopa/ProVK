@@ -490,7 +490,7 @@
 .redesign_web .RecommendedPlaylist__audios, .StatusPanel-module__inner--DB7re, .pv_more_acts, .pv_bottom_info {
     background: #222C37;
 }
-.audio_row__more_actions .audio_row__more_action, .audio_numeric .audio_row .audio_row__counter, .audio_pl_snippet2 .audio_pl_snippet__stats {
+[dir] body .im-action_media:before, [dir] body .im-action_mute:before, .audio_row__more_actions .audio_row__more_action, .audio_numeric .audio_row .audio_row__counter, .audio_pl_snippet2 .audio_pl_snippet__stats {
     color: #CDD6F4;
 }
 .top_audio_player .top_audio_player_title {
@@ -498,8 +498,5 @@
 }
 .tt_black .tt_text {
     background: #2A3742;
-    color: #CDD6F4;
-}
-[dir] body .im-action_media:before, [dir] body .im-action_mute:before {
     color: #CDD6F4;
 }
