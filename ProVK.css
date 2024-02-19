@@ -504,5 +504,5 @@
     color: #CDD6F4;
 }
 .checkbox::before {
-    color: #CDD6F4;
+    background-image: #CDD6F4;
 }
