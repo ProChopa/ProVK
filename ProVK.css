@@ -510,3 +510,12 @@
 	background: #2a3742;
 	color: #cdd6f4;
 }
+body {
+    background: #1b222a;
+}
+hr {
+    border-top: none;
+}
+div.img_title {
+    color: #CDD6F4;
+}
