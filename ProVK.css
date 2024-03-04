@@ -7,9 +7,7 @@
 	--black_alpha72: #222c37;
 }
 
-[scheme='vkcom_dark'],
-.vkui--vkBase--dark,
-.vkui--vkCom--dark {
+[scheme='vkcom_dark'], .vkui--vkBase--dark, .vkui--vkCom--dark {
 	--vkui--theme_name: 'vkontakteComDark';
 	--vkui--gradient_tint: rgba(32, 32, 33, 0) 0%, rgba(32, 32, 33, 0.036) 13%, rgba(32, 32, 33, 0.15) 27%, rgba(32, 32, 33, 0.79) 68%, rgba(32, 32, 33, 0.95) 84%, rgba(32, 32, 33, 1) 100%;
 	--vkui--gradient: rgba(25, 25, 26, 0) 0%, rgba(25, 25, 26, 0.036) 13%, rgba(25, 25, 26, 0.15) 27%, rgba(25, 25, 26, 0.79) 68%, rgba(25, 25, 26, 0.95) 84%, rgba(25, 25, 26, 1) 100%;
@@ -159,9 +157,9 @@
 	--vkui--color_icon_contrast: #5785ba;
 	--vkui--color_icon_contrast--hover: #5785ba;
 	--vkui--color_icon_contrast--active: #5785ba;
-	--vkui--color_icon_contrast_themed: #5785ba;
-	--vkui--color_icon_contrast_themed--hover: #5785ba;
-	--vkui--color_icon_contrast_themed--active: #5785ba;
+	--vkui--color_icon_contrast_themed: #1b222a;
+	--vkui--color_icon_contrast_themed--hover: #1b222a;
+	--vkui--color_icon_contrast_themed--active: #1b222a;
 	--vkui--color_icon_contrast_secondary--hover: #5785ba;
 	--vkui--color_icon_contrast_secondary--active: #5785ba;
 	--vkui--color_icon_positive--hover: #5785ba;
@@ -486,7 +484,6 @@
 	--vkui--vkontakte_stories_skeleton_loader_background--hover: #1b222a;
 	--vkui--vkontakte_stories_skeleton_loader_background--active: #1b222a;
 }
-
 .videoplayer_slider ._bars_wrap, .ui_search.ui_search_new.ui_search_with_custom_controls .ui_search_custom_ctrl, .ui_search_new .ui_search_input_inner, .reply_fakebox, .deep_active .replies .reply_box div.submit_post_field, .slider_loading_bar, .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide, .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide, .slider.slider_size_1 .slider_slide {
 	background: #1b222a;
 }
