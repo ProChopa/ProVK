@@ -2,7 +2,7 @@
 Theme for VK with Auto-Update
 
 # Preview
-![Preview](https://prochopa.github.io/ProVK/ProVK.png)
+
 
 # Install
 1. Download Release
