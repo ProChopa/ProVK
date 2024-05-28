@@ -7,12 +7,9 @@
 	--black_alpha72: #222c37;
 }
 
-[scheme=vkcom_dark], .vkui--vkBase--dark, .vkui--vkCom--dark {
-	--vkui--theme_name: 'vkontakteComDark';
-	--vkui--gradient_tint: rgba(32, 32, 33, 0) 0%, rgba(32, 32, 33, 0.036) 13%, rgba(32, 32, 33, 0.15) 27%, rgba(32, 32, 33, 0.79) 68%, rgba(32, 32, 33, 0.95) 84%, rgba(32, 32, 33, 1) 100%;
-	--vkui--gradient: rgba(25, 25, 26, 0) 0%, rgba(25, 25, 26, 0.036) 13%, rgba(25, 25, 26, 0.15) 27%, rgba(25, 25, 26, 0.79) 68%, rgba(25, 25, 26, 0.95) 84%, rgba(25, 25, 26, 1) 100%;
-	--vkui--theme_inherits_from: 'vkComDark';
-	--vkui--colors_scheme: dark;
+[scheme=vkcom_dark],
+.vkui--vkBase--dark,
+.vkui--vkCom--dark {
 	--vkui--color_background_accent: #5785ba;
 	--vkui--color_background_accent--hover: #5785ba;
 	--vkui--color_background_accent--active: #5785ba;
@@ -57,21 +54,9 @@
 	--vkui--color_background_modal_inverse: #cdd6f4;
 	--vkui--color_background_modal_inverse--hover: #cdd6f4;
 	--vkui--color_background_modal_inverse--active: #cdd6f4;
-	--vkui--color_background_warning: #857250;
-	--vkui--color_background_warning--hover: #8a7857;
-	--vkui--color_background_warning--active: #8f7d5e;
 	--vkui--color_background_positive: #5785ba;
 	--vkui--color_background_positive--hover: #5785ba;
 	--vkui--color_background_positive--active: #5785ba;
-	--vkui--color_background_negative: #ff5c5c;
-	--vkui--color_background_negative--hover: #ff6363;
-	--vkui--color_background_negative--active: #ff6969;
-	--vkui--color_background_negative_tint: #522e2e;
-	--vkui--color_background_negative_tint--hover: #593636;
-	--vkui--color_background_negative_tint--active: #603f3f;
-	--vkui--color_background_positive_tint: #2f422f;
-	--vkui--color_background_positive_tint--hover: #374a37;
-	--vkui--color_background_positive_tint--active: #405140;
 	--vkui--color_field_background: #1b222a;
 	--vkui--color_field_background--hover: #1b222a;
 	--vkui--color_field_background--active: #1b222a;
@@ -202,37 +187,9 @@
 	--vkui--color_field_border_alpha: #222c37;
 	--vkui--color_field_border_alpha--hover: #222c37;
 	--vkui--color_field_border_alpha--active: #222c37;
-	--vkui--color_accent_blue: #397dcc;
-	--vkui--color_accent_blue--hover: #4182ce;
-	--vkui--color_accent_blue--active: #4987d0;
-	--vkui--color_accent_gray--hover: #b1bac4;
-	--vkui--color_accent_gray--active: #b4bdc7;
-	--vkui--color_accent_red--hover: #ff3b4e;
-	--vkui--color_accent_red--active: #ff4356;
 	--vkui--color_accent_green: #5785ba;
 	--vkui--color_accent_green--hover: #5785ba;
 	--vkui--color_accent_green--active: #5785ba;
-	--vkui--color_accent_orange--hover: #ffa40a;
-	--vkui--color_accent_orange--active: #ffa814;
-	--vkui--color_accent_orange_peach: #ffc062;
-	--vkui--color_accent_orange_peach--hover: #ffc368;
-	--vkui--color_accent_orange_peach--active: #ffc56f;
-	--vkui--color_accent_orange_fire--hover: #f1634b;
-	--vkui--color_accent_orange_fire--active: #f16953;
-	--vkui--color_accent_purple: #937ff5;
-	--vkui--color_accent_purple--hover: #9784f5;
-	--vkui--color_accent_purple--active: #9c89f6;
-	--vkui--color_accent_violet: #a393f5;
-	--vkui--color_accent_violet--hover: #a797f5;
-	--vkui--color_accent_violet--active: #aa9cf6;
-	--vkui--color_accent_raspberry_pink: #f060c0;
-	--vkui--color_accent_raspberry_pink--hover: #f166c3;
-	--vkui--color_accent_raspberry_pink--active: #f16dc5;
-	--vkui--color_accent_secondary--hover: #478fe1;
-	--vkui--color_accent_secondary--active: #4e93e2;
-	--vkui--color_overlay_secondary: rgba(55, 56, 57, 0.5);
-	--vkui--color_overlay_secondary--hover: rgba(55, 56, 57, 0.54);
-	--vkui--color_overlay_secondary--active: rgba(55, 56, 57, 0.58);
 	--vkui--color_action_sheet_text: #5785ba;
 	--vkui--color_action_sheet_text--hover: #5785ba;
 	--vkui--color_action_sheet_text--active: #5785ba;
@@ -281,12 +238,6 @@
 	--vkui--color_panel_header_icon: #5785ba;
 	--vkui--color_panel_header_icon--hover: #5785ba;
 	--vkui--color_panel_header_icon--active: #5785ba;
-	--vkui--color_segmented_control: #626364;
-	--vkui--color_segmented_control--hover: #68696a;
-	--vkui--color_segmented_control--active: #6f6f70;
-	--vkui--color_tabbar_text_inactive: #76787a;
-	--vkui--color_tabbar_text_inactive--hover: #7b7d7f;
-	--vkui--color_tabbar_text_inactive--active: #818385;
 	--vkui--color_transparent--hover: #2a3742;
 	--vkui--color_transparent--active: #2a3742;
 	--vkui--vkontakte_color_snippet_border_alpha: #1b222a;
@@ -318,8 +269,6 @@
 	--vkui--vkontakte_color_background_keyboard--active: #2a3742;
 	--vkui--vkontakte_color_content_placeholder_icon--hover: #cdd6f4;
 	--vkui--vkontakte_color_content_placeholder_icon--active: #cdd6f4;
-	--vkui--vkontakte_color_content_tint_foreground--hover: #979797;
-	--vkui--vkontakte_color_content_tint_foreground--active: #9c9c9c;
 	--vkui--vkontakte_color_text_name: #cdd6f4;
 	--vkui--vkontakte_color_text_name--hover: #cdd6f4;
 	--vkui--vkontakte_color_text_name--active: #cdd6f4;
@@ -338,8 +287,6 @@
 	--vkui--vkontakte_color_header_search_field_tint: #cdd6f4;
 	--vkui--vkontakte_color_header_search_field_tint--hover: #cdd6f4;
 	--vkui--vkontakte_color_header_search_field_tint--active: #cdd6f4;
-	--vkui--vkontakte_color_header_tab_active_indicator--hover: #4182ce;
-	--vkui--vkontakte_color_header_tab_active_indicator--active: #4987d0;
 	--vkui--vkontakte_color_icon_outline_medium: #5785ba;
 	--vkui--vkontakte_color_icon_outline_medium--hover: #5785ba;
 	--vkui--vkontakte_color_icon_outline_medium--active: #5785ba;
@@ -352,8 +299,6 @@
 	--vkui--vkontakte_color_loader_background: #1b222a;
 	--vkui--vkontakte_color_loader_background--hover: #1b222a;
 	--vkui--vkontakte_color_loader_background--active: #1b222a;
-	--vkui--vkontakte_color_loader_tint--hover: #878787;
-	--vkui--vkontakte_color_loader_tint--active: #8c8c8c;
 	--vkui--vkontakte_color_music_playback_icon: #cdd6f4;
 	--vkui--vkontakte_color_music_playback_icon--hover: #cdd6f4;
 	--vkui--vkontakte_color_music_playback_icon--active: #cdd6f4;
@@ -399,21 +344,12 @@
 	--vkui--vkontakte_color_modal_card_header_close: #cdd6f4;
 	--vkui--vkontakte_color_modal_card_header_close--hover: #cdd6f4;
 	--vkui--vkontakte_color_modal_card_header_close--active: #cdd6f4;
-	--vkui--vkontakte_im_bubble_button_outgoing_background_alpha: rgba(255, 255, 255, 0.24);
-	--vkui--vkontakte_im_bubble_button_outgoing_background_alpha--hover: rgba(255, 255, 255, 0.28);
-	--vkui--vkontakte_im_bubble_button_outgoing_background_alpha--active: rgba(255, 255, 255, 0.32);
 	--vkui--vkontakte_im_bubble_button_foreground: #cdd6f4;
 	--vkui--vkontakte_im_bubble_button_foreground--hover: #cdd6f4;
 	--vkui--vkontakte_im_bubble_button_foreground--active: #cdd6f4;
 	--vkui--vkontakte_im_bubble_incoming_highlighted: #cdd6f4;
 	--vkui--vkontakte_im_bubble_incoming_highlighted--hover: #cdd6f4;
 	--vkui--vkontakte_im_bubble_incoming_highlighted--active: #cdd6f4;
-	--vkui--vkontakte_im_bubble_gift_background: #857250;
-	--vkui--vkontakte_im_bubble_gift_background--hover: #8a7857;
-	--vkui--vkontakte_im_bubble_gift_background--active: #8f7d5e;
-	--vkui--vkontakte_im_bubble_gift_background_highlighted: #ab9871;
-	--vkui--vkontakte_im_bubble_gift_background_highlighted--hover: #ae9c77;
-	--vkui--vkontakte_im_bubble_gift_background_highlighted--active: #b2a07c;
 	--vkui--vkontakte_im_bubble_outgoing_alternate: #1b222a;
 	--vkui--vkontakte_im_bubble_outgoing_alternate--hover: #1b222a;
 	--vkui--vkontakte_im_bubble_outgoing_alternate--active: #1b222a;
@@ -429,9 +365,6 @@
 	--vkui--vkontakte_color_im_forward_line_alpha: #5785ba;
 	--vkui--vkontakte_color_im_forward_line_alpha--hover: #5785ba;
 	--vkui--vkontakte_color_im_forward_line_alpha--active: #5785ba;
-	--vkui--vkontakte_color_im_bubble_border_alternate_highlighted_alpha: rgba(0, 0, 0, 0);
-	--vkui--vkontakte_color_im_bubble_border_alternate_highlighted_alpha--hover: rgba(0, 0, 0, 0.04);
-	--vkui--vkontakte_color_im_bubble_border_alternate_highlighted_alpha--active: rgba(0, 0, 0, 0.08);
 	--vkui--vkontakte_color_im_bubble_incoming: #2a3742;
 	--vkui--vkontakte_color_im_bubble_incoming--hover: #2a3742;
 	--vkui--vkontakte_color_im_bubble_incoming--active: #2a3742;
@@ -444,9 +377,6 @@
 	--vkui--vkontakte_color_im_bubble_outgoing: #1b222a;
 	--vkui--vkontakte_color_im_bubble_outgoing--hover: #1b222a;
 	--vkui--vkontakte_color_im_bubble_outgoing--active: #1b222a;
-	--vkui--vkontakte_color_im_bubble_outgoing_expiring_highlighted: #5965b3;
-	--vkui--vkontakte_color_im_bubble_outgoing_expiring_highlighted--hover: #606bb6;
-	--vkui--vkontakte_color_im_bubble_outgoing_expiring_highlighted--active: #6671b9;
 	--vkui--vkontakte_color_im_bubble_gift_text: #cdd6f4;
 	--vkui--vkontakte_color_im_bubble_gift_text--hover: #cdd6f4;
 	--vkui--vkontakte_color_im_bubble_gift_text--active: #cdd6f4;
@@ -471,32 +401,43 @@
 	--vkui--vkontakte_im_bubble_incoming_alternate_highlighted: #cdd6f4;
 	--vkui--vkontakte_im_bubble_incoming_alternate_highlighted--hover: #cdd6f4;
 	--vkui--vkontakte_im_bubble_incoming_alternate_highlighted--active: #cdd6f4;
-	--vkui--vkontakte_im_bubble_incoming_expiring_highlighted: #404980;
-	--vkui--vkontakte_im_bubble_incoming_expiring_highlighted--hover: #485085;
-	--vkui--vkontakte_im_bubble_incoming_expiring_highlighted--active: #4f588a;
 	--vkui--vkontakte_im_bubble_outgoing_highlighted: #cdd6f4;
 	--vkui--vkontakte_im_bubble_outgoing_highlighted--hover: #cdd6f4;
 	--vkui--vkontakte_im_bubble_outgoing_highlighted--active: #cdd6f4;
-	--vkui--vkontakte_landing_secondary_button_background: rgba(255, 255, 255, 0.16);
-	--vkui--vkontakte_landing_secondary_button_background--hover: rgba(255, 255, 255, 0.2);
-	--vkui--vkontakte_landing_secondary_button_background--active: rgba(255, 255 ,255 , 0.24);
 	--vkui--vkontakte_stories_skeleton_loader_background: #1b222a;
 	--vkui--vkontakte_stories_skeleton_loader_background--hover: #1b222a;
 	--vkui--vkontakte_stories_skeleton_loader_background--active: #1b222a;
 }
-.videoplayer_slider ._bars_wrap, .ui_search.ui_search_new.ui_search_with_custom_controls .ui_search_custom_ctrl, .ui_search_new .ui_search_input_inner, .reply_fakebox, .deep_active .replies .reply_box div.submit_post_field, .slider_loading_bar, .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide, .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide, .slider.slider_size_1 .slider_slide {
+.videoplayer_slider ._bars_wrap,
+.ui_search.ui_search_new.ui_search_with_custom_controls .ui_search_custom_ctrl,
+.ui_search_new .ui_search_input_inner,
+.reply_fakebox,
+.deep_active .replies .reply_box div.submit_post_field,
+.slider_loading_bar,
+.audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
+.audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
+.slider.slider_size_1 .slider_slide {
 	background: #1b222a;
 }
-.Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh, .Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh {
+.Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
+.Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
+.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh {
     background-color: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
 	background: #cdd6f4;
 }
-.redesign_web .RecommendedPlaylist__audios, .StatusPanel-module__inner--DB7re, .pv_more_acts, .pv_bottom_info {
+.redesign_web .RecommendedPlaylist__audios,
+.StatusPanel-module__inner--DB7re,
+.pv_more_acts,
+.pv_bottom_info {
 	background: #222c37;
 }
-[dir] body .im-action_media:before, [dir] body .im-action_mute:before, .audio_row__more_actions .audio_row__more_action, .audio_numeric .audio_row .audio_row__counter, .audio_pl_snippet2 .audio_pl_snippet__stats {
+[dir] body .im-action_media:before,
+[dir] body .im-action_mute:before,
+.audio_row__more_actions .audio_row__more_action,
+.audio_numeric .audio_row .audio_row__counter,
+.audio_pl_snippet2 .audio_pl_snippet__stats {
 	color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title {
@@ -514,4 +455,7 @@ hr {
 }
 div.img_title {
     color: #CDD6F4;
+}
+.ConvoMain__themeWrapper {
+    background-color: #1b222a;
 }
