@@ -7,7 +7,7 @@
 	--black_alpha72: #222c37;
 }
 
-[scheme='vkcom_dark'], .vkui--vkBase--dark, .vkui--vkCom--dark {
+[scheme=vkcom_dark], .vkui--vkBase--dark, .vkui--vkCom--dark {
 	--vkui--theme_name: 'vkontakteComDark';
 	--vkui--gradient_tint: rgba(32, 32, 33, 0) 0%, rgba(32, 32, 33, 0.036) 13%, rgba(32, 32, 33, 0.15) 27%, rgba(32, 32, 33, 0.79) 68%, rgba(32, 32, 33, 0.95) 84%, rgba(32, 32, 33, 1) 100%;
 	--vkui--gradient: rgba(25, 25, 26, 0) 0%, rgba(25, 25, 26, 0.036) 13%, rgba(25, 25, 26, 0.15) 27%, rgba(25, 25, 26, 0.79) 68%, rgba(25, 25, 26, 0.95) 84%, rgba(25, 25, 26, 1) 100%;
