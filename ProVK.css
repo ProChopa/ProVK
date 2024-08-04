@@ -8,6 +8,8 @@
 }
 
 [scheme=vkcom_dark],
+vkui--vkBase--dark,
+.vkui--vkCom--dark,
 :is([scheme='vkcom_dark'],
 .vkui--vkCom--dark) :is(.VKCOMMessenger__integrationRoot .MEAppConfig) {
     --vkui--color_background_accent: #5785ba;
