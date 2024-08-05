@@ -551,7 +551,8 @@ body.redesign_web {
 }
 .SecondaryAttachmentAvatar,
 .SecondaryAttachmentAvatar--shadow::after,
-.vkuiImageBase__img {
+.vkuiImageBase__img,
+.OwnerContentTabAudiosItem__coverImage {
     border-radius: 50%;
     border: none;
     box-shadow: none;
@@ -561,7 +562,8 @@ body.redesign_web {
 }
 .redesign_web .RecommendedPlaylist,
 .vkuiImageBase__border,
-.vkuiImageBase {
+.vkuiImageBase,
+.OwnerContentTabAudiosItem__coverImage {
     background: none;
     border:none;
 }
