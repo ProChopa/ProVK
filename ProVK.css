@@ -553,7 +553,8 @@ body.redesign_web {
 .SecondaryAttachmentAvatar--shadow::after,
 .vkuiImageBase__img,
 .OwnerContentTabAudiosItem__coverImage,
-.AvatarRich--shadow::after {
+.AvatarRich--shadow::after,
+.MEAvatar__svg {
     border-radius: 50%;
     border: none;
     box-shadow: none;
