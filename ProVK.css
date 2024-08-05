@@ -8,7 +8,7 @@
 }
 
 [scheme=vkcom_dark],
-vkui--vkBase--dark,
+.vkui--vkBase--dark,
 .vkui--vkCom--dark,
 :is([scheme='vkcom_dark'],
 .vkui--vkCom--dark) :is(.VKCOMMessenger__integrationRoot .MEAppConfig) {
@@ -409,6 +409,12 @@ vkui--vkBase--dark,
     --vkui--vkontakte_stories_skeleton_loader_background: #1b222a;
     --vkui--vkontakte_stories_skeleton_loader_background--hover: #1b222a;
     --vkui--vkontakte_stories_skeleton_loader_background--active: #1b222a;
+    --vkui--vkontakte_color_modal_card_border_alpha: none;
+    --vkui--vkontakte_color_modal_card_border_alpha--hover: none;
+    --vkui--vkontakte_color_modal_card_border_alpha--active: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha--hover: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha--active: none;
     --convoHistoryBackgroundColor: #2a3742;
 }
 .videoplayer_slider ._bars_wrap,
@@ -457,7 +463,7 @@ hr {
     border-top: none;
 }
 div.img_title {
-    color: #CDD6F4;
+    color: #cdd6f4;
 }
 .ConvoMain__themeWrapper {
     background-color: #1b222a;
@@ -465,4 +471,110 @@ div.img_title {
 .audio_promo,
 .CatalogSection:not(.CatalogSection--divided){
     display: none;
+}
+
+body {
+    --vkui--size_border_radius--regular: 24px;
+    --vkui--size_border_radius_rounded--regular: 24px;
+    --vkui--size_border_radius_paper--regular: 24px;
+    --vkui--size_check_border_radius--regular: 24px;
+    --vkui--size_card_border_radius--regular: 24px;
+}
+body.redesign_web {
+    --catalog-section-border-radius: 24px;
+}
+#page_header_cont {
+    border-radius: 0 0 24px 24px;
+    border: none;
+}
+.vkuiSpacing,
+.vkuiGroup__separator,
+.vkuiGroup__separator--spacing,
+.vkuiGroup--mode-card+.vkuiGroup__separator--spacing,
+.vkuiPanelHeader {
+    margin: -3px;
+}
+.LeftMenuItem-module__item--XMcN9,
+.vkmListHeader__button,
+:where(.ActionsMenu),
+.ActionsMenuAction--size-regular,
+.SearchResults-module__root--mnxjb,
+.top_notify_wrap.layer_place,
+#audio_layer_tt,
+.EcosystemServicesNavigationDropdown_popout__NYAnq,
+.EcosystemServicesNavigationBaseItem_icon__x0vZr::after,
+#top_profile_menu.top_profile_menu_react,
+.ui_search_fltr,
+.result_list ul li,
+.big.selector_container.selector_focused table.selector_table,
+.Slider-module__root--_8EdI,
+.top_notify_cont .feedback_row:not(.dld).hover, .top_notify_cont .feedback_row:not(.dld):hover,
+.top_notify_show_all:hover,
+.notify_sources_tt_content,
+.tt_default,
+.tt_default_right,
+.audio_pl_item2 .audio_pl__cover,
+.audio_pl__actions_wrap,
+.MusicAuthor__playButton,
+.vkuiImageBase,
+.video_item .video_item_thumb,
+.video_item .video_item_thumb_wrap,
+.video_thumb_actions,
+.video_thumb_label,
+.ap_layer_wrap .ap_layer__content,
+.audio_pl_snippet2,
+.audio_pl_snippet2:last-child,
+.page-group-actions .page-group-action,
+.redesigned-group-main-action:hover,
+.narrow_column.narrow_redesign .page_photo.page_action_menu_groups .PageActionCell,
+.Pz6oeKouv4v2NV4X,
+.f6_Sg6L_FH1PvbOs,
+.AudioSnippetBanner__image,
+.RecomsPlaylist__content,
+.RecomsPlaylist__cover,
+.RecomsPlaylist__actions,
+.VibeRecomsPlaylist__content,
+.VibeRecomsPlaylist__image_wrapper,
+.RecommendedPlaylist__actions,
+.RecommendedPlaylist__top,
+.RecommendedPlaylist,
+.RecommendedPlaylist__backdrop--colors,
+.RecommendedPlaylist__backdrop,
+.AudioRadiostationItem__actionsContainer,
+.AudioRadiostationItem__banner,
+.BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
+.PhotoPrimaryAttachment,
+.MediaGrid__imageElement,
+.image_cover {
+    border-radius: 24px;
+    border: none;
+}
+.SecondaryAttachmentAvatar,
+.SecondaryAttachmentAvatar--shadow::after,
+.vkuiImageBase__img {
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+}
+.AudioRadiostationItem__banner {
+    box-shadow: none;
+}
+.redesign_web .RecommendedPlaylist,
+.vkuiImageBase__border,
+.vkuiImageBase {
+    background: none;
+    border:none;
+}
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
+    border-radius: 24px 0 0 0;
+}
+.audio_pl_snippet2 .audio_pl_snippet__header {
+    border: none;
+}
+.ui_search_new .ui_search_input_inner {
+    border-radius: 24px 0 0 24px;
+}
+.ui_search_new .ui_search_button_search {
+    border-radius: 0 24px 24px 0;
 }
