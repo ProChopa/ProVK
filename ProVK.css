@@ -563,7 +563,8 @@ body.redesign_web {
 .redesign_web .RecommendedPlaylist,
 .vkuiImageBase__border,
 .vkuiImageBase,
-.OwnerContentTabAudiosItem__coverImage {
+.OwnerContentTabAudiosPlaylistsItem__cover,
+.OwnerContentTabAudiosItem__cover {
     background: none;
     border:none;
 }
