@@ -554,7 +554,7 @@ body.redesign_web {
 .vkuiImageBase__img,
 .OwnerContentTabAudiosItem__coverImage,
 .AvatarRich--shadow::after,
-.MEAvatar__svg {
+.MEAvatar__shadow {
     border-radius: 50%;
     border: none;
     box-shadow: none;
