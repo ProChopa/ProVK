@@ -8,6 +8,9 @@
     --sky_300: #5785ba;
     --black_alpha72: #222c37;
 }
+:root, [scheme=vkcom_light] {
+--vkui--color_background_contrast_inverse: #2a3742;
+}
 [scheme=vkcom_dark],
 .vkui--vkBase--dark,
 .vkui--vkCom--dark,
@@ -575,7 +578,8 @@ div.wdd.wdd_focused,
 .BurgerMenu__button,
 .MEConfig button,
 .OwnerContentTabPhotos__itemsWrapper,
-.PostBottomAction--withBg {
+.PostBottomAction--withBg,
+.tt_black .tt_text {
     border-radius: 24px;
     border: none;
 }
