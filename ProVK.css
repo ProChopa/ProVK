@@ -1,12 +1,13 @@
 :root {
     --gray_300: #cdd6f4;
     --gray_400: #7f849c;
-    --gray_900: #222C37;
+    --gray_800: #1b222a;
+    --gray_800_alpha72: #1b222a;
+    --gray_900: #222c37;
     --steel_gray_300: #5785ba;
     --sky_300: #5785ba;
     --black_alpha72: #222c37;
 }
-
 [scheme=vkcom_dark],
 .vkui--vkBase--dark,
 .vkui--vkCom--dark,
@@ -358,9 +359,9 @@
     --vkui--vkontakte_im_attach_tint: #cdd6f4;
     --vkui--vkontakte_im_attach_tint--hover: #cdd6f4;
     --vkui--vkontakte_im_attach_tint--active: #cdd6f4;
-    --vkui--vkontakte_im_reply_separator: #cdd6f4;
-    --vkui--vkontakte_im_reply_separator--hover: #cdd6f4;
-    --vkui--vkontakte_im_reply_separator--active: #cdd6f4;
+    --vkui--vkontakte_im_reply_separator: #5785ba;
+    --vkui--vkontakte_im_reply_separator--hover: #5785ba;
+    --vkui--vkontakte_im_reply_separator--active: #5785ba;
     --vkui--vkontakte_im_toolbar_voice_msg_background: #1b222a;
     --vkui--vkontakte_im_toolbar_voice_msg_background--hover: #1b222a;
     --vkui--vkontakte_im_toolbar_voice_msg_background--active: #1b222a;
@@ -417,6 +418,20 @@
     --vkui--vkontakte_color_landing_snippet_border_alpha--active: none;
     --convoHistoryBackgroundColor: #2a3742;
 }
+.vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
+.vkuiInternalHorizontalScroll .vkuiTabsItem:hover,
+.DateSeparator--active:not(.DateSeparator--themed),
+.vkuiScrollArrow__icon,
+.vkuiSwitch__track,
+.ui_tab_new.ui_tab_sel,
+.ui_tab_new.ui_tab_group_sel,
+.ui_tab_new.ui_tab_sel:hover,
+.ui_tab_new.ui_tab_group_sel:hover,
+.ui_tab_new.ui_tab_sel:active,
+.ui_tab_new.ui_tab_group_sel:active{
+    background: #2a3742;
+    box-shadow: none;
+}
 .videoplayer_slider ._bars_wrap,
 .ui_search.ui_search_new.ui_search_with_custom_controls .ui_search_custom_ctrl,
 .ui_search_new .ui_search_input_inner,
@@ -425,13 +440,15 @@
 .slider_loading_bar,
 .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
 .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
-.slider.slider_size_1 .slider_slide {
+.slider.slider_size_1 .slider_slide,
+.ConvoMain__themeWrapper,
+body {
     background: #1b222a;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
 .Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
 .Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh {
-    background-color: #5785ba;
+    background: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
     background: #cdd6f4;
@@ -439,14 +456,16 @@
 .redesign_web .RecommendedPlaylist__audios,
 .StatusPanel-module__inner--DB7re,
 .pv_more_acts,
-.pv_bottom_info {
+.pv_bottom_info,
+.AttachWallNew__link--post {
     background: #222c37;
 }
 [dir] body .im-action_media:before,
 [dir] body .im-action_mute:before,
 .audio_row__more_actions .audio_row__more_action,
 .audio_numeric .audio_row .audio_row__counter,
-.audio_pl_snippet2 .audio_pl_snippet__stats {
+.audio_pl_snippet2 .audio_pl_snippet__stats,
+div.img_title {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title {
@@ -456,23 +475,18 @@
     background: #2a3742;
     color: #cdd6f4;
 }
-body {
-    background: #1b222a;
-}
 hr {
     border-top: none;
 }
-div.img_title {
-    color: #cdd6f4;
-}
-.ConvoMain__themeWrapper {
-    background-color: #1b222a;
-}
-.audio_promo,
-.CatalogSection:not(.CatalogSection--divided){
+.audio_promo {
     display: none;
 }
-
+.MEAppConfig {
+    --messageBorderRadius: 24px;
+    --mediaAttachBorderRadius: 24px;
+    --attachArticleBorderRadius: 24px;
+    --composerAttachBorderRadius: 24px;
+}
 body {
     --vkui--size_border_radius--regular: 24px;
     --vkui--size_border_radius_rounded--regular: 24px;
@@ -545,7 +559,23 @@ body.redesign_web {
 .BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
 .PhotoPrimaryAttachment,
 .MediaGrid__imageElement,
-.image_cover {
+.image_cover,
+.ConvoAttachPhoto__img,
+.ConvoAttachesPhotos__item,
+.ConvoAttachesVideoItem__preview,
+.ConvoAttachesLinks__itemContainer,
+.AttachWallNew__donut,
+.AttachWallNew__deleted,
+.AttachWallNew__link--post,
+.DateSeparator,
+.MediaViewerPhoto__imgView,
+div.wdd.wdd_focused,
+.ConvoHeader__action,
+.sTpn2Kx9DZpQUest,
+.BurgerMenu__button,
+.MEConfig button,
+.OwnerContentTabPhotos__itemsWrapper,
+.PostBottomAction--withBg {
     border-radius: 24px;
     border: none;
 }
@@ -554,7 +584,10 @@ body.redesign_web {
 .vkuiImageBase__img,
 .OwnerContentTabAudiosItem__coverImage,
 .AvatarRich--shadow::after,
-.MEAvatar__shadow {
+.AttachAudio__album,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlockBackground,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after {
     border-radius: 50%;
     border: none;
     box-shadow: none;
