@@ -579,7 +579,11 @@ div.wdd.wdd_focused,
 .MEConfig button,
 .OwnerContentTabPhotos__itemsWrapper,
 .PostBottomAction--withBg,
-.tt_black .tt_text {
+.tt_black .tt_text,
+.deep_active .replies .reply_fakebox,
+.deep_active .wl_replies_block_wrap .reply_fakebox,
+.deep_active.wall_module .replies .reply_fakebox,
+.deep_active.wall_module .wl_replies_block_wrap .reply_fakebox {
     border-radius: 24px;
     border: none;
 }
