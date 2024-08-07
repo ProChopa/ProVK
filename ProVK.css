@@ -583,7 +583,15 @@ div.wdd.wdd_focused,
 .deep_active .replies .reply_fakebox,
 .deep_active .wl_replies_block_wrap .reply_fakebox,
 .deep_active.wall_module .replies .reply_fakebox,
-.deep_active.wall_module .wl_replies_block_wrap .reply_fakebox {
+.deep_active.wall_module .wl_replies_block_wrap .reply_fakebox,
+.deep_active .replies .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field {
     border-radius: 24px;
     border: none;
 }
