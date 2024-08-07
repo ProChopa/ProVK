@@ -431,7 +431,9 @@
 .ui_tab_new.ui_tab_sel:hover,
 .ui_tab_new.ui_tab_group_sel:hover,
 .ui_tab_new.ui_tab_sel:active,
-.ui_tab_new.ui_tab_group_sel:active{
+.ui_tab_new.ui_tab_group_sel:active,
+.ConvoMain__composerContent,
+.ConvoComposer__stickersPanel {
     background: #2a3742;
     box-shadow: none;
 }
@@ -592,7 +594,8 @@ div.wdd.wdd_focused,
 .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
 .deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
 .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
-.ConvoMain__composerContent {
+.ConvoMain__composerContent,
+.ConvoComposer__stickersPanel {
     border-radius: 24px;
     border: none;
 }
@@ -609,8 +612,7 @@ div.wdd.wdd_focused,
     border: none;
     box-shadow: none;
 }
-.AudioRadiostationItem__banner,
-.ConvoMain__composerContent {
+.AudioRadiostationItem__banner {
     box-shadow: none;
 }
 .redesign_web .RecommendedPlaylist,
