@@ -595,7 +595,10 @@ div.wdd.wdd_focused,
 .deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
 .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
 .ConvoMain__composerContent,
-.ConvoComposer__stickersPanel {
+.ConvoComposer__stickersPanel,
+.MessageReactionPickerExtended,
+.ConvoStack,
+.ConvoHistory__flowStack {
     border-radius: 24px;
     border: none;
 }
