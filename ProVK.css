@@ -598,7 +598,8 @@ div.wdd.wdd_focused,
 .ConvoComposer__stickersPanel,
 .MessageReactionPickerExtended,
 .ConvoStack,
-.ConvoHistory__flowStack {
+.ConvoHistory__flowStack,
+.StickerEmojiMenuPopper__content {
     border-radius: 24px;
     border: none;
 }
