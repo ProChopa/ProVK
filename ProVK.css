@@ -432,8 +432,7 @@
 .ui_tab_new.ui_tab_group_sel:hover,
 .ui_tab_new.ui_tab_sel:active,
 .ui_tab_new.ui_tab_group_sel:active,
-.ConvoMain__composerContent,
-.ConvoComposer__stickersPanel {
+.ConvoMain__composerContent {
     background: #2a3742;
     box-shadow: none;
 }
@@ -616,7 +615,8 @@ div.wdd.wdd_focused,
     border: none;
     box-shadow: none;
 }
-.AudioRadiostationItem__banner {
+.AudioRadiostationItem__banner,
+.ConvoComposer__stickersPanel {
     box-shadow: none;
 }
 .redesign_web .RecommendedPlaylist,
