@@ -646,7 +646,9 @@ body .reply_author_label,
 .photos_container_albums .photos_album_thumb,
 .photos_container_albums .photos_album_title_wrap,
 .photos_choose_row,
-.flist_item_wrap:hover {
+.flist_item_wrap:hover,
+.im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
+.im-chat-input .im-chat-input--txt-wrap {
     border-radius: 24px;
     border: none;
 }
