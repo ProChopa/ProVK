@@ -698,7 +698,8 @@ body .reply_author_label,
 .FlatButton--secondary,
 .FlatButton--secondary:not(.disable):hover,
 .FlatButton--positive,
-.FlatButton--positive:not(.disable):hover {
+.FlatButton--positive:not(.disable):hover,
+.page-cover-actions-btn {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
