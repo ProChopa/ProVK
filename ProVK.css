@@ -469,7 +469,8 @@ body {
 .pv_more_acts,
 #pv_more_acts_tt,
 .pv_bottom_info,
-.AttachWallNew__link--post {
+.AttachWallNew__link--post,
+.vkuiPopover__in--withStyling {
     background: #222c37;
 }
 [dir] body .im-action_media:before,
@@ -628,7 +629,9 @@ body .reply_author_label,
 #pv_more_acts_tt .pv_more_act_item:hover,
 .pv_more_act_item_sep,
 .group-redesigned-narrow.narrow_column .module_body .people_cell,
-.group-tab-photos {
+.group-tab-photos,
+.StoryPreviewContainer,
+.NarrativeEditorDataPanel__nameInput {
     border-radius: 24px;
     border: none;
 }
@@ -670,6 +673,9 @@ body .reply_author_label,
 }
 .ui_search_new .ui_search_button_search {
     border-radius: 0 24px 24px 0;
+}
+.StoryPreviewContainer {
+    --preview-border-radius: 24px;
 }
 .vkuiButton__in,
 .FlatButton__in,
