@@ -634,7 +634,9 @@ body .reply_author_label,
 .StoryPreviewContainer,
 .NarrativeEditorDataPanel__nameInput,
 .StoryArchivePreview__linkBtn,
-.eltt.feature_intro_tt {
+.eltt.feature_intro_tt,
+.eltt,
+.Post__copyrightButton:hover {
     border-radius: 24px;
     border: none;
 }
