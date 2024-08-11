@@ -608,7 +608,11 @@ div.wdd.wdd_focused,
 .StickerEmojiMenuPopper__content,
 body .reply_author_label,
 .app_widget_image,
-.app_widget_list_cover_gradient {
+.app_widget_list_cover_gradient,
+.groups-redesigned-info-rows .page_list_module .line_cell,
+.groups-redesigned-info-rows .page_list_module .line_cell:first-child,
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child {
     border-radius: 24px;
     border: none;
 }
