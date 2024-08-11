@@ -630,6 +630,10 @@ body .reply_author_label,
     border: none;
     box-shadow: none;
 }
+.audio_pl_snippet2 .audio_pl_snippet__header,
+.ui_gallery_wall_cards .wall_card__photo {
+    border: none;
+}
 .AudioRadiostationItem__banner,
 .ConvoComposer__stickersPanel {
     box-shadow: none;
@@ -645,9 +649,6 @@ body .reply_author_label,
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
     border-radius: 24px 0 0 0;
-}
-.audio_pl_snippet2 .audio_pl_snippet__header {
-    border: none;
 }
 .ui_search_new .ui_search_input_inner {
     border-radius: 24px 0 0 24px;
