@@ -619,12 +619,16 @@ body .reply_author_label,
 .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
 .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
 #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
+#group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
 .ui_gallery_wall_cards .wall_card,
 .redesigned-group-subscribed--button:hover,
 #wk_box.wk_info_content .group-info-box,
 #pv_more_acts_tt,
 #pv_more_acts_tt .pv_more_act_item:hover,
-.pv_more_act_item_sep {
+.pv_more_act_item_sep,
+.group-redesigned-narrow.narrow_column .module_body .people_cell,
+.group-tab-photos {
     border-radius: 24px;
     border: none;
 }
@@ -652,7 +656,8 @@ body .reply_author_label,
 .vkuiImageBase__border,
 .vkuiImageBase,
 .OwnerContentTabAudiosPlaylistsItem__cover,
-.OwnerContentTabAudiosItem__cover {
+.OwnerContentTabAudiosItem__cover,
+#group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover {
     background: none;
     border:none;
 }
