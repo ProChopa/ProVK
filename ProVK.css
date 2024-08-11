@@ -449,6 +449,7 @@
 .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
 .slider.slider_size_1 .slider_slide,
 .ConvoMain__themeWrapper,
+.ui_gallery_wall_cards .wall_card,
 body {
     background: #1b222a;
 }
@@ -613,7 +614,8 @@ body .reply_author_label,
 .groups-redesigned-info-rows .page_list_module .line_cell:first-child,
 .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
 .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
-#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content {
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
+.ui_gallery_wall_cards .wall_card {
     border-radius: 24px;
     border: none;
 }
@@ -630,8 +632,7 @@ body .reply_author_label,
     border: none;
     box-shadow: none;
 }
-.audio_pl_snippet2 .audio_pl_snippet__header,
-.ui_gallery_wall_cards .wall_card__photo {
+.audio_pl_snippet2 .audio_pl_snippet__header {
     border: none;
 }
 .AudioRadiostationItem__banner,
