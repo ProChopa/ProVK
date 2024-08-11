@@ -1,6 +1,7 @@
 :root {
     --gray_300: #cdd6f4;
     --gray_400: #7f849c;
+    --gray_700: #2a3742;
     --gray_800: #1b222a;
     --gray_800_alpha72: #1b222a;
     --gray_900: #222c37;
@@ -466,6 +467,7 @@ body {
 .redesign_web .RecommendedPlaylist__audios,
 .StatusPanel-module__inner--DB7re,
 .pv_more_acts,
+#pv_more_acts_tt,
 .pv_bottom_info,
 .AttachWallNew__link--post {
     background: #222c37;
@@ -619,7 +621,10 @@ body .reply_author_label,
 #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
 .ui_gallery_wall_cards .wall_card,
 .redesigned-group-subscribed--button:hover,
-#wk_box.wk_info_content .group-info-box {
+#wk_box.wk_info_content .group-info-box,
+#pv_more_acts_tt,
+#pv_more_acts_tt .pv_more_act_item:hover,
+.pv_more_act_item_sep {
     border-radius: 24px;
     border: none;
 }
