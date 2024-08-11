@@ -631,7 +631,8 @@ body .reply_author_label,
 .group-redesigned-narrow.narrow_column .module_body .people_cell,
 .group-tab-photos,
 .StoryPreviewContainer,
-.NarrativeEditorDataPanel__nameInput {
+.NarrativeEditorDataPanel__nameInput,
+.StoryArchivePreview__linkBtn {
     border-radius: 24px;
     border: none;
 }
