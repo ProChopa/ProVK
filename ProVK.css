@@ -16,6 +16,9 @@
 .vkui--vkCom--dark,
 :is([scheme='vkcom_dark'],
 .vkui--vkCom--dark) :is(.VKCOMMessenger__integrationRoot .MEAppConfig) {
+    --vkui--color_accent_blue: #5785ba;
+    --vkui--color_accent_blue--hover: #5785ba;
+    --vkui--color_accent_blue--active: #5785ba;
     --vkui--color_background_accent: #5785ba;
     --vkui--color_background_accent--hover: #5785ba;
     --vkui--color_background_accent--active: #5785ba;
@@ -598,7 +601,8 @@ div.wdd.wdd_focused,
 .MessageReactionPickerExtended,
 .ConvoStack,
 .ConvoHistory__flowStack,
-.StickerEmojiMenuPopper__content {
+.StickerEmojiMenuPopper__content,
+body .reply_author_label {
     border-radius: 24px;
     border: none;
 }
