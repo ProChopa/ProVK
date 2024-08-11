@@ -470,7 +470,8 @@ body {
 #pv_more_acts_tt,
 .pv_bottom_info,
 .AttachWallNew__link--post,
-.vkuiPopover__in--withStyling {
+.vkuiPopover__in--withStyling,
+.eltt.feature_info_tooltip {
     background: #222c37;
 }
 [dir] body .im-action_media:before,
@@ -632,7 +633,8 @@ body .reply_author_label,
 .group-tab-photos,
 .StoryPreviewContainer,
 .NarrativeEditorDataPanel__nameInput,
-.StoryArchivePreview__linkBtn {
+.StoryArchivePreview__linkBtn,
+.eltt.feature_intro_tt {
     border-radius: 24px;
     border: none;
 }
