@@ -478,6 +478,10 @@ div.img_title {
 .top_audio_player .top_audio_player_title {
     color: #5785ba;
 }
+.ProfileIndicatorBadge__badgeLastSeen,
+body .reply_author_label {
+    color: #222c37;
+}
 .tt_black .tt_text {
     background: #2a3742;
     color: #cdd6f4;
@@ -602,7 +606,9 @@ div.wdd.wdd_focused,
 .ConvoStack,
 .ConvoHistory__flowStack,
 .StickerEmojiMenuPopper__content,
-body .reply_author_label {
+body .reply_author_label,
+.app_widget_image,
+.app_widget_list_cover_gradient {
     border-radius: 24px;
     border: none;
 }
