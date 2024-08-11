@@ -645,7 +645,8 @@ body .reply_author_label,
 .Post__copyrightButton:hover,
 .photos_container_albums .photos_album_thumb,
 .photos_container_albums .photos_album_title_wrap,
-.photos_choose_row {
+.photos_choose_row,
+.flist_item_wrap:hover {
     border-radius: 24px;
     border: none;
 }
