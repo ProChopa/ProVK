@@ -666,3 +666,24 @@ body .reply_author_label,
 .ui_search_new .ui_search_button_search {
     border-radius: 0 24px 24px 0;
 }
+.vkuiButton__in,
+.FlatButton__in,
+.FlatButton--primary,
+.vkuiButton--mode-secondary,
+.vkuiButton__in--GoeBI,
+.vkuiButton--mode-primary.vkuiButton--appearance-accent,
+.vkuiButton--mode-primary.vkuiButton--appearance-accent.vkuiButton--hover,
+.redesigned-group-info__actions .FlatButton+.FlatButton,
+.redesigned-group-info__actions .FlatButton+.page-group-actions,
+.redesigned-group-info__actions .FlatButton.redesigned-group-action--more,
+.FlatButton--primary:not(.disable):hover,
+.group-empty-tab__buttons .FlatButton--size-m,
+.group-tab-buttons .FlatButton--size-m,
+.FlatButton--secondary:not(.disable):hover,
+.FlatButton--positive,
+.FlatButton--positive:not(.disable):hover {
+    background: #2a3742;
+    color: #cdd6f4;
+    border-radius: 24px;
+    border: none;
+}
