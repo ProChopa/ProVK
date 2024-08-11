@@ -438,7 +438,13 @@
 .ui_tab_new.ui_tab_group_sel:hover,
 .ui_tab_new.ui_tab_sel:active,
 .ui_tab_new.ui_tab_group_sel:active,
-.ConvoMain__composerContent {
+.ConvoMain__composerContent,
+input.text,
+input.search,
+input.big_text,
+input.dark, .fakeinput,
+div[contenteditable=true],
+textarea {
     background: #2a3742;
     box-shadow: none;
 }
