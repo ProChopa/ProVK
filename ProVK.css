@@ -722,7 +722,9 @@ body .reply_author_label,
 .vkuiButtonGroup--mode-horizontal.vkuiButtonGroup--gap-m>:not(:last-child),
 .Button--size-m:not(.Button--link),
 .Button--secondary:not(.Button--disabled):hover,
-.Button--secondary:not(.Button--disabled):focus {
+.Button--secondary:not(.Button--disabled):focus,
+.privacy_dropdown .item_sel,
+.privacy_dropdown .item_sel_plus {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
