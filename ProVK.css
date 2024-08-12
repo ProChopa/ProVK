@@ -649,7 +649,8 @@ body .reply_author_label,
 .flist_item_wrap:hover,
 .im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
 .im-chat-input .im-chat-input--txt-wrap,
-.im-chat-input .im-chat-input--text {
+.im-chat-input .im-chat-input--text,
+.settings_silent_mode {
     border-radius: 24px;
     border: none;
 }
