@@ -9,6 +9,7 @@
     --steel_gray_200_alpha16: #2a3742;
     --steel_gray_300: #5785ba;
     --sky_300: #5785ba;
+    --black_alpha8: #1b222a;
     --black_alpha72: #222c37;
 }
 :root, [scheme=vkcom_light] {
@@ -650,7 +651,8 @@ body .reply_author_label,
 .im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
 .im-chat-input .im-chat-input--txt-wrap,
 .im-chat-input .im-chat-input--text,
-.settings_silent_mode {
+.settings_silent_mode,
+.privacy_dropdown {
     border-radius: 24px;
     border: none;
 }
