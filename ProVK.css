@@ -648,7 +648,8 @@ body .reply_author_label,
 .photos_choose_row,
 .flist_item_wrap:hover,
 .im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
-.im-chat-input .im-chat-input--txt-wrap {
+.im-chat-input .im-chat-input--txt-wrap,
+.im-chat-input .im-chat-input--text {
     border-radius: 24px;
     border: none;
 }
@@ -714,7 +715,11 @@ body .reply_author_label,
 .FlatButton--positive:not(.disable):hover,
 .photos_choose_upload_area,
 .photos_choose_upload_area:hover,
-.page-cover-actions-btn {
+.page-cover-actions-btn,
+.vkuiButtonGroup--mode-horizontal.vkuiButtonGroup--gap-m>:not(:last-child),
+.Button--size-m:not(.Button--link),
+.Button--secondary:not(.Button--disabled):hover,
+.Button--secondary:not(.Button--disabled):focus {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
