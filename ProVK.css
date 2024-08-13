@@ -490,7 +490,8 @@ textarea {
 .audio_row__more_actions .audio_row__more_action,
 .audio_numeric .audio_row .audio_row__counter,
 .audio_pl_snippet2 .audio_pl_snippet__stats,
-div.img_title {
+div.img_title,
+.LeftMenuItem-module__counter--VM1_w {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title {
