@@ -485,13 +485,16 @@ textarea {
 .ConvoMain__themeWrapper {
     background: #222c37;
 }
+,
+.LeftMenuItem-module__counter--VM1_w {
+    color: #1b222a;
+}
 [dir] body .im-action_media:before,
 [dir] body .im-action_mute:before,
 .audio_row__more_actions .audio_row__more_action,
 .audio_numeric .audio_row .audio_row__counter,
 .audio_pl_snippet2 .audio_pl_snippet__stats,
-div.img_title,
-.LeftMenuItem-module__counter--VM1_w {
+div.img_title {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title {
