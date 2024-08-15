@@ -670,7 +670,7 @@ body .reply_author_label,
 .idd_popup .idd_header_wrap,
 .audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
 .audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]),
-.vkuiTappable--hovered-background>.vkuiTappable__stateLayer.
+.vkuiTappable--hovered-background>.vkuiTappable__stateLayer,
 .EcosystemMultiAccounts_userCell__CT-qt {
     border-radius: 24px;
     border: none;
