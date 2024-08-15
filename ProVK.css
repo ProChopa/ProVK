@@ -431,6 +431,7 @@
 .slider_loading_bar,
 .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
 .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
+.Slider-module__backTransparent--L5JfD.Slider-module__sliderPrimary--HV2wY::before,
 .slider.slider_size_1 .slider_slide,
 body {
     background: #1b222a;
@@ -666,7 +667,9 @@ body .reply_author_label,
 .idd_popup,
 .idd_popup .idd_item,
 .idd_popup .idd_items_content,
-.idd_popup .idd_header_wrap {
+.idd_popup .idd_header_wrap,
+.audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
+.audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]) {
     border-radius: 24px;
     border: none;
 }
