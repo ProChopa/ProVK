@@ -662,7 +662,11 @@ body .reply_author_label,
 .privacy_dropdown,
 .friends_cur_filters .token,
 .friends_find_user_img,
-.big.selector_container.selector_focused.reverse table.selector_table {
+.big.selector_container.selector_focused.reverse table.selector_table,
+.idd_popup,
+.idd_popup .idd_item,
+.idd_popup .idd_items_content,
+.idd_popup .idd_header_wrap {
     border-radius: 24px;
     border: none;
 }
