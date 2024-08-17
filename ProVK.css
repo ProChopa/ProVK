@@ -554,7 +554,8 @@ body.redesign_web {
 .medadd_c_linkbtn .flat_button.active,
 .medadd_inline_editable,
 .medadd_inline_editable:hover,
-.page_media_link_url.medadd_inline_editable {
+.page_media_link_url.medadd_inline_editable,
+.EditorCanvas-module__roundedCanvas--xh8XZ {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
