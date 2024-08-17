@@ -464,7 +464,8 @@ textarea {
 .ui_search_new .ui_search_input_inner,
 .ui_search.ui_search_new.ui_search_with_custom_controls.ui_search_field_empty .ui_search_custom_ctrl,
 .selector_container table.selector_table,
-.big.selector_container.selector_focused.reverse table.selector_table {
+.big.selector_container.selector_focused.reverse table.selector_table,
+.prefix_input_wrap {
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
