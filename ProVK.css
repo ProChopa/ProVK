@@ -70,6 +70,18 @@
     --vkui--color_background_positive: #5785ba;
     --vkui--color_background_positive--hover: #5785ba;
     --vkui--color_background_positive--active: #5785ba;
+    --vkui--color_background_positive_tint: #2a3742;
+    --vkui--color_background_positive_tint--hover: #2a3742;
+    --vkui--color_background_positive_tint--active: #2a3742;
+    --vkui--color_background_warning: #2a3742;
+    --vkui--color_background_warning--hover: #2a3742;
+    --vkui--color_background_warning--active: #2a3742;
+    --vkui--color_background_negative: #2a3742;
+    --vkui--color_background_negative--hover: #2a3742;
+    --vkui--color_background_negative--active: #2a3742;
+    --vkui--color_background_negative_tint: #2a3742;
+    --vkui--color_background_negative_tint--hover: #2a3742;
+    --vkui--color_background_negative_tint--active: #2a3742;
     --vkui--color_field_background: #1b222a;
     --vkui--color_field_background--hover: #1b222a;
     --vkui--color_field_background--active: #1b222a;
