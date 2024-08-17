@@ -446,6 +446,7 @@
 .Slider-module__backTransparent--L5JfD.Slider-module__sliderPrimary--HV2wY::before,
 .slider.slider_size_1 .slider_slide,
 .videoplayer_slider ._bars_wrap,
+.videoplayer_slider ._loaded,
 body {
     background: #1b222a;
 }
@@ -478,12 +479,17 @@ textarea {
 .selector_container table.selector_table,
 .big.selector_container.selector_focused.reverse table.selector_table,
 .prefix_input_wrap,
-.notifier_baloon {
+.notifier_baloon,
+.videoplayer_settings_menu_list_item:hover,
+.videoplayer_settings_menu_sublist_item:hover,
+.videoplayer_settings_menu_list_item.active:hover,
+.videoplayer_settings_menu_sublist_item.active:hover {
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
 .Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
-.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh {
+.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh,
+.videoplayer_slider ._filled {
     background: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
@@ -498,7 +504,9 @@ textarea {
 .vkuiPopover__in--withStyling,
 .eltt.feature_info_tooltip,
 .ConvoMain__themeWrapper,
-.wdd_list {
+.wdd_list,
+.videoplayer_settings_menu_list,
+.videoplayer_settings_menu_sublist {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
@@ -575,8 +583,15 @@ body.redesign_web {
 .feedback_row_wrap.unread:not(.feedback_row_touched),
 .wddi,
 .wddi_over,
+.videoplayer,
 .videoplayer_slider ._loaded,
-.videoplayer_slider ._bars_wrap {
+.videoplayer_slider ._bars_wrap,
+.videoplayer_settings_menu_list,
+.videoplayer_settings_menu_sublist,
+.videoplayer_settings_menu_list_item:hover,
+.videoplayer_settings_menu_sublist_item:hover,
+.videoplayer_settings_menu_list_item.active:hover,
+.videoplayer_settings_menu_sublist_item.active:hover {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
