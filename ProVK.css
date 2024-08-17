@@ -445,6 +445,7 @@
 .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
 .Slider-module__backTransparent--L5JfD.Slider-module__sliderPrimary--HV2wY::before,
 .slider.slider_size_1 .slider_slide,
+.videoplayer_slider ._bars_wrap,
 body {
     background: #1b222a;
 }
@@ -469,7 +470,6 @@ textarea {
     background: #2a3742;
     box-shadow: none;
 }
-.videoplayer_slider ._bars_wrap,
 .reply_fakebox,
 .deep_active .replies .reply_box div.submit_post_field,
 .ui_gallery_wall_cards .wall_card,
@@ -497,7 +497,8 @@ textarea {
 .AttachWallNew__link--post,
 .vkuiPopover__in--withStyling,
 .eltt.feature_info_tooltip,
-.ConvoMain__themeWrapper {
+.ConvoMain__themeWrapper,
+.wdd_list {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
@@ -571,7 +572,11 @@ body.redesign_web {
 .page_media_link_url.medadd_inline_editable,
 .EditorCanvas-module__roundedCanvas--xh8XZ,
 .ok_msg,
-.feedback_row_wrap.unread:not(.feedback_row_touched) {
+.feedback_row_wrap.unread:not(.feedback_row_touched),
+.wddi,
+.wddi_over,
+.videoplayer_slider ._loaded,
+.videoplayer_slider ._bars_wrap {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -749,7 +754,8 @@ body .reply_author_label,
 .OwnerContentTabAudiosItem__cover,
 #group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
 .RoundedGroupItem-module__rootShadow--__QR_,
-#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after {
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
+.videoplayer_end_screen {
     background: none;
     border:none;
 }
@@ -802,7 +808,11 @@ body .reply_author_label,
 .button_gray button.hover,
 .medadd_c_linkimg_big .medadd_c_linkimg_container,
 .medadd_c_linkimg_controls .medadd_c_linkimg_controls_btn_group,
-.editable_thumbs .thumb_wrap:only-child .ui_thumb_x_button {
+.editable_thumbs .thumb_wrap:only-child .ui_thumb_x_button,
+.videoplayer_end_actions._large ._like, .videoplayer_end_actions._large ._share,
+.videoplayer_end_actions._large ._add,
+.videoplayer_share_action,
+.videoplayer_share_action:hover {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
