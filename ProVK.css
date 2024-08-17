@@ -727,7 +727,8 @@ body .reply_author_label,
 .editable_thumbs .thumb_wrap:only-child .preview,
 .editable_thumbs .thumb_wrap::before,
 .photo_thumb_btns_overlay,
-.medadd_c_linkcon {
+.medadd_c_linkcon,
+.VideoPreview__thumb {
     border-radius: 24px;
     border: none;
     box-shadow: none;
