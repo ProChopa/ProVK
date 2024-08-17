@@ -541,6 +541,22 @@ body.redesign_web {
 .vkuiPanelHeader {
     margin: -3px;
 }
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.disabled .groups_edit_cover_wrap_live_upload_placeholder_disabled,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_enabled,
+.TemplatesDropDown__container,
+.VideoRestriction__boxWrap,
+.tt_w.tt_black,
+.flat_button:active,
+.flat_button.active,
+.button_blue button:active,
+.button_blue button.active,
+.medadd_c_linkbtn .flat_button.active,
+.medadd_inline_editable,
+.medadd_inline_editable:hover,
+.page_media_link_url.medadd_inline_editable {
+    border-radius: 24px;
+}
 .LeftMenuItem-module__item--XMcN9,
 .vkmListHeader__button,
 :where(.ActionsMenu),
@@ -688,6 +704,19 @@ body .reply_author_label,
     border: none;
     box-shadow: none;
 }
+.PrimaryAttachmentLink-module__linkContainer--gzB5h,
+.LinkImage-module__photo--ZpNsd,
+.LinkImage-module__photoContainer--gcMmG::after,
+.VideoPreview-module__videoRounded--CvBzB,
+.PhotoPrimaryAttachment--thinBorder,
+.editable_thumbs .thumb_wrap:only-child .preview,
+.editable_thumbs .thumb_wrap::before,
+.photo_thumb_btns_overlay,
+.medadd_c_linkcon {
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+}
 .audio_pl_snippet2 .audio_pl_snippet__header {
     border: none;
 }
@@ -746,15 +775,17 @@ body .reply_author_label,
 .Button--secondary:not(.Button--disabled):focus,
 .privacy_dropdown .item_sel,
 .privacy_dropdown .item_sel_plus,
-.ui_toggler {
+.ui_toggler,
+.vkuiButton--mode-primary.vkuiButton--appearance-overlay,
+.flat_button.secondary:hover,
+.flat_button.secondary.hover,
+.button_gray button:hover,
+.button_gray button.hover,
+.medadd_c_linkimg_big .medadd_c_linkimg_container,
+.medadd_c_linkimg_controls .medadd_c_linkimg_controls_btn_group,
+.editable_thumbs .thumb_wrap:only-child .ui_thumb_x_button {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
     border: none;
-}
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap,
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.disabled .groups_edit_cover_wrap_live_upload_placeholder_disabled,
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_enabled,
-.TemplatesDropDown__container {
-    border-radius: 24px;
 }
