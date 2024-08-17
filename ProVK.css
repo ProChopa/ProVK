@@ -12,9 +12,11 @@
     --black_alpha8: #1b222a;
     --black_alpha72: #222c37;
 }
+
 :root, [scheme=vkcom_light] {
 --vkui--color_background_contrast_inverse: #2a3742;
 }
+
 [scheme=vkcom_dark],
 .vkui--vkBase--dark,
 .vkui--vkCom--dark,
@@ -591,7 +593,10 @@ body.redesign_web {
 .videoplayer_settings_menu_list_item:hover,
 .videoplayer_settings_menu_sublist_item:hover,
 .videoplayer_settings_menu_list_item.active:hover,
-.videoplayer_settings_menu_sublist_item.active:hover {
+.videoplayer_settings_menu_sublist_item.active:hover,
+.index_user_row,
+.index_page .page_block,
+.VkIdForm__input {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -827,9 +832,15 @@ body .reply_author_label,
 .videoplayer_end_actions._large ._like, .videoplayer_end_actions._large ._share,
 .videoplayer_end_actions._large ._add,
 .videoplayer_share_action,
-.videoplayer_share_action:hover {
+.videoplayer_share_action:hover,
+.VkIdForm__button.VkIdForm__signInButton.FlatButton,
+.VkIdForm__signInButton.FlatButton--primary:not(.disable):hover,
+.FlatButton--wide,
+.VkIdForm__businessSignUpButton,
+.FlatButton__in {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
     border: none;
+    box-shadow: none;
 }
