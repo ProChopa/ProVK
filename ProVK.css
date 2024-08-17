@@ -570,7 +570,8 @@ body.redesign_web {
 .medadd_inline_editable:hover,
 .page_media_link_url.medadd_inline_editable,
 .EditorCanvas-module__roundedCanvas--xh8XZ,
-.ok_msg {
+.ok_msg,
+.feedback_row_wrap.unread:not(.feedback_row_touched) {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
