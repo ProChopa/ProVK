@@ -746,7 +746,8 @@ body .reply_author_label,
 .OwnerContentTabAudiosPlaylistsItem__cover,
 .OwnerContentTabAudiosItem__cover,
 #group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
-.RoundedGroupItem-module__rootShadow--__QR_ {
+.RoundedGroupItem-module__rootShadow--__QR_,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after {
     background: none;
     border:none;
 }
