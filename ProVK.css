@@ -837,7 +837,8 @@ body .reply_author_label,
 .VkIdForm__signInButton.FlatButton--primary:not(.disable):hover,
 .FlatButton--wide,
 .VkIdForm__businessSignUpButton,
-.FlatButton__in {
+.FlatButton__in,
+.pv_cont .pv_comments_header {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
