@@ -838,7 +838,8 @@ body .reply_author_label,
 .FlatButton--wide,
 .VkIdForm__businessSignUpButton,
 .FlatButton__in,
-.pv_cont .pv_comments_header {
+.pv_cont .pv_comments_header,
+.privacy_dropdown .header {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
