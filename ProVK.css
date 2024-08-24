@@ -596,7 +596,8 @@ body.redesign_web {
 .videoplayer_settings_menu_sublist_item.active:hover,
 .index_user_row,
 .index_page .page_block,
-.VkIdForm__input {
+.VkIdForm__input,
+.SitesExamplesGalleryCard {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
