@@ -442,6 +442,7 @@
     --vkui--vkontakte_color_landing_snippet_border_alpha--active: none;
     --convoHistoryBackgroundColor: #2a3742;
 }
+body,
 .slider_loading_bar,
 .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
 .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
@@ -449,7 +450,7 @@
 .slider.slider_size_1 .slider_slide,
 .videoplayer_slider ._bars_wrap,
 .videoplayer_slider ._loaded,
-body {
+.vkuiSegmentedControl {
     background: #1b222a;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -485,7 +486,8 @@ textarea {
 .videoplayer_settings_menu_list_item:hover,
 .videoplayer_settings_menu_sublist_item:hover,
 .videoplayer_settings_menu_list_item.active:hover,
-.videoplayer_settings_menu_sublist_item.active:hover {
+.videoplayer_settings_menu_sublist_item.active:hover,
+.vkuiSegmentedControl__slider {
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
