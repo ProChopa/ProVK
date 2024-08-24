@@ -508,7 +508,8 @@ textarea {
 .ConvoMain__themeWrapper,
 .wdd_list,
 .videoplayer_settings_menu_list,
-.videoplayer_settings_menu_sublist {
+.videoplayer_settings_menu_sublist,
+.DatePicker .groups_edit_datepicker {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
@@ -597,7 +598,10 @@ body.redesign_web {
 .index_user_row,
 .index_page .page_block,
 .VkIdForm__input,
-.SitesExamplesGalleryCard {
+.SitesExamplesGalleryCard,
+.groups_edit_event_log_page .groups_edit_event_log_items_wrap .groups_edit_event_log_item_main,
+.DatePicker,
+.DatePicker .groups_edit_datepicker{
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -742,7 +746,9 @@ body .reply_author_label,
 .AttachAudio__album,
 .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlockBackground,
 .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock,
-.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after {
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after,
+#group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
+.apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img {
     border-radius: 50%;
     border: none;
     box-shadow: none;
