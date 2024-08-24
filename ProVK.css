@@ -601,7 +601,8 @@ body.redesign_web {
 .SitesExamplesGalleryCard,
 .groups_edit_event_log_page .groups_edit_event_log_items_wrap .groups_edit_event_log_item_main,
 .DatePicker,
-.DatePicker .groups_edit_datepicker{
+.DatePicker .groups_edit_datepicker,
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview.preview .groups_edit_menu_item_preview_img {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
