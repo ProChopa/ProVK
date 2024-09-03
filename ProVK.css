@@ -539,7 +539,11 @@ body .reply_author_label {
 hr {
     border-top: none;
 }
-.audio_promo {
+.audio_promo,
+.im-mess.im-mess_unread:last-child::before,
+.im-mess.im-mess_selected:last-child::before,
+.im-mess.im-mess_unread+.im-mess::before,
+.im-mess.im-mess_selected+.im-mess::before {
     display: none;
 }
 .MEAppConfig {
@@ -618,7 +622,11 @@ body.redesign_web {
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic+.im-search-results-head,
 .nim-dialog:not(.nim-dialog_deleted):hover+.im-search-results-head,
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.nim-dialog,
-.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.im-search-results-head {
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.im-search-results-head,
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light),
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_selected,
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_light,
+.im-page_classic.im-page .im-mess-stack--mess li:last-of-type {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
