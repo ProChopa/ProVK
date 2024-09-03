@@ -607,7 +607,18 @@ body.redesign_web {
 #groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview.preview .groups_edit_menu_item_preview_img,
 .PhotoItem,
 .thumbed_link--group-snippet,
-.nim-dialog.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text {
+.nim-dialog.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog:hover,
+.nim-dialog:not(.nim-dialog_deleted):hover+.nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_hovered,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered+.nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_classic.nim-dialog_unread,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic+.nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered+.im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic+.im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted):hover+.im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.im-search-results-head {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
