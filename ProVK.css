@@ -605,7 +605,8 @@ body.redesign_web {
 .DatePicker,
 .DatePicker .groups_edit_datepicker,
 #groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview.preview .groups_edit_menu_item_preview_img,
-.PhotoItem {
+.PhotoItem,
+.thumbed_link--group-snippet {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
