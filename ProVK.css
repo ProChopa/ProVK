@@ -630,7 +630,8 @@ body.redesign_web {
 .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light),
 .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_selected,
 .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_light,
-.im-page_classic.im-page .im-mess-stack--mess li:last-of-type {
+.im-page_classic.im-page .im-mess-stack--mess li:last-of-type,
+.stories_groups_block_stories_wrap .stories_groups_block_stories_row {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
