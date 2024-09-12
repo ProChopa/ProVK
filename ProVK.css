@@ -880,7 +880,8 @@ body .reply_author_label,
 .VkIdForm__businessSignUpButton,
 .FlatButton__in,
 .pv_cont .pv_comments_header,
-.privacy_dropdown .header {
+.privacy_dropdown .header,
+.flat_button.black, .flat_button.secondary.black {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
