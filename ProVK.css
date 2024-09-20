@@ -770,7 +770,11 @@ body .reply_author_label,
 .EcosystemMultiAccounts_userCell__CT-qt,
 .PrimaryAttachmentArticle-module__container--QRb3_,
 .Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
-#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview {
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
+.MEConfig *:not(.vkuiIcon,
+.vkuiCustomScrollView__box),
+.MEConfig *::before,
+.MEConfig *::after {
     border-radius: 24px;
     border: none;
 }
