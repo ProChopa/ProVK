@@ -770,9 +770,7 @@ body .reply_author_label,
 .EcosystemMultiAccounts_userCell__CT-qt,
 .PrimaryAttachmentArticle-module__container--QRb3_,
 .Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
-#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
-.MEConfig *::before,
-.MEConfig *::after {
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview {
     border-radius: 24px;
     border: none;
 }
@@ -887,7 +885,8 @@ body .reply_author_label,
 .FlatButton__in,
 .pv_cont .pv_comments_header,
 .privacy_dropdown .header,
-.flat_button.black, .flat_button.secondary.black {
+.flat_button.black,
+.flat_button.secondary.black {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
