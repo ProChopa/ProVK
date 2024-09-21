@@ -489,7 +489,8 @@ textarea {
 .videoplayer_settings_menu_sublist_item:hover,
 .videoplayer_settings_menu_list_item.active:hover,
 .videoplayer_settings_menu_sublist_item.active:hover,
-.vkuiSegmentedControl__slider {
+.vkuiSegmentedControl__slider,
+.ConvoList__item--separator::before {
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
@@ -641,7 +642,8 @@ body.redesign_web {
 .cal_table .next_month_day,
 .cal_table .prev_month_day,
 .cal_table .day.sel,
-.cal_table .day:hover:not(.inactive_day) {
+.cal_table .day:hover:not(.inactive_day),
+.ConvoList__item--separator::before {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
