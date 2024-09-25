@@ -643,7 +643,8 @@ body.redesign_web {
 .cal_table .prev_month_day,
 .cal_table .day.sel,
 .cal_table .day:hover:not(.inactive_day),
-.ConvoList__item--separator::before {
+.ConvoList__item--separator::before,
+.MusicAuthor_block__content .wGnjLCZ_kHG1SsM_ {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -892,6 +893,9 @@ body .reply_author_label,
 .FlatButton--wide,
 .VkIdForm__businessSignUpButton,
 .FlatButton__in,
+.FlatButton--size-l,
+.FlatButton--overlay-primary,
+.FlatButton--overlay-primary:not(.disable):hover,
 .pv_cont .pv_comments_header,
 .privacy_dropdown .header,
 .flat_button.black,
