@@ -472,7 +472,8 @@ input.search,
 input.big_text,
 input.dark, .fakeinput,
 div[contenteditable=true],
-textarea {
+textarea,
+.tdd_control {
     background: #2a3742;
     box-shadow: none;
 }
@@ -644,7 +645,8 @@ body.redesign_web {
 .cal_table .day.sel,
 .cal_table .day:hover:not(.inactive_day),
 .ConvoList__item--separator::before,
-.MusicAuthor_block__content .wGnjLCZ_kHG1SsM_ {
+.MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
+.tdd_control {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
