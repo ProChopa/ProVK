@@ -646,7 +646,8 @@ body.redesign_web {
 .cal_table .day:hover:not(.inactive_day),
 .ConvoList__item--separator::before,
 .MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
-.tdd_control {
+.tdd_control,
+.MediaViewer__footer {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
