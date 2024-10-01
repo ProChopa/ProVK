@@ -464,7 +464,8 @@ body,
 .HeaderSectionSwitcherDropdown__listItemLink,
 #ads_page,
 .HeaderSectionSwitcherDropdown,
-.Breadcrumbs__list {
+.Breadcrumbs__list,
+.Header {
     background: #1b222a;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -509,13 +510,13 @@ textarea,
 .SideOfficeMenu__link--active:hover,
 .SideOfficeMenu__link:focus,
 .SideOfficeMenu__link:hover,
-.HeaderSectionSwitcher__button:focus,
-.HeaderSectionSwitcher__button:hover,
-a.HeaderSectionSwitcherDropdown__itemTitle:focus,
-a.HeaderSectionSwitcherDropdown__itemTitle:hover,
-.HeaderSectionSwitcherDropdown__listItemLink--active,
-.HeaderSectionSwitcherDropdown__listItemLink:focus,
-.HeaderSectionSwitcherDropdown__listItemLink:hover,
+SectionSwitcher__button:focus,
+SectionSwitcher__button:hover,
+aSectionSwitcherDropdown__itemTitle:focus,
+aSectionSwitcherDropdown__itemTitle:hover,
+SectionSwitcherDropdown__listItemLink--active,
+SectionSwitcherDropdown__listItemLink:focus,
+SectionSwitcherDropdown__listItemLink:hover,
 .GoalsListItem,
 .GoalsFilterList__item--selected,
 .Table__Cell--hasSort:hover,
@@ -582,8 +583,8 @@ div.img_title,
 .top_audio_player .top_audio_player_title,
 .article_theme[theme=dark] .article>h3,
 .SideOfficeMenu__link,
-.HeaderSectionSwitcher__button,
-.HeaderSectionSwitcherDropdown {
+SectionSwitcher__button,
+SectionSwitcherDropdown {
     color: #5785ba;
 }
 .ProfileIndicatorBadge__badgeLastSeen,
