@@ -452,7 +452,19 @@ body,
 .videoplayer_slider ._loaded,
 .vkuiSegmentedControl,
 .article_layer .article_layer__views,
-.article_dark .article_layer__content_footer {
+.article_dark .article_layer__content_footer,
+.ads-story_dummy,
+.Office__content .ads_edit_page_wrap3,
+.Breadcrumbs,
+.SideOfficeMenu__navList,
+.SideOfficeMenu__footer,
+.SideOfficeMenu__navList::after,
+.SideOfficeMenu__nav::after,
+.HeaderSectionSwitcherDropdown__itemTitle,
+.HeaderSectionSwitcherDropdown__listItemLink,
+#ads_page,
+.HeaderSectionSwitcherDropdown,
+.Breadcrumbs__list {
     background: #1b222a;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -491,7 +503,29 @@ textarea,
 .videoplayer_settings_menu_list_item.active:hover,
 .videoplayer_settings_menu_sublist_item.active:hover,
 .vkuiSegmentedControl__slider,
-.ConvoList__item--separator::before {
+.ConvoList__item--separator::before,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderSectionSwitcherDropdown__listItemLink--active,
+.HeaderSectionSwitcherDropdown__listItemLink:focus,
+.HeaderSectionSwitcherDropdown__listItemLink:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover{
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
@@ -515,7 +549,17 @@ textarea,
 .wdd_list,
 .videoplayer_settings_menu_list,
 .videoplayer_settings_menu_sublist,
-.DatePicker .groups_edit_datepicker {
+.DatePicker .groups_edit_datepicker,
+.GoalsList__column,
+.GoalsFilterList__item,
+.ads_edit_link_type_card,
+.ads_edit_link_type_card_image_wrapper,
+.Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
+.Table__FiltersPanel .Table__Button.ads_stat_date_range,
+.Table__FiltersPanel .Table__Button,
+.Table__wrapper,
+.Table__Cell--header, .Table__Cell--footer,
+.Table__Cell {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
@@ -527,11 +571,19 @@ textarea,
 .audio_numeric .audio_row .audio_row__counter,
 .audio_pl_snippet2 .audio_pl_snippet__stats,
 div.img_title,
-.article_dark .article {
+.article_dark .article,
+.Breadcrumbs,
+.Breadcrumb__link,
+.Breadcrumb--bold,
+.GoalsFilterList__item--selected,
+.RequirementsModal__listItem {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
-.article_theme[theme=dark] .article>h3 {
+.article_theme[theme=dark] .article>h3,
+.SideOfficeMenu__link,
+.HeaderSectionSwitcher__button,
+.HeaderSectionSwitcherDropdown {
     color: #5785ba;
 }
 .ProfileIndicatorBadge__badgeLastSeen,
@@ -568,7 +620,8 @@ body {
 body.redesign_web {
     --catalog-section-border-radius: 24px;
 }
-#page_header_cont {
+#page_header_cont,
+.Header {
     border-radius: 0 0 24px 24px;
     border: none;
 }
@@ -647,7 +700,8 @@ body.redesign_web {
 .ConvoList__item--separator::before,
 .MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
 .tdd_control,
-.MediaViewer__footer {
+.MediaViewer__footer,
+.ads-story_dummy {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -783,7 +837,37 @@ body .reply_author_label,
 .EcosystemMultiAccounts_userCell__CT-qt,
 .PrimaryAttachmentArticle-module__container--QRb3_,
 .Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
-#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview {
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderSectionSwitcherDropdown__listItemLink--active, .HeaderSectionSwitcherDropdown__listItemLink:focus, .HeaderSectionSwitcherDropdown__listItemLink:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.GoalsList__column,
+.GoalsFilterList__item,
+.ads_edit_link_type_card,
+.ads_edit_link_type_card_image_wrapper,
+.Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
+.Table__FiltersPanel .Table__Button.ads_stat_date_range,
+.Table__FiltersPanel .Table__Button,
+.Table__wrapper,
+.Table__Cell--header, .Table__Cell--footer,
+.Table__Cell {
     border-radius: 24px;
     border: none;
 }
@@ -816,11 +900,23 @@ body .reply_author_label,
     border: none;
     box-shadow: none;
 }
-.audio_pl_snippet2 .audio_pl_snippet__header {
+.audio_pl_snippet2 .audio_pl_snippet__header,
+.Office__content .ads_edit_page_wrap3,
+.Breadcrumbs,
+.SideOfficeMenu__navList,
+.SideOfficeMenu__footer,
+.SideOfficeMenu__navList::after,
+.SideOfficeMenu__nav::after,
+.HeaderSectionSwitcherDropdown__itemTitle,
+.HeaderSectionSwitcherDropdown__listItemLink,
+#ads_page,
+.HeaderSectionSwitcherDropdown,
+.Breadcrumbs__list {
     border: none;
 }
 .AudioRadiostationItem__banner,
-.ConvoComposer__stickersPanel {
+.ConvoComposer__stickersPanel,
+.Header {
     box-shadow: none;
 }
 .redesign_web .RecommendedPlaylist,
@@ -908,4 +1004,7 @@ body .reply_author_label,
     border-radius: 24px;
     border: none;
     box-shadow: none;
+}
+.SideOfficeMenu {
+    border-right: 1px solid #2a3742;;
 }
