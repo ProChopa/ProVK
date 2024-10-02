@@ -465,79 +465,11 @@ body,
 #ads_page,
 .HeaderSectionSwitcherDropdown,
 .Breadcrumbs__list,
-.Office .ads_general_info_preview {
+.Office .ads_general_info_preview,
+.vkui--vkBase--light:not(.vkuiInternalModalBox),
+.vkui--vkCom--light:not(.vkuiInternalModalBox),
+[scheme=vkcom_light]:not(.vkuiInternalModalBox) {
     background: #1b222a;
-}
-.vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
-.vkuiInternalHorizontalScroll .vkuiTabsItem:hover,
-.DateSeparator--active:not(.DateSeparator--themed),
-.vkuiScrollArrow__icon,
-.vkuiSwitch__track,
-.ui_tab_new.ui_tab_sel,
-.ui_tab_new.ui_tab_group_sel,
-.ui_tab_new.ui_tab_sel:hover,
-.ui_tab_new.ui_tab_group_sel:hover,
-.ui_tab_new.ui_tab_sel:active,
-.ui_tab_new.ui_tab_group_sel:active,
-.ConvoMain__composerContent,
-input.text,
-input.search,
-input.big_text,
-input.dark, .fakeinput,
-div[contenteditable=true],
-textarea,
-.tdd_control {
-    background: #2a3742;
-    box-shadow: none;
-}
-.reply_fakebox,
-.deep_active .replies .reply_box div.submit_post_field,
-.ui_gallery_wall_cards .wall_card,
-.ui_search_new .ui_search_input_inner,
-.ui_search.ui_search_new.ui_search_with_custom_controls.ui_search_field_empty .ui_search_custom_ctrl,
-.selector_container table.selector_table,
-.big.selector_container.selector_focused.reverse table.selector_table,
-.prefix_input_wrap,
-.notifier_baloon,
-.videoplayer_settings_menu_list_item:hover,
-.videoplayer_settings_menu_sublist_item:hover,
-.videoplayer_settings_menu_list_item.active:hover,
-.videoplayer_settings_menu_sublist_item.active:hover,
-.vkuiSegmentedControl__slider,
-.ConvoList__item--separator::before,
-.SideOfficeMenu__link--active,
-.SideOfficeMenu__link--active:focus,
-.SideOfficeMenu__link--active:hover,
-.SideOfficeMenu__link:focus,
-.SideOfficeMenu__link:hover,
-SectionSwitcher__button:focus,
-SectionSwitcher__button:hover,
-aSectionSwitcherDropdown__itemTitle:focus,
-aSectionSwitcherDropdown__itemTitle:hover,
-SectionSwitcherDropdown__listItemLink--active,
-SectionSwitcherDropdown__listItemLink:focus,
-SectionSwitcherDropdown__listItemLink:hover,
-.GoalsListItem,
-.GoalsFilterList__item--selected,
-.Table__Cell--hasSort:hover,
-.Table__Row--body:hover .Table__Cell,
-#ads_graph_navigation a.nav:hover,
-#ads_demography_navigation a.nav:hover,
-.Office__content #ads_graph_navigation a.nav_selected,
-.Office__content #ads_graph_navigation a.nav_selected:hover,
-.Office__content #ads_demography_navigation a.nav_selected,
-.Office__content #ads_demography_navigation a.nav_selected:hover,
-.ads_schedule_cell_hovered, .ads_schedule_cell:hover {
-    background: #2a3742;
-}
-.Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
-.Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
-.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh,
-.videoplayer_slider ._filled {
-    background: #5785ba;
-}
-.vkuiSwitch__pseudo:before {
-    background: #cdd6f4;
 }
 .redesign_web .RecommendedPlaylist__audios,
 .StatusPanel-module__inner--DB7re,
@@ -565,10 +497,107 @@ SectionSwitcherDropdown__listItemLink:hover,
 .Header,
 .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
 .PredictionWidget__header,
-.ads_schedule_cell {
+.ads_schedule_cell,
+.PredictionWidget,
+.Suggestion__Item,
+.Suggestions,
+.ads_schedule_cell_checked:hover,
+.ads_schedule_cell_checked.ads_schedule_cell_hovered{
     background: #222c37;
 }
-.LeftMenuItem-module__counter--VM1_w {
+.reply_fakebox,
+.deep_active .replies .reply_box div.submit_post_field,
+.ui_gallery_wall_cards .wall_card,
+.ui_search_new .ui_search_input_inner,
+.ui_search.ui_search_new.ui_search_with_custom_controls.ui_search_field_empty .ui_search_custom_ctrl,
+.selector_container table.selector_table,
+.big.selector_container.selector_focused.reverse table.selector_table,
+.prefix_input_wrap,
+.notifier_baloon,
+.videoplayer_settings_menu_list_item:hover,
+.videoplayer_settings_menu_sublist_item:hover,
+.videoplayer_settings_menu_list_item.active:hover,
+.videoplayer_settings_menu_sublist_item.active:hover,
+.vkuiSegmentedControl__slider,
+.ConvoList__item--separator::before,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.Table__FiltersPanel .Table__Button:hover,
+.Table__Cell--status_view.Table__Cell--editable:hover,
+.Table__Cell--status_view_on.Table__Cell--editable:hover,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+.HeaderSectionSwitcher__button--open,
+.HeaderSectionSwitcherDropdown__listItemLink--active,
+.HeaderSectionSwitcherDropdown__listItemLink:focus,
+.HeaderSectionSwitcherDropdown__listItemLink:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderNotifier:hover,
+.HeaderNotifier.active,
+.HeaderProfile:focus,
+.HeaderProfile:hover,
+.FormulaInput__SuggestionsContainer,
+.Suggestion__Item:hover,
+.Suggestion__Item--selected,
+.Suggestion__Item--selected:hover {
+    background: #2a3742;
+}
+.vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
+.vkuiInternalHorizontalScroll .vkuiTabsItem:hover,
+.DateSeparator--active:not(.DateSeparator--themed),
+.vkuiScrollArrow__icon,
+.vkuiSwitch__track,
+.ui_tab_new.ui_tab_sel,
+.ui_tab_new.ui_tab_group_sel,
+.ui_tab_new.ui_tab_sel:hover,
+.ui_tab_new.ui_tab_group_sel:hover,
+.ui_tab_new.ui_tab_sel:active,
+.ui_tab_new.ui_tab_group_sel:active,
+.ConvoMain__composerContent,
+input.text,
+input.search,
+input.big_text,
+input.dark, .fakeinput,
+div[contenteditable=true],
+textarea,
+.tdd_control {
+    background: #2a3742;
+    box-shadow: none;
+}
+.Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
+.Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
+.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh,
+.videoplayer_slider ._filled,
+.button_green,
+.button_green:hover,
+.Token__Container,
+.Token__Input:hover,
+.ads_schedule_cell_checked,
+.ads_schedule_preset_selected,
+.ads_schedule_preset_selected:hover,
+.ads_schedule_cell_hovered,
+.ads_schedule_cell:hover {
+    background: #5785ba;
+}
+.vkuiSwitch__pseudo:before {
+    background: #cdd6f4;
+}
+.LeftMenuItem-module__counter--VM1_w,
+.Token__Container {
     color: #1b222a;
 }
 [dir] body .im-action_media:before,
@@ -582,14 +611,29 @@ div.img_title,
 .Breadcrumb__link,
 .Breadcrumb--bold,
 .GoalsFilterList__item--selected,
-.RequirementsModal__listItem {
+.RequirementsModal__listItem,
+.HeaderSectionSwitcherDropdown__itemTitleSpan,
+.SideOfficeMenu__link,
+.SectionSwitcher__button,
+.SectionSwitcherDropdown,
+.HeaderSectionSwitcher__button,
+.HeaderSectionSwitcherDropdown__listItemLink,
+.PlatformChooser__title,
+.Office__content .ads_edit_value_header,
+.PredictionWidget__headerValue,
+.PredictionWidget__headerTitle,
+.PredictionItem__value,
+.PredictionItem__title,
+.PredictionWidget__bodyHeaderTitle,
+.PredictionWidget__footer,
+.PredictionItem__helper,
+.ads_edit_targeting_group_hider_title,
+.Suggestion__ItemName,
+.ads_edit_tt_text {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
-.article_theme[theme=dark] .article>h3,
-.SideOfficeMenu__link,
-SectionSwitcher__button,
-SectionSwitcherDropdown {
+.article_theme[theme=dark] .article>h3 {
     color: #5785ba;
 }
 .ProfileIndicatorBadge__badgeLastSeen,
@@ -626,8 +670,7 @@ body {
 body.redesign_web {
     --catalog-section-border-radius: 24px;
 }
-#page_header_cont,
-.Header {
+#page_header_cont {
     border-radius: 0 0 24px 24px;
     border: none;
 }
@@ -707,7 +750,17 @@ body.redesign_web {
 .MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
 .tdd_control,
 .MediaViewer__footer,
-.ads-story_dummy {
+.ads-story_dummy,
+.Office .EditableLabel__textarea,
+.EditableLabel:hover .EditableLabel__text,
+.HeaderSectionSwitcher__button,
+.Token__Container,
+.Token__Container.Token--type-2 .Token__Closer,
+.Token__Container.Token--type-2:hover .Token__Closer,
+.Token__Input:hover,
+.Suggestion__Item,
+.Suggestions,
+.Table__FiltersPanel .Table__SearchTermInput {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -877,7 +930,17 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
 .PredictionWidget__header,
 .ads_schedule_cell,
-.ads_schedule_cell_hovered, .ads_schedule_cell:hover {
+.ads_schedule_cell_hovered,
+.ads_schedule_cell:hover,
+.ads_schedule_row:first-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell,
+.ads_schedule_cell:first-child,
+.PredictionWidget,
+.FormulaInput__SuggestionsContainer,
+.tt .tt_text {
     border-radius: 24px;
     border: none;
 }
@@ -921,12 +984,16 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .HeaderSectionSwitcherDropdown__listItemLink,
 #ads_page,
 .HeaderSectionSwitcherDropdown,
-.Breadcrumbs__list {
+.Breadcrumbs__list,
+.ads_general_info_status_block,
+.ads_edit_separator_big,
+.Suggestion__Item {
     border: none;
 }
 .AudioRadiostationItem__banner,
 .ConvoComposer__stickersPanel,
-.Header {
+.Header,
+.HeaderSectionSwitcher {
     box-shadow: none;
 }
 .redesign_web .RecommendedPlaylist,
@@ -938,7 +1005,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .RoundedGroupItem-module__rootShadow--__QR_,
 #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
 .videoplayer_end_screen,
-.gedit_block_footer {
+.gedit_block_footer,
+.HeaderSectionSwitcher,
+.PredictionWidget__body {
     background: none;
     border:none;
 }
@@ -986,7 +1055,6 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .privacy_dropdown .item_sel_plus,
 .ui_toggler,
 .vkuiButton--mode-primary.vkuiButton--appearance-overlay,
-.flat_button.secondary:hover,
 .flat_button.secondary.hover,
 .button_gray button:hover,
 .button_gray button.hover,
@@ -1008,13 +1076,32 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .pv_cont .pv_comments_header,
 .privacy_dropdown .header,
 .flat_button.black,
-.flat_button.secondary.black {
+.flat_button.secondary.black,
+.FormulaInput,
+.checkbox_container table td .checkbox_off,
+.checkbox_container table td .checkbox_on_over,
+.checkbox_container table td .checkbox_off_over,
+.vkuiFormField--mode-default,
+.vkuiInput__el,
+.PredictionProgressBar, 
+.ads_schedule_preset {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
     border: none;
     box-shadow: none;
 }
+.ads_schedule_preset:hover,
+.checkbox_container table td .checkbox_on{
+    background: #5885ba;
+    color: #1b222a;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+}
 .SideOfficeMenu {
     border-right: 1px solid #2a3742;;
+}
+.Loading__overlay {
+    background: rgba(27,34,42,.5);
 }
