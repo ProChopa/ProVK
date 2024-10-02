@@ -465,7 +465,7 @@ body,
 #ads_page,
 .HeaderSectionSwitcherDropdown,
 .Breadcrumbs__list,
-.Header {
+.Office .ads_general_info_preview {
     background: #1b222a;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -560,7 +560,8 @@ SectionSwitcherDropdown__listItemLink:hover,
 .Table__FiltersPanel .Table__Button,
 .Table__wrapper,
 .Table__Cell--header, .Table__Cell--footer,
-.Table__Cell {
+.Table__Cell,
+.Header {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
