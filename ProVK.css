@@ -526,7 +526,8 @@ SectionSwitcherDropdown__listItemLink:hover,
 .Office__content #ads_graph_navigation a.nav_selected,
 .Office__content #ads_graph_navigation a.nav_selected:hover,
 .Office__content #ads_demography_navigation a.nav_selected,
-.Office__content #ads_demography_navigation a.nav_selected:hover{
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.ads_schedule_cell_hovered, .ads_schedule_cell:hover {
     background: #2a3742;
 }
 .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
@@ -562,7 +563,9 @@ SectionSwitcherDropdown__listItemLink:hover,
 .Table__Cell--header, .Table__Cell--footer,
 .Table__Cell,
 .Header,
-.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border {
+.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
+.PredictionWidget__header,
+.ads_schedule_cell {
     background: #222c37;
 }
 .LeftMenuItem-module__counter--VM1_w {
@@ -871,7 +874,10 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Table__wrapper,
 .Table__Cell--header, .Table__Cell--footer,
 .Table__Cell,
-.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border {
+.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
+.PredictionWidget__header,
+.ads_schedule_cell,
+.ads_schedule_cell_hovered, .ads_schedule_cell:hover {
     border-radius: 24px;
     border: none;
 }
