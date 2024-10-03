@@ -553,7 +553,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Suggestion__Item:hover,
 .Suggestion__Item--selected,
 .Suggestion__Item--selected:hover,
-.Office .ads_relevance_score{
+.Office .ads_relevance_score,
+.ads_main_notice {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -944,7 +945,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .PredictionWidget,
 .FormulaInput__SuggestionsContainer,
 .tt .tt_text,
-.Office .ads_relevance_score {
+.Office .ads_relevance_score,
+.ads_main_notice {
     border-radius: 24px;
     border: none;
 }
