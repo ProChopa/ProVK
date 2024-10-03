@@ -466,9 +466,7 @@ body,
 .HeaderSectionSwitcherDropdown,
 .Breadcrumbs__list,
 .Office .ads_general_info_preview,
-.vkui--vkBase--light:not(.vkuiInternalModalBox),
-.vkui--vkCom--light:not(.vkuiInternalModalBox),
-[scheme=vkcom_light]:not(.vkuiInternalModalBox) {
+.Office #ad_preview_top {
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
@@ -502,7 +500,8 @@ body,
 .Suggestion__Item,
 .Suggestions,
 .ads_schedule_cell_checked:hover,
-.ads_schedule_cell_checked.ads_schedule_cell_hovered{
+.ads_schedule_cell_checked.ads_schedule_cell_hovered,
+.Office #ad_preview_top .ads_ad_box {
     background: #222c37;
 }
 .reply_fakebox,
@@ -553,7 +552,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .FormulaInput__SuggestionsContainer,
 .Suggestion__Item:hover,
 .Suggestion__Item--selected,
-.Suggestion__Item--selected:hover {
+.Suggestion__Item--selected:hover,
+.Office .ads_relevance_score{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -760,7 +760,10 @@ body.redesign_web {
 .Token__Input:hover,
 .Suggestion__Item,
 .Suggestions,
-.Table__FiltersPanel .Table__SearchTermInput {
+.Table__FiltersPanel .Table__SearchTermInput,
+.Office #ad_preview_top,
+.Office #ad_preview_top.promoted_post .ads_ad_box,
+.Office #ad_preview_top .ads_ad_box.story {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XMcN9,
@@ -940,7 +943,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .ads_schedule_cell:first-child,
 .PredictionWidget,
 .FormulaInput__SuggestionsContainer,
-.tt .tt_text {
+.tt .tt_text,
+.Office .ads_relevance_score {
     border-radius: 24px;
     border: none;
 }
@@ -990,6 +994,12 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Suggestion__Item {
     border: none;
 }
+
+.Office #ad_preview_top.promoted_post .ads_ad_box,
+.Office #ad_preview_top .ads_ad_box.story {
+    border: #1b222a;
+}
+
 .AudioRadiostationItem__banner,
 .ConvoComposer__stickersPanel,
 .Header,
