@@ -597,8 +597,12 @@ textarea,
 .vkuiSwitch__pseudo:before {
     background: #cdd6f4;
 }
-.LeftMenuItem-module__counter--VM1_w,
+.LeftMenuItem-module__counter--sNGcP,
 .Token__Container {
+    color: #1b222a;
+}
+.UnreadCounter.UnreadCounter--muted {
+    background: #5785baa3;
     color: #1b222a;
 }
 [dir] body .im-action_media:before,
