@@ -768,7 +768,8 @@ body.redesign_web {
 .Table__FiltersPanel .Table__SearchTermInput,
 .Office #ad_preview_top,
 .Office #ad_preview_top.promoted_post .ads_ad_box,
-.Office #ad_preview_top .ads_ad_box.story {
+.Office #ad_preview_top .ads_ad_box.story,
+.VideoCard__postponePublishInfo {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
