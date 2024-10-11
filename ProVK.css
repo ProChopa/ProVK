@@ -791,7 +791,13 @@ body.redesign_web {
 .mv_info,
 #mv_box._has_recomms:not(._hide_recomms):not(._has_time_codes):not(._has_goods) .mv_info_narrow_column,
 .videoplayer_context_menu,
-.videoplayer_context_menu ._item{
+.videoplayer_context_menu ._item,
+.VideoCard__thumbWrapper,
+.VideoSearchInput.ui_search_new .ui_search_input_block,
+.VideoCard .VideoCard__actions,
+.VideoCard__label,
+.VideoCardMenu,
+.VideoCardMenu__item{
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
@@ -974,9 +980,32 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .tt .tt_text,
 .Office .ads_relevance_score,
 .ads_main_notice,
-.VideoRecomsItem__thumb_wrap::after {
+.VideoRecomsItem__thumb_wrap::after,
+.FCWindow__header,
+.FCWindow {
     border-radius: 24px;
     border: none;
+}
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
+    border-radius: 24px 0 0 0;
+}
+.ui_search_new .ui_search_input_inner {
+    border-radius: 24px 0 0 24px;
+}
+.ui_search_new .ui_search_button_search,
+.VideoSearchInput__withNewSuggester button.ui_search_button_search,
+.VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search{
+    border-radius: 0 24px 24px 0;
+}
+.videoplayer_media_provider {
+    border-radius: 24px 24px 0 24px;
+}
+.VideoHeader .page_block_header {
+    border-radius: 24px 24px 0 0;
+}
+.StoryPreviewContainer {
+    --preview-border-radius: 24px;
 }
 .SecondaryAttachmentAvatar,
 .SecondaryAttachmentAvatar--shadow::after,
@@ -1021,7 +1050,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Breadcrumbs__list,
 .ads_general_info_status_block,
 .ads_edit_separator_big,
-.Suggestion__Item {
+.Suggestion__Item,
+.VideoSearchInput__withNewSuggester button.ui_search_button_search {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
@@ -1049,22 +1079,6 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .videoplayer_media_provider {
     background: none;
     border:none;
-}
-.ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
-.ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
-    border-radius: 24px 0 0 0;
-}
-.ui_search_new .ui_search_input_inner {
-    border-radius: 24px 0 0 24px;
-}
-.ui_search_new .ui_search_button_search {
-    border-radius: 0 24px 24px 0;
-}
-.videoplayer_media_provider {
-    border-radius: 24px 24px 0 24px;
-}
-.StoryPreviewContainer {
-    --preview-border-radius: 24px;
 }
 .vkuiButton__in,
 .FlatButton__in,
