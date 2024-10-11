@@ -1,10 +1,12 @@
 :root {
+    --white: #cdd6f4;
     --gray_300: #cdd6f4;
     --gray_400: #7f849c;
     --gray_700: #2a3742;
     --gray_800: #1b222a;
     --gray_800_alpha72: #1b222a;
     --gray_900: #222c37;
+    --steel_gray_10: #cdd6f4;
     --steel_gray_200_alpha12: #2a3742;
     --steel_gray_200_alpha16: #2a3742;
     --steel_gray_300: #5785ba;
@@ -501,7 +503,8 @@ body,
 .Suggestions,
 .ads_schedule_cell_checked:hover,
 .ads_schedule_cell_checked.ads_schedule_cell_hovered,
-.Office #ad_preview_top .ads_ad_box {
+.Office #ad_preview_top .ads_ad_box,
+.videoplayer_context_menu {
     background: #222c37;
 }
 .reply_fakebox,
@@ -554,7 +557,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Suggestion__Item--selected,
 .Suggestion__Item--selected:hover,
 .Office .ads_relevance_score,
-.ads_main_notice {
+.ads_main_notice,
+.videoplayer_context_menu ._item:hover {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -665,6 +669,9 @@ hr {
     --attachArticleBorderRadius: 24px;
     --composerAttachBorderRadius: 24px;
 }
+.VideoCardLayout-module__card--w1AtF {
+    --videocard-border-radius: 24px;
+}
 body {
     --vkui--size_border_radius--regular: 24px;
     --vkui--size_border_radius_rounded--regular: 24px;
@@ -769,7 +776,22 @@ body.redesign_web {
 .Office #ad_preview_top,
 .Office #ad_preview_top.promoted_post .ads_ad_box,
 .Office #ad_preview_top .ads_ad_box.story,
-.VideoCard__postponePublishInfo {
+.VideoCard__postponePublishInfo,
+.VideoCardControls-module__controls--OLuow,
+.VideoCardBadge-module__durationBadge--AjdSt.VideoCardBadge-module__durationBadge--AjdSt,
+.VideoCardViewedDuration-module__viewedDuration--fPxO4,
+.MenuList__item,
+.PlaylistPanel__item,
+.PlaylistPanel__itemAction,
+.PortalNavigation:hover,
+.PortalNavigation--expanded,
+.PortalNavigationDropdown.PortalNavigationDropdown,
+.VideoRecomsItem__duration,
+.VideoRecomsItem__thumb_wrap,
+.mv_info,
+#mv_box._has_recomms:not(._hide_recomms):not(._has_time_codes):not(._has_goods) .mv_info_narrow_column,
+.videoplayer_context_menu,
+.videoplayer_context_menu ._item{
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
@@ -951,7 +973,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .FormulaInput__SuggestionsContainer,
 .tt .tt_text,
 .Office .ads_relevance_score,
-.ads_main_notice {
+.ads_main_notice,
+.VideoRecomsItem__thumb_wrap::after {
     border-radius: 24px;
     border: none;
 }
@@ -1001,12 +1024,10 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Suggestion__Item {
     border: none;
 }
-
 .Office #ad_preview_top.promoted_post .ads_ad_box,
 .Office #ad_preview_top .ads_ad_box.story {
     border: #1b222a;
 }
-
 .AudioRadiostationItem__banner,
 .ConvoComposer__stickersPanel,
 .Header,
@@ -1024,7 +1045,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .videoplayer_end_screen,
 .gedit_block_footer,
 .HeaderSectionSwitcher,
-.PredictionWidget__body {
+.PredictionWidget__body,
+.videoplayer_media_provider {
     background: none;
     border:none;
 }
@@ -1037,6 +1059,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 }
 .ui_search_new .ui_search_button_search {
     border-radius: 0 24px 24px 0;
+}
+.videoplayer_media_provider {
+    border-radius: 24px 24px 0 24px;
 }
 .StoryPreviewContainer {
     --preview-border-radius: 24px;
