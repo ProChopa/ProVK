@@ -559,7 +559,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Office .ads_relevance_score,
 .ads_main_notice,
 .videoplayer_context_menu ._item:hover,
-.ads_ad_snippet {
+.ads_ad_snippet,
+.mv_chat_reply_form{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -958,7 +959,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .VideoRecomsItem__thumb_wrap::after,
 .FCWindow__header,
 .FCWindow,
-.ads_ad_snippet {
+.ads_ad_snippet,
+.mv_chat_reply_form,
+.VideoChatHideButton-module__button--URjJQ {
     border-radius: 24px;
     border: none;
 }
@@ -971,7 +974,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 }
 .ui_search_new .ui_search_button_search,
 .VideoSearchInput__withNewSuggester button.ui_search_button_search,
-.VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search{
+.VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search,
+.mv_chat{
     border-radius: 0 24px 24px 0;
 }
 .videoplayer_media_provider {
@@ -1164,7 +1168,4 @@ body.redesign_web {
 }
 .SideOfficeMenu {
     border-right: 1px solid #2a3742;;
-}
-.Loading__overlay {
-    background: rgba(27,34,42,.5);
 }
