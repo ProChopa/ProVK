@@ -773,7 +773,7 @@ body .reply_author_label {
 .VideoCard .VideoCard__actions,
 .VideoCard__label,
 .VideoCardMenu,
-.VideoCardMenu__item{
+.VideoCardMenu__item {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
@@ -961,7 +961,18 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .FCWindow,
 .ads_ad_snippet,
 .mv_chat_reply_form,
-.VideoChatHideButton-module__button--URjJQ {
+.VideoChatHideButton-module__button--URjJQ,
+.wide_column .group-tab-clips .short_video_item,
+.group-tab-videos .VideoSectionCard .video_thumb_label,
+.page_video_thumb,
+.group-tab-videos .VideoSectionCard .video,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_back,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__sound_bars,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
+.group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
+.PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
+.PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI {
     border-radius: 24px;
     border: none;
 }
@@ -989,7 +1000,6 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 }
 .SecondaryAttachmentAvatar,
 .SecondaryAttachmentAvatar--shadow::after,
-.vkuiImageBase__img,
 .OwnerContentTabAudiosItem__coverImage,
 .AvatarRich--shadow::after,
 .AttachAudio__album,
@@ -1031,7 +1041,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .ads_general_info_status_block,
 .ads_edit_separator_big,
 .Suggestion__Item,
-.VideoSearchInput__withNewSuggester button.ui_search_button_search {
+.VideoSearchInput__withNewSuggester button.ui_search_button_search,
+.ui_gallery_wall_cards .wall_card__photo,
+.ui_gallery_wall_cards .wall_card__body {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
