@@ -773,7 +773,8 @@ body .reply_author_label {
 .VideoCard .VideoCard__actions,
 .VideoCard__label,
 .VideoCardMenu,
-.VideoCardMenu__item {
+.VideoCardMenu__item,
+.VibeRecomsPlaylist {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
