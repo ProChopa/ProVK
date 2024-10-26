@@ -783,7 +783,8 @@ body .reply_author_label {
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
-.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area span {
+.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area span,
+.editable_thumbs .thumb_wrap .draggable_thumb {
     border-radius: 24px;
 }
 .LeftMenuItem-module__item--XGOpM,
