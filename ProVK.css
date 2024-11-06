@@ -1,7 +1,19 @@
 :root {
     --white: #cdd6f4;
+    --blue_420: #5785ba;
+    --blue_550: #5785ba;
+    --blue_600: #5785ba;
+    --blue_640: #5785ba;
+    --blue_800: #5785ba;
+    --gray_20: #cdd6f4;
+    --gray_40: #cdd6f4;
+    --gray_70: #cdd6f4;
+    --gray_100: #cdd6f4;
+    --gray_100_alpha60: #cdd6f4;
+    --gray_200: #cdd6f4;
     --gray_300: #cdd6f4;
     --gray_400: #7f849c;
+    --gray_500: #cdd6f4;
     --gray_700: #2a3742;
     --gray_800: #1b222a;
     --gray_800_alpha72: #1b222a;
@@ -468,7 +480,7 @@ body,
 .HeaderSectionSwitcherDropdown,
 .Breadcrumbs__list,
 .Office .ads_general_info_preview,
-.Office #ad_preview_top {
+.Office #ad_preview_top{
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
@@ -504,7 +516,9 @@ body,
 .ads_schedule_cell_checked:hover,
 .ads_schedule_cell_checked.ads_schedule_cell_hovered,
 .Office #ad_preview_top .ads_ad_box,
-.videoplayer_context_menu {
+.videoplayer_context_menu,
+.HeaderProfile__Dropdown,
+a.HeaderSectionSwitcherDropdown__itemTitle {
     background: #222c37;
 }
 .reply_fakebox,
@@ -563,7 +577,20 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .mv_chat_reply_form,
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
-.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload {
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
+.ConvoMessage--selected,
+.pt_search_container input.text,
+.ads_stat_date_range,
+.ads_stat_date_range:hover,
+.Inputs__input,
+.Inputs__input:focus,
+.Inputs__input--focused,
+.StaticRanges__label:hover,
+.HeaderBudget:focus,
+.HeaderBudget:hover,
+.HeaderProfile__DropdownUser:hover,
+.HeaderProfile__DropdownRow:hover,
+.ads_edit_ad_submit_post_box {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -584,7 +611,9 @@ input.big_text,
 input.dark, .fakeinput,
 div[contenteditable=true],
 textarea,
-.tdd_control {
+.tdd_control,
+.Office__content .paginated_table>table>tbody>tr>th,
+.Office__content .ads_unions_table>tbody>tr>th {
     background: #2a3742;
     box-shadow: none;
 }
@@ -623,12 +652,23 @@ textarea,
 .HeaderSectionSwitcher,
 .PredictionWidget__body,
 .videoplayer_media_provider,
-.UserRecommendationItem-module__main--d2bFU {
+.UserRecommendationItem-module__main--d2bFU,
+.Office__content .paginated_table>table,
+.Office__content .ads_unions_table,
+.Office__content .paginated_table>table>tbody>tr.empty_row td,
+.Office__content .ads_unions_table>tbody>tr.empty_row td,
+tr.ads_union_empty_row td.ads_union_empty_cell,
+.Office__content .paginated_table>table>tbody>tr,
+.Office__content .ads_unions_table>tbody>tr,
+.ads_unions_list .table_footer td,
+.pt_search_container,
+.HeaderSectionSwitcherDropdown{
     background: none;
     border:none;
 }
-.LeftMenuItem-module__counter--sNGcP,
-.Token__Container {
+.vkitLeftMenuItem__counter--K6kGz,
+.Token__Container,
+.UsersStack__counter {
     color: #1b222a;
 }
 [dir] body .im-action_media:before,
@@ -660,7 +700,14 @@ div.img_title,
 .PredictionItem__helper,
 .ads_edit_targeting_group_hider_title,
 .Suggestion__ItemName,
-.ads_edit_tt_text {
+.ads_edit_tt_text,
+.Office__content .paginated_table>table>tbody>tr.empty_row td,
+.Office__content .ads_unions_table>tbody>tr.empty_row td,
+.ads_stat_date_range:active,
+.ads_stat_date_range_pressed,
+.HeaderBudget__link,
+#ads_unions_content .table_label,
+tr.ads_union_empty_row td.ads_union_empty_cell {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
@@ -784,10 +831,18 @@ body .reply_author_label {
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
 .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
 .groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area span,
-.editable_thumbs .thumb_wrap .draggable_thumb {
+.editable_thumbs .thumb_wrap .draggable_thumb,
+.pt_search_container input.text,
+.HeaderSectionSwitcherDropdown__itemTitle,
+.HeaderProfile__DropdownUser:hover,
+.HeaderProfile__DropdownRow:hover,
+.ads_warning,
+.ads_edit_easy_promote_box.checkout_enabled.box_no_title,
+.ads_edit_easy_promote_box.checkout_enabled .ads_edit_easy_promote_box__image_pay,
+.vkitLeftMenuItem__item--qlG6N,
+.im-group-online-box .box_body {
     border-radius: 24px;
 }
-.LeftMenuItem-module__item--XGOpM,
 .vkmListHeader__button,
 :where(.ActionsMenu),
 .ActionsMenuAction--size-regular,
@@ -983,7 +1038,15 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
 .group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
 .PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
-.PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI {
+.PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI,
+.Office__content .paginated_table>table>tbody>tr>th,
+.Office__content .ads_unions_table>tbody>tr>th,
+.pt_search_container input.text,
+.ads_stat_date_range,
+.HeaderProfile__Dropdown,
+input.ads_edit_easy_promote_box__payments-input-amount,
+.thumbed_link,
+.owner_photo_additional {
     border-radius: 24px;
     border: none;
 }
@@ -991,20 +1054,25 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
     border-radius: 24px 0 0 0;
 }
-.ui_search_new .ui_search_input_inner {
+.ui_search_new .ui_search_input_inner,
+.thumbed_link--story .thumbed_link__thumb{
     border-radius: 24px 0 0 24px;
 }
 .ui_search_new .ui_search_button_search,
 .VideoSearchInput__withNewSuggester button.ui_search_button_search,
 .VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search,
-.mv_chat{
+.mv_chat {
     border-radius: 0 24px 24px 0;
+}
+.pv_bottom_info {
+    border-radius: 0 0 0 24px;
 }
 .videoplayer_media_provider {
     border-radius: 24px 24px 0 24px;
 }
 .VideoHeader .page_block_header,
-.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area {
+.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area,
+.im-group-online-box .im-group-online-box--top {
     border-radius: 24px 24px 0 0;
 }
 .StoryPreviewContainer {
@@ -1019,7 +1087,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock,
 .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after,
 #group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
-.apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img {
+.apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
+.vkuiImageBase__img {
     border-radius: 50%;
     border: none;
     box-shadow: none;
@@ -1033,7 +1102,11 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .editable_thumbs .thumb_wrap::before,
 .photo_thumb_btns_overlay,
 .medadd_c_linkcon,
-.VideoPreview__thumb {
+.VideoPreview__thumb,
+.Inputs__input,
+.Inputs__input:focus,
+.Inputs__input--focused,
+.thumbed_link__thumb {
     border-radius: 24px;
     border: none;
     box-shadow: none;
@@ -1045,7 +1118,6 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .SideOfficeMenu__footer,
 .SideOfficeMenu__navList::after,
 .SideOfficeMenu__nav::after,
-.HeaderSectionSwitcherDropdown__itemTitle,
 .HeaderSectionSwitcherDropdown__listItemLink,
 #ads_page,
 .HeaderSectionSwitcherDropdown,
@@ -1055,7 +1127,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Suggestion__Item,
 .VideoSearchInput__withNewSuggester button.ui_search_button_search,
 .ui_gallery_wall_cards .wall_card__photo,
-.ui_gallery_wall_cards .wall_card__body {
+.ui_gallery_wall_cards .wall_card__body,
+.HeaderProfile__DropdownSeparator,
+.ads_edit_ad_submit_post_box {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
@@ -1112,7 +1186,8 @@ body.redesign_web {
 .AudioRadiostationItem__banner,
 .ConvoComposer__stickersPanel,
 .Header,
-.HeaderSectionSwitcher {
+.HeaderSectionSwitcher,
+.HeaderProfile__Dropdown {
     box-shadow: none;
 }
 .vkuiButton__in,
@@ -1175,7 +1250,9 @@ body.redesign_web {
 .vkuiFormField--mode-default,
 .vkuiInput__el,
 .PredictionProgressBar, 
-.ads_schedule_preset {
+.ads_schedule_preset,
+.ads_edit_easy_promote_box__payments-pay,
+.button_green:hover {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
