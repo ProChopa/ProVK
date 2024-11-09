@@ -840,7 +840,9 @@ body .reply_author_label {
 .ads_edit_easy_promote_box.checkout_enabled.box_no_title,
 .ads_edit_easy_promote_box.checkout_enabled .ads_edit_easy_promote_box__image_pay,
 .vkitLeftMenuItem__item--qlG6N,
-.im-group-online-box .box_body {
+.im-group-online-box .box_body,
+.StepAsideInfo__asideInfo--o6ycN,
+.VideoPreview__videoDuration--4OljO {
     border-radius: 24px;
 }
 .vkmListHeader__button,
