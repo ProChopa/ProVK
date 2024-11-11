@@ -847,7 +847,9 @@ body .reply_author_label {
 .VideoPreview__videoDuration--4OljO,
 .audio_pl_snippet2 .audio_shuffle_all_button:hover,
 .oXPVlZtlcjoi6d8e,
-.Qz12flm1ckhwWMRi {
+.Qz12flm1ckhwWMRi,
+.AudioLyricsPlayer__player--xVDMn,
+.AudioLyricsLine__line--OHlKB {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1098,7 +1100,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 #group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
 .apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
 .vkuiImageBase__img,
-.audio_pl_snippet2 .audio_pl_snippet__cover {
+.audio_pl_snippet2 .audio_pl_snippet__cover,
+.AudioCover__cover--wabyR {
     border-radius: 50%;
     border: none;
     box-shadow: none;
