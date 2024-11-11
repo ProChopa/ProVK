@@ -849,7 +849,8 @@ body .reply_author_label {
 .oXPVlZtlcjoi6d8e,
 .Qz12flm1ckhwWMRi,
 .AudioLyricsPlayer__player--xVDMn,
-.AudioLyricsLine__line--OHlKB {
+.AudioLyricsLine__line--OHlKB,
+.audio_page_save_as_playlist .audio_page_save_as_playlist_icon_wrapper {
     border-radius: 24px;
 }
 .vkmListHeader__button,
