@@ -591,7 +591,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .HeaderBudget:hover,
 .HeaderProfile__DropdownUser:hover,
 .HeaderProfile__DropdownRow:hover,
-.ads_edit_ad_submit_post_box {
+.ads_edit_ad_submit_post_box,
+.Input {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -852,7 +853,8 @@ body .reply_author_label {
 .AudioLyricsLine__line--OHlKB,
 .audio_page_save_as_playlist .audio_page_save_as_playlist_icon_wrapper,
 .NarrativeSnippet,
-.vkitContentBadge__root--i6wr7 {
+.vkitContentBadge__root--i6wr7,
+.MarketServiceCreatePhotos__photo--dlloZ {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1145,7 +1147,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ui_gallery_wall_cards .wall_card__photo,
 .ui_gallery_wall_cards .wall_card__body,
 .HeaderProfile__DropdownSeparator,
-.ads_edit_ad_submit_post_box {
+.ads_edit_ad_submit_post_box,
+.vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
