@@ -592,7 +592,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .HeaderProfile__DropdownUser:hover,
 .HeaderProfile__DropdownRow:hover,
 .ads_edit_ad_submit_post_box,
-.Input {
+.Input,
+#market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -854,7 +855,8 @@ body .reply_author_label {
 .audio_page_save_as_playlist .audio_page_save_as_playlist_icon_wrapper,
 .NarrativeSnippet,
 .vkitContentBadge__root--i6wr7,
-.MarketServiceCreatePhotos__photo--dlloZ {
+.MarketServiceCreatePhotos__photo--dlloZ,
+.market_row_controls {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1062,7 +1064,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .thumbed_link,
 .owner_photo_additional,
 .vkitSlider__fill--9yU7d,
-.vkitSlider__root--8vBVk::before {
+.vkitSlider__root--8vBVk::before,
+.bordered-thumb::after {
     border-radius: 24px;
     border: none;
 }
