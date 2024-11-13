@@ -1065,7 +1065,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .owner_photo_additional,
 .vkitSlider__fill--9yU7d,
 .vkitSlider__root--8vBVk::before,
-.bordered-thumb::after {
+.bordered-thumb::after,
+.EcommPreviewProductCardProductPicture::after {
     border-radius: 24px;
     border: none;
 }
