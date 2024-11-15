@@ -519,7 +519,8 @@ body,
 .Office #ad_preview_top .ads_ad_box,
 .videoplayer_context_menu,
 .HeaderProfile__Dropdown,
-a.HeaderSectionSwitcherDropdown__itemTitle {
+a.HeaderSectionSwitcherDropdown__itemTitle,
+.vkuiCalendar {
     background: #222c37;
 }
 .reply_fakebox,
@@ -862,7 +863,9 @@ body .reply_author_label {
 .MarketServiceCreatePhotos__photo--dlloZ,
 .market_row_controls,
 .audio-msg-track--transcriptToggle,
-.im_msg_audiomsg .audio-msg-track:not(.audio-msg-player) {
+.im_msg_audiomsg .audio-msg-track:not(.audio-msg-player),
+.vkuiCalendar,
+.vkuiCalendarDay__inner{
     border-radius: 24px;
 }
 .vkmListHeader__button,
