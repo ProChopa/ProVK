@@ -593,7 +593,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .HeaderProfile__DropdownRow:hover,
 .ads_edit_ad_submit_post_box,
 .Input,
-#market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control {
+#market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control,
+.audio-msg-track--transcriptToggle,
+.audio-msg-track--transcriptToggle:hover {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -633,7 +635,8 @@ textarea,
 .ads_schedule_preset_selected:hover,
 .ads_schedule_cell_hovered,
 .ads_schedule_cell:hover,
-.vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d {
+.vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d,
+.im-navigation--label-in {
     background: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
@@ -672,7 +675,8 @@ tr.ads_union_empty_row td.ads_union_empty_cell,
 }
 .vkitLeftMenuItem__counter--K6kGz,
 .Token__Container,
-.UsersStack__counter {
+.UsersStack__counter,
+.im-navigation--label-in{
     color: #1b222a;
 }
 [dir] body .im-action_media:before,
@@ -856,7 +860,9 @@ body .reply_author_label {
 .NarrativeSnippet,
 .vkitContentBadge__root--i6wr7,
 .MarketServiceCreatePhotos__photo--dlloZ,
-.market_row_controls {
+.market_row_controls,
+.audio-msg-track--transcriptToggle,
+.im_msg_audiomsg .audio-msg-track:not(.audio-msg-player) {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1293,4 +1299,10 @@ body.redesign_web {
 }
 .SideOfficeMenu {
     border-right: 1px solid #2a3742;;
+}
+.im-navigation--to-end .im-navigation__button {
+    background: var(--steel_gray_200_alpha12)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
+}
+.im-navigation--to-end .im-navigation__button:hover {
+    background: var(--vkui--color_background_accent_themed)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
 }
