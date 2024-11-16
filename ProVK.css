@@ -865,7 +865,8 @@ body .reply_author_label {
 .audio-msg-track--transcriptToggle,
 .im_msg_audiomsg .audio-msg-track:not(.audio-msg-player),
 .vkuiCalendar,
-.vkuiCalendarDay__inner{
+.vkuiCalendarDay__inner,
+.TemplatesDropDown__item {
     border-radius: 24px;
 }
 .vkmListHeader__button,
