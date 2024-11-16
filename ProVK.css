@@ -866,7 +866,9 @@ body .reply_author_label {
 .im_msg_audiomsg .audio-msg-track:not(.audio-msg-player),
 .vkuiCalendar,
 .vkuiCalendarDay__inner,
-.TemplatesDropDown__item {
+.TemplatesDropDown__item,
+.video_upload__thumb_chooser_wrap .video_tc_item,
+.video_tc_item_selected .video_tc_item_check, .video_tc_item_selected .ThumbChooser__itemCheck {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1076,7 +1078,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkitSlider__fill--9yU7d,
 .vkitSlider__root--8vBVk::before,
 .bordered-thumb::after,
-.EcommPreviewProductCardProductPicture::after {
+.EcommPreviewProductCardProductPicture::after,
+.InfoBlock--neutral {
     border-radius: 24px;
     border: none;
 }
