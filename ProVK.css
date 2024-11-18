@@ -868,7 +868,9 @@ body .reply_author_label {
 .vkuiCalendarDay__inner,
 .TemplatesDropDown__item,
 .video_upload__thumb_chooser_wrap .video_tc_item,
-.video_tc_item_selected .video_tc_item_check, .video_tc_item_selected .ThumbChooser__itemCheck {
+.video_tc_item_selected .video_tc_item_check,
+.video_tc_item_selected .ThumbChooser__itemCheck,
+.app_widget_list_icon .app_widget_image {
     border-radius: 24px;
 }
 .vkmListHeader__button,
