@@ -596,7 +596,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .Input,
 #market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control,
 .audio-msg-track--transcriptToggle,
-.audio-msg-track--transcriptToggle:hover {
+.audio-msg-track--transcriptToggle:hover,
+.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8 {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -848,7 +849,7 @@ body .reply_author_label {
 .ads_warning,
 .ads_edit_easy_promote_box.checkout_enabled.box_no_title,
 .ads_edit_easy_promote_box.checkout_enabled .ads_edit_easy_promote_box__image_pay,
-.vkitLeftMenuItem__item--qlG6N,
+.vkitLeftMenuItem__item--qlG6N.vkitLeftMenuItem__item--qlG6N,
 .im-group-online-box .box_body,
 .StepAsideInfo__asideInfo--o6ycN,
 .VideoPreview__videoDuration--4OljO,
@@ -870,7 +871,8 @@ body .reply_author_label {
 .video_upload__thumb_chooser_wrap .video_tc_item,
 .video_tc_item_selected .video_tc_item_check,
 .video_tc_item_selected .ThumbChooser__itemCheck,
-.app_widget_list_icon .app_widget_image {
+.app_widget_list_icon .app_widget_image,
+.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8 {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1125,7 +1127,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
 .vkuiImageBase__img,
 .audio_pl_snippet2 .audio_pl_snippet__cover,
-.AudioCover__cover--wabyR {
+.AudioCover__cover--wabyR,
+.audio_pl_edit_box .ape_cover {
     border-radius: 50%;
     border: none;
     box-shadow: none;
