@@ -1128,7 +1128,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkuiImageBase__img,
 .audio_pl_snippet2 .audio_pl_snippet__cover,
 .AudioCover__cover--wabyR,
-.audio_pl_edit_box .ape_cover {
+.audio_pl_edit_box .ape_cover,
+.apps_feedRightAppsBlock__ava,
+.apps_feedRightAppsBlock__avaWrap::after {
     border-radius: 50%;
     border: none;
     box-shadow: none;
