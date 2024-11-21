@@ -872,7 +872,10 @@ body .reply_author_label {
 .video_tc_item_selected .video_tc_item_check,
 .video_tc_item_selected .ThumbChooser__itemCheck,
 .app_widget_list_icon .app_widget_image,
-.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8 {
+.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
+.ExclusivePlaylist,
+.ExclusivePlaylist__cover,
+.vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl {
     border-radius: 24px;
 }
 .vkmListHeader__button,
