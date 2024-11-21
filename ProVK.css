@@ -875,7 +875,10 @@ body .reply_author_label {
 .vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
 .ExclusivePlaylist,
 .ExclusivePlaylist__cover,
-.vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl {
+.vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl,
+.group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value:hover,
+.my_current_info:hover,
+.no_current_info:hover {
     border-radius: 24px;
 }
 .vkmListHeader__button,
