@@ -520,7 +520,8 @@ body,
 .videoplayer_context_menu,
 .HeaderProfile__Dropdown,
 a.HeaderSectionSwitcherDropdown__itemTitle,
-.vkuiCalendar {
+.vkuiCalendar,
+.FCConvo__content {
     background: #222c37;
 }
 .reply_fakebox,
@@ -1117,7 +1118,13 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .VideoHeader .page_block_header,
 .groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area,
 .im-group-online-box .im-group-online-box--top,
-.redesigned-group-cover{
+.redesigned-group-cover,
+.FCPanel__list,
+.FCPanel__list:empty + .FCPanel__add,
+.FCThumb:first-child,
+.FCPanel__add::before,
+.FCPanel__add:hover::before,
+.FCPanel__add:focus::before {
     border-radius: 24px 24px 0 0;
 }
 .StoryPreviewContainer {
@@ -1240,7 +1247,8 @@ body.redesign_web {
 .ConvoComposer__stickersPanel,
 .Header,
 .HeaderSectionSwitcher,
-.HeaderProfile__Dropdown {
+.HeaderProfile__Dropdown,
+.FCPanel__list {
     box-shadow: none;
 }
 .vkuiButton__in,
@@ -1335,4 +1343,9 @@ body.redesign_web {
     margin: 3px 0 10px -13px;
     background: #222c37;
     border-radius: 24px;
+}
+.FCWindow {
+    --border-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
