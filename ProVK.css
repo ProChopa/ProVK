@@ -881,7 +881,8 @@ body .reply_author_label {
 .my_current_info:hover,
 .no_current_info:hover,
 .NewCropControls__buttons--1xajS,
-.feedback_rphoto_img {
+.feedback_rphoto_img,
+.VideoPrimaryAttachment__thumbWrapper {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1091,7 +1092,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkitSlider__root--8vBVk::before,
 .bordered-thumb::after,
 .EcommPreviewProductCardProductPicture::after,
-.InfoBlock--neutral {
+.InfoBlock--neutral,
+.VideoPrimaryAttachment {
     border-radius: 24px;
     border: none;
 }
