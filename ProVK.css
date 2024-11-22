@@ -878,7 +878,9 @@ body .reply_author_label {
 .vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl,
 .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value:hover,
 .my_current_info:hover,
-.no_current_info:hover {
+.no_current_info:hover,
+.NewCropControls__buttons--1xajS,
+.feedback_rphoto_img {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -902,7 +904,6 @@ body .reply_author_label {
 .audio_pl_item2 .audio_pl__cover,
 .audio_pl__actions_wrap,
 .MusicAuthor__playButton,
-.vkuiImageBase,
 .video_item .video_item_thumb,
 .video_item .video_item_thumb_wrap,
 .video_thumb_actions,
@@ -1115,11 +1116,15 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 }
 .VideoHeader .page_block_header,
 .groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area,
-.im-group-online-box .im-group-online-box--top {
+.im-group-online-box .im-group-online-box--top,
+.redesigned-group-cover{
     border-radius: 24px 24px 0 0;
 }
 .StoryPreviewContainer {
     --preview-border-radius: 24px;
+}
+.PrimaryAttachmentReactBlock {
+    --primary-attachment-border-radius: 24px;
 }
 .SecondaryAttachmentAvatar,
 .SecondaryAttachmentAvatar--shadow::after,
@@ -1131,7 +1136,6 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after,
 #group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
 .apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
-.vkuiImageBase__img,
 .audio_pl_snippet2 .audio_pl_snippet__cover,
 .AudioCover__cover--wabyR,
 .audio_pl_edit_box .ape_cover,
