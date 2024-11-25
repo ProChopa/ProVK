@@ -891,7 +891,10 @@ body .reply_author_label {
 .wall_card__close,
 .PhotoCarouselImage,
 .BookmarkGameBlock__contentWithImage,
-.BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image, .BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured {
+.BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image,
+.BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured,
+.app_widget_tiles_tile .app_widget_image,
+.vkitMiniProductCardSlider__gallery--oXEbo {
     border-radius: 24px;
 }
 .vkmListHeader__button,
