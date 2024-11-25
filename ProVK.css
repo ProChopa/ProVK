@@ -882,7 +882,16 @@ body .reply_author_label {
 .no_current_info:hover,
 .NewCropControls__buttons--1xajS,
 .feedback_rphoto_img,
-.VideoPrimaryAttachment__thumbWrapper {
+.VideoPrimaryAttachment__thumbWrapper,
+.AudioPlaylistSnippet__cover,
+.AudioPlaylistSnippet__covers,
+.CategoryMenuDropdown__list--5FB4F,
+.vkitProductPreview__wrapperActive--xGFBg,
+.vkuiActionSheet__content-wrapper,
+.wall_card__close,
+.PhotoCarouselImage,
+.BookmarkGameBlock__contentWithImage,
+.BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image, .BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1126,7 +1135,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .FCThumb:first-child,
 .FCPanel__add::before,
 .FCPanel__add:hover::before,
-.FCPanel__add:focus::before {
+.FCPanel__add:focus::before,
+.AudioPlaylistSnippet__covers {
     border-radius: 24px 24px 0 0;
 }
 .StoryPreviewContainer {
