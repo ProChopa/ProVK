@@ -894,7 +894,8 @@ body .reply_author_label {
 .BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image,
 .BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured,
 .app_widget_tiles_tile .app_widget_image,
-.vkitMiniProductCardSlider__gallery--oXEbo {
+.vkitMiniProductCardSlider__gallery--oXEbo,
+.vkitPollOptions__votingOption--0vJwA{
     border-radius: 24px;
 }
 .vkmListHeader__button,
