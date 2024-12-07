@@ -27,7 +27,8 @@
     --black_alpha72: #222c37;
 }
 
-:root, [scheme=vkcom_light] {
+:root,
+[scheme=vkcom_light] {
 --vkui--color_background_contrast_inverse: #2a3742;
 }
 
@@ -618,7 +619,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 input.text,
 input.search,
 input.big_text,
-input.dark, .fakeinput,
+input.dark,
+.fakeinput,
 div[contenteditable=true],
 textarea,
 .tdd_control,
@@ -1260,13 +1262,7 @@ body.redesign_web {
     border-radius: 0 0 24px 24px;
     border: none;
 }
-.vkuiSpacing,
-.vkuiGroup__separator,
-.vkuiGroup__separator--spacing,
-.vkuiGroup--mode-card+.vkuiGroup__separator--spacing,
-.vkuiPanelHeader {
-    margin: -3px;
-}
+
 .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light) {
     margin-bottom: 8px;
 }
@@ -1378,4 +1374,14 @@ body.redesign_web {
 }
 .ComposerSelecting {
     box-shadow: var(--vkui--elevation2);
+}
+#ads_left,#page_bottom_banners_root,
+._ads_block_data_w,
+.ads_ad_box.ver.repeat_ver.size_site.adaptive_ad,
+.mailru-visibility-check,
+.page_block.apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app--,
+.page_block.feed_blog_reminder_large,
+.profile_rate_warning,
+[class*=ads_ads_box] {
+    display: none;
 }
