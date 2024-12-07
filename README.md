@@ -6,6 +6,6 @@ Theme for VK with Auto-Update
 
 # Install
 1. Install [Extension](https://chromewebstore.google.com/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb)
-2. Open site VK
+2. Open site VK, VK Video
 3. Open extension
 4. Paste `@import url("https://prochopa.github.io/ProVK/ProVK.css");`
