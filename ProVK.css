@@ -904,7 +904,8 @@ body .reply_author_label {
 .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
 .ConvoMessageWithoutBubble,
 .ComposerSelecting,
-.groups_cover_box .groups_edit_cover_wrap .page_cover_menu.video_size .page_cover_action {
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu.video_size .page_cover_action,
+.HiddenPostBlank{
     border-radius: 24px;
 }
 .vkmListHeader__button,
