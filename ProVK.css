@@ -903,7 +903,8 @@ body .reply_author_label {
 .ConvoMessageWithoutBubble:hover,
 .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
 .ConvoMessageWithoutBubble,
-.ComposerSelecting {
+.ComposerSelecting,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu.video_size .page_cover_action {
     border-radius: 24px;
 }
 .vkmListHeader__button,
