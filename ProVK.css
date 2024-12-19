@@ -522,7 +522,10 @@ body,
 .HeaderProfile__Dropdown,
 a.HeaderSectionSwitcherDropdown__itemTitle,
 .vkuiCalendar,
-.FCConvo__content {
+.FCConvo__content,
+.post_from_tt_row.active,
+.vkuiTooltipBase__content,
+.tt_w.like_tt {
     background: #222c37;
 }
 .reply_fakebox,
@@ -602,8 +605,7 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
 .ConvoMessageWithoutBubble:hover,
 .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
-.post_from_tt_row.active {
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -740,6 +742,9 @@ body .reply_author_label {
 .tt_black .tt_text {
     background: #2a3742;
     color: #cdd6f4;
+}
+.vkuiSeparator--mode-primary {
+    color: transparent;
 }
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.disabled .groups_edit_cover_wrap_live_upload_placeholder_disabled,
@@ -919,7 +924,13 @@ body .reply_author_label {
 .deep_active .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
 .deep_active.wall_module .replies .replies_wrap_deep .replies_deep_collapse::before,
 .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
-.blst_last:hover {
+.blst_last:hover,
+.Post--redesignV3 .VideoPrimaryAttachment__thumbWrapper,
+.Post--redesignV3 .VideoPrimaryAttachment,
+.VideoTrack__cover,
+.vkitOverlay__root--AjJAj.vkitOverlay__root--AjJAj,
+.vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
+.tt_w.like_tt {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1253,7 +1264,7 @@ hr {
 .ads_ads_box,
 .LegalRecommendationsLinkLeftMenuAuthorized__link,
 .left_menu_nav_wrap,
-.side_bar .WideSeparator.WideSeparator--legalRecommendationsLink {
+.side_bar .WideSeparator.WideSeparator--legalRecommendationsLink{
     display: none;
 }
 .MEAppConfig {
@@ -1362,12 +1373,17 @@ body.redesign_web {
     box-shadow: none;
 }
 .ads_schedule_preset:hover,
-.checkbox_container table td .checkbox_on{
+.checkbox_container table td .checkbox_on,
+.vkitSecondaryAction__iconButtonCircle--Gu1mf {
     background: #5885ba;
     color: #1b222a;
     border-radius: 24px;
     border: none;
     box-shadow: none;
+}
+.vkitVideoOverlay__playButton--Xvg8u {
+    background: rgba(0,0,0,.5)url(/images/icons/video_play_small.png?1)19px 13px no-repeat;
+    color: #ffffff;
 }
 .SideOfficeMenu {
     border-right: 1px solid #2a3742;;
