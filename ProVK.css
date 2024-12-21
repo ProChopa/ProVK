@@ -605,7 +605,8 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
 .ConvoMessageWithoutBubble:hover,
 .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing {
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
+.PinnedMessage__container--Ycf2B{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -935,7 +936,8 @@ body .reply_author_label {
 .vkitOverlay__root--AjJAj.vkitOverlay__root--AjJAj,
 .vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
 .tt_w.like_tt,
-.replies .reply.reply_inline:hover {
+.replies .reply.reply_inline:hover,
+.PinnedMessage__container--Ycf2B {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1194,6 +1196,14 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 }
 .PrimaryAttachmentReactBlock {
     --primary-attachment-border-radius: 24px;
+}
+.RE_ModalHeader {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.ForeignMessagesHistory__modalWrapper {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
 .SecondaryAttachmentAvatar,
 .SecondaryAttachmentAvatar--shadow::after,
