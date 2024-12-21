@@ -934,7 +934,7 @@ body .reply_author_label {
 .VideoTrack__cover,
 .vkitOverlay__root--AjJAj.vkitOverlay__root--AjJAj,
 .vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
-.tt_w.like_tt{
+.tt_w.like_tt {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1278,7 +1278,7 @@ hr {
     --attachArticleBorderRadius: 24px;
     --composerAttachBorderRadius: 24px;
 }
-.VideoCardLayout-module__card--w1AtF {
+.vkitVideoCardLayout__card--i7sFT {
     --videocard-border-radius: 24px;
 }
 body {
