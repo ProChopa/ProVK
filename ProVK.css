@@ -1251,7 +1251,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .HeaderProfile__DropdownSeparator,
 .ads_edit_ad_submit_post_box,
 .vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border,
-.empty_avatag_add {
+.empty_avatag_add,
+.feed_wall--no-islands .ui_tabs{
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
