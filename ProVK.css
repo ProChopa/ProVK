@@ -525,7 +525,13 @@ a.HeaderSectionSwitcherDropdown__itemTitle,
 .FCConvo__content,
 .post_from_tt_row.active,
 .vkuiTooltipBase__content,
-.tt_w.like_tt {
+.tt_w.like_tt,
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper div[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root div[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"] {
     background: #222c37;
 }
 .reply_fakebox,
@@ -937,7 +943,9 @@ body .reply_author_label {
 .vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
 .tt_w.like_tt,
 .replies .reply.reply_inline:hover,
-.PinnedMessage__container--Ycf2B {
+.PinnedMessage__container--Ycf2B,
+.vkitMusicTrackOverlayBadge__root--JroqM,
+.vkitMusicPlaylistOverlayBadge__root--WhtZe {
     border-radius: 24px;
 }
 .vkmListHeader__button,
@@ -1219,7 +1227,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .AudioCover__cover--wabyR,
 .audio_pl_edit_box .ape_cover,
 .apps_feedRightAppsBlock__ava,
-.apps_feedRightAppsBlock__avaWrap::after {
+.apps_feedRightAppsBlock__avaWrap::after,
+.vkuiImageBase__img {
     border-radius: 50%;
     border: none;
     box-shadow: none;
