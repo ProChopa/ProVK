@@ -1437,9 +1437,9 @@ body.redesign_web {
     box-shadow: var(--vkui--elevation2);
 }
 #ads_left,#page_bottom_banners_root,
-._ads_block_data_w,
+/*._ads_block_data_w,*/
 .ads_ad_box.ver.repeat_ver.size_site.adaptive_ad,
-.mailru-visibility-check,
+/*.mailru-visibility-check,*/
 .page_block.apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app--,
 .page_block.feed_blog_reminder_large,
 .profile_rate_warning,
