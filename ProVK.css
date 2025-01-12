@@ -482,7 +482,8 @@ body,
 .Breadcrumbs__list,
 .Office .ads_general_info_preview,
 .Office #ad_preview_top,
-.vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before {
+.vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
+.ReactionChip--incoming {
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
