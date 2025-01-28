@@ -1161,7 +1161,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .VideoPrimaryAttachment,
 .author_page_article_image,
 .author_page_article_image::after,
-.author_page_bookmark_wrap {
+.author_page_bookmark_wrap,
+.group-tab-addresses .group_info_row.map .group_info_map {
     border-radius: 24px;
 }
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
@@ -1487,7 +1488,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .EcommPreviewProductCardProductPicture::after,
 .InfoBlock--neutral,
 .VideoPrimaryAttachment,
-.pg_flnk {
+.pg_flnk,
+.group-tab-addresses .group_info_row.map .group_info_map{
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
