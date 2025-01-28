@@ -1176,7 +1176,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ui_search_new .ui_search_button_search,
 .VideoSearchInput__withNewSuggester button.ui_search_button_search,
 .VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search,
-.mv_chat {
+.mv_chat,
+.thumbed_link__thumb+.thumbed_link__label{
     border-radius: 0 24px 24px 0;
 }
 .pv_bottom_info {
