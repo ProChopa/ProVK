@@ -1164,7 +1164,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .author_page_article_image::after,
 .author_page_bookmark_wrap,
 .group-tab-addresses .group_info_row.map .group_info_map,
-.vkuistateLayer--Af_cW {
+.vkuistateLayer--Af_cW,
+.wk_address_content .addresses_wrap .addresses_map,
+.ymaps-2-1-79-float-button{
     border-radius: 24px;
 }
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
