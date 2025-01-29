@@ -1167,8 +1167,12 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkuistateLayer--Af_cW,
 .wk_address_content .addresses_wrap .addresses_map,
 .ymaps-2-1-79-float-button,
-.group_info_rows_redesign .group_info_row.map .group_info_map {
+.group_info_rows_redesign .group_info_row.map .group_info_map,
+.FancyElementTT__item:hover {
     border-radius: 24px;
+}
+.eltt.eltt_fancy {
+    border-radius: 24px!important;
 }
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
