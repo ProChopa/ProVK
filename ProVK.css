@@ -533,7 +533,8 @@ html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper div[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root a[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root div[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
-html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"] {
+html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
+.wall_module .wall_reply_text {
     background: #222c37;
 }
 .reply_fakebox,
