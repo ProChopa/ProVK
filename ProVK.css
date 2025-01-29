@@ -1166,7 +1166,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .group-tab-addresses .group_info_row.map .group_info_map,
 .vkuistateLayer--Af_cW,
 .wk_address_content .addresses_wrap .addresses_map,
-.ymaps-2-1-79-float-button{
+.ymaps-2-1-79-float-button,
+.group_info_rows_redesign .group_info_row.map .group_info_map {
     border-radius: 24px;
 }
 .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
@@ -1495,7 +1496,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .VideoPrimaryAttachment,
 .pg_flnk,
 .group-tab-addresses .group_info_row.map .group_info_map,
-.vkuidefault--mToMb .vkuitrack--r7_Kp::before {
+.vkuidefault--mToMb .vkuitrack--r7_Kp::before,
+.group_info_rows_redesign .group_info_row.map .group_info_map {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
