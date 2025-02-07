@@ -534,7 +534,9 @@ html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root a[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root div[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
-.ComposerFormattingMenu__panel{
+.ComposerFormattingMenu__panel,
+.media_voting,
+.story_poll .box_body {
     background: #222c37;
 }
 .reply_fakebox,
@@ -615,7 +617,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .ConvoMessageWithoutBubble:hover,
 .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
-.PinnedMessage__container--Ycf2B{
+.PinnedMessage__container--Ycf2B,
+.media_voting_option,
+.media_voting_option::before{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -657,7 +661,8 @@ textarea,
 .ads_schedule_cell_hovered,
 .ads_schedule_cell:hover,
 .vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d,
-.im-navigation--label-in {
+.im-navigation--label-in,
+.media_voting_option_bar{
     background: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
@@ -1173,7 +1178,16 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .FancyElementTT__item:hover,
 .ComposerFormattingMenu__panel,
 .vkitClipContainer__actions--ARg99,
-.vkitVideoCardControls__controls--lVxzZ {
+.vkitVideoCardControls__controls--lVxzZ,
+.media_voting,
+.story_poll .box_body,
+.media_voting_option,
+.stories_vk_video,
+.stories_video,
+.stories_photo,
+.stories_preview,
+.stories_live,
+.stories_item::after{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
