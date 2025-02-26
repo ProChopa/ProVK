@@ -1187,7 +1187,10 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .stories_photo,
 .stories_preview,
 .stories_live,
-.stories_item::after{
+.stories_item::after,
+.ConvoAttachesDocs__itemContainer,
+.ConvoAttachesVideoItem__preview img,
+.ConvoAttachesAudios__audio {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1521,7 +1524,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .group-tab-addresses .group_info_row.map .group_info_map,
 .vkuidefault--mToMb .vkuitrack--r7_Kp::before,
 .group_info_rows_redesign .group_info_row.map .group_info_map,
-.ComposerFormattingMenu__panel {
+.ComposerFormattingMenu__panel,
+.vkitMediaGridItem__root--1XgQY {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
