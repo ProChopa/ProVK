@@ -1190,7 +1190,12 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .stories_item::after,
 .ConvoAttachesDocs__itemContainer,
 .ConvoAttachesVideoItem__preview img,
-.ConvoAttachesAudios__audio {
+.ConvoAttachesAudios__audio,
+.article > figure img,
+.article > figure video[src],
+.article > figure .article_object_video,
+.article_view > figure[data-type="101"] img,
+.article_view>figure[data-type="101"] .article_photo_carousel{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
