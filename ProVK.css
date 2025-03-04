@@ -1195,7 +1195,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .article > figure video[src],
 .article > figure .article_object_video,
 .article_view > figure[data-type="101"] img,
-.article_view>figure[data-type="101"] .article_photo_carousel{
+.article_view>figure[data-type="101"] .article_photo_carousel,
+.vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
