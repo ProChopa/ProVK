@@ -484,7 +484,15 @@ body,
 .Office #ad_preview_top,
 .vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
 .vkuitrack--r7_Kp,
-.inlMainTable td.inlContent {
+.inlMainTable td.inlContent,
+.Office__content .paginated_table>table>tbody>tr>th.even_row,
+.Office__content .paginated_table>table>tbody>tr>td.even_row,
+.Office__content .ads_unions_table>tbody>tr>th.even_row,
+.Office__content .ads_unions_table>tbody>tr>td.even_row,
+.dd_menu .dd_menu_body table .dd_menu_rows a,
+.dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.Office__content .ui_table .ui_table_cell_empty{
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
@@ -508,7 +516,8 @@ body,
 .Table__FiltersPanel .Table__Button.ads_stat_date_range,
 .Table__FiltersPanel .Table__Button,
 .Table__wrapper,
-.Table__Cell--header, .Table__Cell--footer,
+.Table__Cell--header,
+.Table__Cell--footer,
 .Table__Cell,
 .Header,
 .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
@@ -537,7 +546,13 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .ComposerFormattingMenu__panel,
 .media_voting,
 .story_poll .box_body,
-.ReactionChip--incoming{
+.ReactionChip--incoming,
+.BudgetBalance,
+.BudgetStats,
+.TableColumnsSettings,
+.Office__content .ui_table th.ui_table_cell,
+.Office__content .ui_table tr.ui_table_row.even,
+.Office__content .ui_table tr.ui_table_row:hover {
     background: #222c37;
 }
 .reply_fakebox,
@@ -620,7 +635,13 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
 .PinnedMessage__container--Ycf2B,
 .media_voting_option,
-.media_voting_option::before{
+.media_voting_option::before,
+.vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
+.vkuihover--eZhd8.vkuimodeAccent--FZTmT,
+.EditableUnionName__editButton:hover,
+.EditableUnionName__inputWrapper,
+.TableColumnsSettings__selectedColumnsItem,
+.dd_menu .dd_menu_body table .dd_menu_rows a:hover{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -746,7 +767,10 @@ div.img_title,
 tr.ads_union_empty_row td.ads_union_empty_cell,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing_text,
 .post_from_tt_row.active,
-.videoplayer_settings_menu_sublist_item {
+.videoplayer_settings_menu_sublist_item,
+.BudgetStats__td--money,
+.Office__content .ui_table .ui_table_cell_empty,
+.ads_union_promoted_post_stat_headline_item{
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
@@ -1201,7 +1225,37 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ui_search_sugg_list .ui_search_suggestion_selected,
 .ui_search_sugg_list,
 .inlMainTable td.inlContent,
-.ads_inline_edit_table .inlInput {
+.ads_inline_edit_table .inlInput,
+.AudioPlaylistSnippet__play,
+.AudioPlaylistSnippet__stop,
+.ActionsMenu__inner,
+.ActionsMenu__item:hover,
+.ActionsMenu__item--hover,
+.wdd_list,
+.TopNavBtn.TopNavBtn--active,
+.TopNavBtn.active,
+.TopNavBtn__profileLink:hover,
+.TopNavBtn__ecosystemMenuLink:hover,
+.top_audio_player.top_audio_player_enabled,
+.TopNavBtn:hover,
+.notify_sources_tt_content .line_cell:hover,
+.notify_sources_tt_content .content:not(:hover) .line_cell.selected,
+.AudioPlaylistSnippet .ActionButton--shuffle:hover,
+.wrapped,
+.Header,
+.HeaderBudget,
+.HeaderProfile:focus,
+.HeaderProfile:hover,
+.BudgetBalance,
+.BudgetStats,
+.EditableUnionName__inputWrapper,
+.ads_inline_edit_time_input_block .selector_container table.selector_table,
+.result_list,
+.TableColumnsSettings__selectedColumnsItem,
+.dd_menu .dd_menu_body table .dd_menu_rows a,
+.dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.ads_retargeting_menu .dd_menu_body {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1537,7 +1591,17 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .group_info_rows_redesign .group_info_row.map .group_info_map,
 .ComposerFormattingMenu__panel,
 .vkitMediaGridItem__root--1XgQY,
-.inlMainTable td.inlContent{
+.inlMainTable td.inlContent,
+.ActionsMenu__inner,
+.BudgetBalance,
+.BudgetStats,
+.BudgetBalance__autoBudget,
+.EditableUnionName__inputWrapper,
+.TableColumnsSettings__selectedColumnsItem,
+.Office__content .ui_table tr.ui_table_row,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.ads_retargeting_menu .dd_menu_body,
+.vkitPrimaryAttachment__root--KMoC5{
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
@@ -1581,7 +1645,7 @@ body.redesign_web {
     --catalog-section-border-radius: 24px;
 }
 #page_header_cont {
-    border-radius: 0 0 24px 24px;
+    border-radius: 24px;
     border: none;
 }
 
@@ -1593,7 +1657,9 @@ body.redesign_web {
 .Header,
 .HeaderSectionSwitcher,
 .HeaderProfile__Dropdown,
-.FCPanel__list {
+.FCPanel__list,
+.vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
+.vkuihover--eZhd8.vkuimodeAccent--FZTmT{
     box-shadow: none;
 }
 .vkuiButton__in,
@@ -1703,7 +1769,10 @@ body.redesign_web {
 .ComposerSelecting,
 .ComposerFormattingMenu__panel,
 .ui_search_sugg_list,
-.inlMainTable td.inlContent {
+.inlMainTable td.inlContent,
+.ActionsMenu__inner,
+.wrapped,
+.ads_retargeting_menu .dd_menu_body {
     box-shadow: var(--vkui--elevation2);
 }
 
