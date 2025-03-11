@@ -483,7 +483,8 @@ body,
 .Office .ads_general_info_preview,
 .Office #ad_preview_top,
 .vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
-.vkuitrack--r7_Kp {
+.vkuitrack--r7_Kp,
+.inlMainTable td.inlContent {
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
@@ -1198,7 +1199,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .article_view>figure[data-type="101"] .article_photo_carousel,
 .vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO,
 .ui_search_sugg_list .ui_search_suggestion_selected,
-.ui_search_sugg_list {
+.ui_search_sugg_list,
+.inlMainTable td.inlContent,
+.ads_inline_edit_table .inlInput {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1533,7 +1536,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkuidefault--mToMb .vkuitrack--r7_Kp::before,
 .group_info_rows_redesign .group_info_row.map .group_info_map,
 .ComposerFormattingMenu__panel,
-.vkitMediaGridItem__root--1XgQY {
+.vkitMediaGridItem__root--1XgQY,
+.inlMainTable td.inlContent{
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
@@ -1695,7 +1699,8 @@ body.redesign_web {
 }
 .ComposerSelecting,
 .ComposerFormattingMenu__panel,
-.ui_search_sugg_list {
+.ui_search_sugg_list,
+.inlMainTable td.inlContent {
     box-shadow: var(--vkui--elevation2);
 }
 
