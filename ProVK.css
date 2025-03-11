@@ -552,7 +552,9 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .TableColumnsSettings,
 .Office__content .ui_table th.ui_table_cell,
 .Office__content .ui_table tr.ui_table_row.even,
-.Office__content .ui_table tr.ui_table_row:hover {
+.Office__content .ui_table tr.ui_table_row:hover,
+.HeaderProfile__image,
+.HeaderSectionSwitcherDropdown__container {
     background: #222c37;
 }
 .reply_fakebox,
@@ -770,7 +772,8 @@ tr.ads_union_empty_row td.ads_union_empty_cell,
 .videoplayer_settings_menu_sublist_item,
 .BudgetStats__td--money,
 .Office__content .ui_table .ui_table_cell_empty,
-.ads_union_promoted_post_stat_headline_item{
+.ads_union_promoted_post_stat_headline_item,
+.HeaderSectionSwitcher__dropdownIcon {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
@@ -1255,7 +1258,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .dd_menu .dd_menu_body table .dd_menu_rows a,
 .dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
 .dd_menu .dd_menu_body table .dd_menu_rows,
-.ads_retargeting_menu .dd_menu_body {
+.ads_retargeting_menu .dd_menu_body,
+.HeaderSectionSwitcherDropdown__container {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
