@@ -483,7 +483,6 @@ body,
 .Office .ads_general_info_preview,
 .Office #ad_preview_top,
 .vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
-.ReactionChip--incoming,
 .vkuitrack--r7_Kp {
     background: #1b222a;
 }
@@ -536,7 +535,8 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
 html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .ComposerFormattingMenu__panel,
 .media_voting,
-.story_poll .box_body {
+.story_poll .box_body,
+.ReactionChip--incoming{
     background: #222c37;
 }
 .reply_fakebox,
@@ -1196,7 +1196,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .article > figure .article_object_video,
 .article_view > figure[data-type="101"] img,
 .article_view>figure[data-type="101"] .article_photo_carousel,
-.vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO {
+.vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO,
+.ui_search_sugg_list .ui_search_suggestion_selected,
+.ui_search_sugg_list {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1239,7 +1241,7 @@ input.ads_edit_easy_promote_box__payments-input-amount,
     border-radius: 24px 24px 0 0;
 }
 .media_link__label,
-.VideoLayout__aside--collapsed{
+.VideoLayout__aside--collapsed {
     border-radius: 0 0 24px 24px;
 }
 .StoryPreviewContainer {
@@ -1692,7 +1694,8 @@ body.redesign_web {
     box-shadow: none;
 }
 .ComposerSelecting,
-.ComposerFormattingMenu__panel {
+.ComposerFormattingMenu__panel,
+.ui_search_sugg_list {
     box-shadow: var(--vkui--elevation2);
 }
 
