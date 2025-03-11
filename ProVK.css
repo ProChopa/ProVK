@@ -1544,6 +1544,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .Office #ad_preview_top .ads_ad_box.story {
     border: #1b222a;
 }
+.SideOfficeMenu__toggleButton {
+    border: #2a3742;
+}
 hr {
     border-top: none;
 }
