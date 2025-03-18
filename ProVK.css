@@ -492,7 +492,7 @@ body,
 .dd_menu .dd_menu_body table .dd_menu_rows a,
 .dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
 .dd_menu .dd_menu_body table .dd_menu_rows,
-.Office__content .ui_table .ui_table_cell_empty{
+.Office__content .ui_table .ui_table_cell_empty {
     background: #1b222a;
 }
 .redesign_web .RecommendedPlaylist__audios,
@@ -643,7 +643,9 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .EditableUnionName__editButton:hover,
 .EditableUnionName__inputWrapper,
 .TableColumnsSettings__selectedColumnsItem,
-.dd_menu .dd_menu_body table .dd_menu_rows a:hover{
+.dd_menu .dd_menu_body table .dd_menu_rows a:hover,
+.vkuiFormField__hover,
+.vkuiFormField__modeDefault {
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -788,7 +790,8 @@ body .reply_author_label {
     background: #2a3742;
     color: #cdd6f4;
 }
-.vkuiSeparator--mode-primary {
+.vkuiSeparator--mode-primary,
+.vkuiTooltipBase__arrow {
     color: transparent;
 }
 .videoplayer_settings_menu_sublist_divider {
@@ -1259,7 +1262,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
 .dd_menu .dd_menu_body table .dd_menu_rows,
 .ads_retargeting_menu .dd_menu_body,
-.HeaderSectionSwitcherDropdown__container {
+.HeaderSectionSwitcherDropdown__container,
+.NicknameEditResultMessage,
+.vkitSnippetAttachment__root--QAlh8 {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1605,7 +1610,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .Office__content .ui_table tr.ui_table_row,
 .dd_menu .dd_menu_body table .dd_menu_rows,
 .ads_retargeting_menu .dd_menu_body,
-.vkitPrimaryAttachment__root--KMoC5{
+.vkitPrimaryAttachment__root--KMoC5,
+.vkuiFormField__focusVisible.vkuiFormField__focusVisible>.vkuiFormField__border {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
