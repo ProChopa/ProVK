@@ -554,7 +554,8 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .Office__content .ui_table tr.ui_table_row.even,
 .Office__content .ui_table tr.ui_table_row:hover,
 .HeaderProfile__image,
-.HeaderSectionSwitcherDropdown__container {
+.HeaderSectionSwitcherDropdown__container,
+.vkuiPopover__inWithStyling {
     background: #222c37;
 }
 .reply_fakebox,
@@ -1264,7 +1265,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ads_retargeting_menu .dd_menu_body,
 .HeaderSectionSwitcherDropdown__container,
 .NicknameEditResultMessage,
-.vkitSnippetAttachment__root--QAlh8 {
+.vkitSnippetAttachment__root--QAlh8,
+.vkitIconButton__rootCustomSize--Wykl1 {
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1611,7 +1613,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .dd_menu .dd_menu_body table .dd_menu_rows,
 .ads_retargeting_menu .dd_menu_body,
 .vkitPrimaryAttachment__root--KMoC5,
-.vkuiFormField__focusVisible.vkuiFormField__focusVisible>.vkuiFormField__border {
+.vkuiFormField__focusVisible.vkuiFormField__focusVisible>.vkuiFormField__border,
+.vkuiPopover__inWithStyling {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
@@ -1782,7 +1785,8 @@ body.redesign_web {
 .inlMainTable td.inlContent,
 .ActionsMenu__inner,
 .wrapped,
-.ads_retargeting_menu .dd_menu_body {
+.ads_retargeting_menu .dd_menu_body,
+.vkuiPopover__inWithStyling {
     box-shadow: var(--vkui--elevation2);
 }
 
