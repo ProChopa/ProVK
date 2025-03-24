@@ -555,7 +555,8 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .Office__content .ui_table tr.ui_table_row:hover,
 .HeaderProfile__image,
 .HeaderSectionSwitcherDropdown__container,
-.vkuiPopover__inWithStyling {
+.vkuiPopover__inWithStyling,
+.ReactionChip--outgoing {
     background: #222c37;
 }
 .reply_fakebox,
@@ -672,7 +673,9 @@ div[contenteditable=true],
 textarea,
 .tdd_control,
 .Office__content .paginated_table>table>tbody>tr>th,
-.Office__content .ads_unions_table>tbody>tr>th {
+.Office__content .ads_unions_table>tbody>tr>th,
+.vkuiTabsItem__selected.vkuiTabsItem__modeAccent,
+.vkuiTabsItem__hover.vkuiTabsItem__modeAccent {
     background: #2a3742;
     box-shadow: none;
 }
@@ -691,7 +694,8 @@ textarea,
 .ads_schedule_cell:hover,
 .vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d,
 .im-navigation--label-in,
-.media_voting_option_bar{
+.media_voting_option_bar,
+.ReactionChip--outgoing.ReactionChip--active {
     background: #5785ba;
 }
 .vkuiSwitch__pseudo:before {
@@ -1270,7 +1274,9 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkitSnippetAttachment__root--QAlh8,
 .vkitIconButton__rootCustomSize--Wykl1,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
-.error {
+.error,
+.ui_tabs_new .ui_tab_group_items,
+.ui_tab_group_new.shown .ui_tab_group_items{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1619,14 +1625,16 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .vkitPrimaryAttachment__root--KMoC5,
 .vkuiFormField__focusVisible.vkuiFormField__focusVisible>.vkuiFormField__border,
 .vkuiPopover__inWithStyling,
-.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap.loading{
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap.loading,
+.vkuiTabsItem__selected.vkuiTabsItem__modeAccent:before,
+.oXPVlZtlcjoi6d8e {
     border: none;
 }
 .Office #ad_preview_top.promoted_post .ads_ad_box,
 .Office #ad_preview_top .ads_ad_box.story {
     border: #1b222a;
 }
-.SideOfficeMenu__toggleButton {
+.SideOfficeMenu__toggleButton{
     border: #2a3742;
 }
 hr {
@@ -1744,7 +1752,11 @@ body.redesign_web {
 .ads_edit_easy_promote_box__payments-pay,
 .button_green:hover,
 .vkuiButton--mode-primary--XbXnu.vkuiButton--appearance-overlay--qWDHl,
-.VideoLayout__aside--collapsed~.VideoLayout__scrollTop {
+.VideoLayout__aside--collapsed~.VideoLayout__scrollTop,
+.wGnjLCZ_kHG1SsM_,
+.wGnjLCZ_kHG1SsM_:hover,
+.vkuiButton__modePrimary.vkuiButton__appearanceAccent,
+.vkuiButton__modePrimary.vkuiButton__appearanceOverlay{
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
@@ -1791,7 +1803,8 @@ body.redesign_web {
 .ActionsMenu__inner,
 .wrapped,
 .ads_retargeting_menu .dd_menu_body,
-.vkuiPopover__inWithStyling {
+.vkuiPopover__inWithStyling,
+.ui_tabs_new .ui_tab_group_items {
     box-shadow: var(--vkui--elevation2);
 }
 
