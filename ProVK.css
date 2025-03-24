@@ -1756,7 +1756,8 @@ body.redesign_web {
 .wGnjLCZ_kHG1SsM_,
 .wGnjLCZ_kHG1SsM_:hover,
 .vkuiButton__modePrimary.vkuiButton__appearanceAccent,
-.vkuiButton__modePrimary.vkuiButton__appearanceOverlay{
+.vkuiButton__modePrimary.vkuiButton__appearanceOverlay,
+.vkuiButton__modePrimary.vkuiButton__appearanceAccent.vkuiButton__hover {
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
