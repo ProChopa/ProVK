@@ -1257,7 +1257,7 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .notify_sources_tt_content .line_cell:hover,
 .notify_sources_tt_content .content:not(:hover) .line_cell.selected,
 .AudioPlaylistSnippet .ActionButton--shuffle:hover,
-.wrapped,
+/*.wrapped,*/
 .Header,
 .HeaderBudget,
 .HeaderProfile:focus,
@@ -1807,7 +1807,7 @@ body.redesign_web {
 .ui_search_sugg_list,
 .inlMainTable td.inlContent,
 .ActionsMenu__inner,
-.wrapped,
+/*.wrapped,*/
 .ads_retargeting_menu .dd_menu_body,
 .vkuiPopover__inWithStyling,
 .ui_tabs_new .ui_tab_group_items,
