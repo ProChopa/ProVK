@@ -556,7 +556,9 @@ html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
 .HeaderProfile__image,
 .HeaderSectionSwitcherDropdown__container,
 .vkuiPopover__inWithStyling,
-.ReactionChip--outgoing {
+.ReactionChip--outgoing,
+.article_ed__caredit,
+.article_ed__caredit .article_ed__caredit_header{
     background: #222c37;
 }
 .reply_fakebox,
@@ -650,7 +652,7 @@ a.HeaderSectionSwitcherDropdown__itemTitle:hover,
 .vkuiFormField__modeDefault,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
 .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap .groups_edit_cover_wrap_main_wrap_loading,
-.eltt.feature_intro_blue_tt {
+.eltt.feature_intro_blue_tt{
     background: #2a3742;
 }
 .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
@@ -785,7 +787,8 @@ tr.ads_union_empty_row td.ads_union_empty_cell,
 .ads_union_promoted_post_stat_headline_item,
 .HeaderSectionSwitcher__dropdownIcon,
 .audio_edit_label,
-.audio_edit_input.chk{
+.audio_edit_input.chk,
+.article_ed__caredit .article_ed__caredit_header {
     color: #cdd6f4;
 }
 .top_audio_player .top_audio_player_title,
@@ -1281,7 +1284,15 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ui_tabs_new .ui_tab_group_items,
 .ui_tab_group_new.shown .ui_tab_group_items,
 .big.selector_container .result_list,
-.ArticleEditorHeader__comments:hover{
+.ArticleEditorHeader__comments:hover,
+.article_ed__caredit .article_ed__caredit_header,
+.article_ed_layer__list_item.article_ed_layer__list_item--selected,
+.article_ed_layer__list_item:not(.article_ed_layer__list_item--selected):hover,
+.article_ed_layer__publish_settings_cover,
+.article_ed_layer__publish_settings_cover .article_ed_layer__publish_settings_cover_close,
+.AuthorPageDraftRow,
+.AuthorPageDraftRow:hover,
+.AuthorPageDraftCell__cover{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
@@ -1690,7 +1701,11 @@ body.redesign_web {
 .HeaderProfile__Dropdown,
 .FCPanel__list,
 .vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
-.vkuihover--eZhd8.vkuimodeAccent--FZTmT{
+.vkuihover--eZhd8.vkuimodeAccent--FZTmT,
+.article_editor_canvas[contenteditable=true] figure.article_ed__object_highlighted:not(.article__carousel):not(.article__carousel--noHover) .article_object_el,
+.article_editor_canvas[contenteditable=true] figure.article__carousel.article_ed__object_highlighted .article_ed__img_wrapper,
+.article_editor_canvas[contenteditable=true] figure.article__carousel:not(.article__carousel--noHover):hover .article_ed__img_wrapper,
+.article_editor_canvas[contenteditable=true] figure:not(.article__carousel):not(.article__carousel--noHover):hover .article_object_el{
     box-shadow: none;
 }
 .vkuiButton__in,
@@ -1762,12 +1777,27 @@ body.redesign_web {
 .wGnjLCZ_kHG1SsM_:hover,
 .vkuiButton__modePrimary.vkuiButton__appearanceAccent,
 .vkuiButton__modePrimary.vkuiButton__appearanceOverlay,
-.vkuiButton__modePrimary.vkuiButton__appearanceAccent.vkuiButton__hover {
+.vkuiButton__modePrimary.vkuiButton__appearanceAccent.vkuiButton__hover,
+.article_ed__carousel_btns .article_ed__carousel_counter,
+.article_ed__extra_controls:hover .article_ed__carousel_btn_edit,
+.article_ed__caredit .article_ed__caredit_cancel,
+.article_ed__caredit .article_ed__caredit_save,
+.article_ed__caredit .article_ed__caredit_photo{
     background: #2a3742;
     color: #cdd6f4;
     border-radius: 24px;
     border: none;
     box-shadow: none;
+}
+.article_ed__carousel_btns .article_ed__carousel_counter,
+.article_ed__caredit .article_ed__caredit_item.article_ed__caredit_item_add,
+.article_ed__caredit .article_ed__caredit_remove{
+    background: #2a3742 !important;
+    color: #cdd6f4;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
 }
 .ads_schedule_preset:hover,
 .checkbox_container table td .checkbox_on,
@@ -1811,7 +1841,8 @@ body.redesign_web {
 .ads_retargeting_menu .dd_menu_body,
 .vkuiPopover__inWithStyling,
 .ui_tabs_new .ui_tab_group_items,
-.big.selector_container .result_list{
+.big.selector_container .result_list,
+.article_ed__caredit .article_ed__caredit_header {
     box-shadow: var(--vkui--elevation2);
 }
 
