@@ -1292,7 +1292,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .article_ed_layer__publish_settings_cover .article_ed_layer__publish_settings_cover_close,
 .AuthorPageDraftRow,
 .AuthorPageDraftRow:hover,
-.AuthorPageDraftCell__cover{
+.AuthorPageDraftCell__cover,
+.article>figure figcaption.article_ed__figcaption .article_ed__figcaption_edit{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
