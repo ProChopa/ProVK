@@ -1297,7 +1297,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .ArticleEditorHeader__comments--active,
 div.styles__tooltip--05bUL.styles__visible--HNVox,
 .ArticleComments__tooltipItem--sort:hover,
-.author_page_actions_wrap{
+.author_page_actions_wrap,
+.pv_more_acts{
     border-radius: 24px;
 }
 .eltt.eltt_fancy {
