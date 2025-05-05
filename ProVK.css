@@ -1339,7 +1339,9 @@ textarea,
 .exchange_table th,
 .HeaderSectionSwitcherDropdown__itemTitle:focus,
 .HeaderSectionSwitcherDropdown__itemTitle:hover,
-.vkitgetColorClass__colorIconContrast--3EgJQ{
+.vkitgetColorClass__colorIconContrast--3EgJQ,
+.ConvoList--collapsed .ConvoList__footerIcon,
+.ConvoListFoldersDropdown__Trigger:hover {
 border-radius: 24px;
 }
 
