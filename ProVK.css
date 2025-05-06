@@ -1341,7 +1341,10 @@ textarea,
 .HeaderSectionSwitcherDropdown__itemTitle:hover,
 .vkitgetColorClass__colorIconContrast--3EgJQ,
 .ConvoList--collapsed .ConvoList__footerIcon,
-.ConvoListFoldersDropdown__Trigger:hover {
+.ConvoListFoldersDropdown__Trigger:hover,
+.PeerListItem--clickable:hover,
+.RE_ModalPanel,
+.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content {
 border-radius: 24px;
 }
 
@@ -1717,7 +1720,8 @@ input.ads_edit_easy_promote_box__payments-input-amount,
 .oXPVlZtlcjoi6d8e,
 div.styles__tooltip--05bUL.styles__visible--HNVox,
 .HeaderSectionSwitcherDropdown,
-.HeaderSectionSwitcherDropdown__itemTitle{
+.HeaderSectionSwitcherDropdown__itemTitle,
+.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content{
 border: none;
 }
 
