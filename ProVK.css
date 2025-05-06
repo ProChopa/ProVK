@@ -1344,7 +1344,8 @@ textarea,
 .ConvoListFoldersDropdown__Trigger:hover,
 .PeerListItem--clickable:hover,
 .RE_ModalPanel,
-.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content {
+.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content,
+.ThemeStylePreview__background {
 border-radius: 24px;
 }
 
