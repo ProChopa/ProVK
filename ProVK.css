@@ -810,7 +810,8 @@ display:block !important;
     .audio_edit_label,
     .audio_edit_input.chk,
     .article_ed__caredit .article_ed__caredit_header,
-    .vkitgetColorClass__colorIconContrast--3EgJQ {
+    .vkitgetColorClass__colorIconContrast--3EgJQ,
+    .videoplayer_context_menu ._item{
         color: #cdd6f4;
     }
 
