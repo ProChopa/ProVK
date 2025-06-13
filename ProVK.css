@@ -1349,7 +1349,8 @@ display:block !important;
     .ThemeStylePreview__background,
     #pb_text,
     .big.selector_container.reverse .result_list,
-    .dark_box_cont{
+    .dark_box_cont,
+    .ConvoMessageBubbleBackground{
         border-radius: 24px;
     }
 
