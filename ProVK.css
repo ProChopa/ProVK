@@ -1,7 +1,3 @@
-@-moz-document domain("vk.com"),
-domain("vkvideo.ru"),
-domain("id.vk.com"),
-domain("web.vk.me") {
 /*._post{
 display:none !important;
 }
@@ -1988,4 +1984,3 @@ display:block !important;
     .pg_flnk {
         color: #7f849c;
     }
-}
