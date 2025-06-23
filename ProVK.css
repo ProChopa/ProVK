@@ -1359,7 +1359,8 @@ display:block !important;
     .polcnuvc0zt:before,
     .videoplayer_media_provider,
     .gf94yEMELbgGrm4E,
-    .vkuihost--KYHTy{
+    .vkuihost--KYHTy,
+    .video_showcase .tt_w:not(.tt_black){
         border-radius: 24px;
     }
 
@@ -1742,7 +1743,8 @@ display:block !important;
     .exchange_table tr,
     .result_list,
     .CostEditFormPopover,
-    .gf94yEMELbgGrm4E{
+    .gf94yEMELbgGrm4E,
+    .video_showcase .tt_w:not(.tt_black){
         border: none;
     }
 
@@ -1968,7 +1970,8 @@ display:block !important;
     .HeaderSectionSwitcherDropdown,
     .HeaderSectionSwitcher,
     .CostEditFormPopover,
-    .gf94yEMELbgGrm4E{
+    .gf94yEMELbgGrm4E,
+    .video_showcase .tt_w:not(.tt_black){
         box-shadow: var(--vkui--elevation2);
     }
 
