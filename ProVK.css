@@ -1363,7 +1363,7 @@ display:block !important;
         border-radius: 24px;
     }
 
-    .eltt.eltt_fancy {
+    .eltt.eltt_fancy{
         border-radius: 24px!important;
     }
 
@@ -1424,7 +1424,8 @@ display:block !important;
         --primary-attachment-border-radius: 24px;
     }
 
-    .RE_ModalHeader {
+    .RE_ModalHeader,
+    .gf94yEMELbgGrm4E {
         border-top-left-radius: 24px;
         border-top-right-radius: 24px;
     }
