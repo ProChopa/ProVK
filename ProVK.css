@@ -814,7 +814,8 @@ display:block !important;
     .article_ed__caredit .article_ed__caredit_header,
     .vkitgetColorClass__colorIconContrast--3EgJQ,
     .videoplayer_context_menu ._item,
-    .PredictionWidget--theme-inline .PredictionWidget__item .PredictionItem__title{
+    .PredictionWidget--theme-inline .PredictionWidget__item .PredictionItem__title,
+    #pv_more_acts_tt .pv_more_act_item{
         color: #cdd6f4;
     }
 
@@ -1353,7 +1354,12 @@ display:block !important;
     .big.selector_container.reverse .result_list,
     .dark_box_cont,
     .ConvoMessageBubbleBackground,
-    .CostEditFormPopover{
+    .CostEditFormPopover,
+    .polcnuvc0zt,
+    .polcnuvc0zt:before,
+    .videoplayer_media_provider,
+    .gf94yEMELbgGrm4E,
+    .vkuihost--KYHTy{
         border-radius: 24px;
     }
 
@@ -1386,10 +1392,6 @@ display:block !important;
 
     .pv_bottom_info {
         border-radius: 0 0 0 24px;
-    }
-
-    .videoplayer_media_provider {
-        border-radius: 24px 24px 0 24px;
     }
 
     .VideoHeader .page_block_header,
@@ -1738,7 +1740,8 @@ display:block !important;
     .exchange_table tr:first-child,
     .exchange_table tr,
     .result_list,
-    .CostEditFormPopover{
+    .CostEditFormPopover,
+    .gf94yEMELbgGrm4E{
         border: none;
     }
 
@@ -1963,7 +1966,8 @@ display:block !important;
     .article_ed__caredit .article_ed__caredit_header,
     .HeaderSectionSwitcherDropdown,
     .HeaderSectionSwitcher,
-    .CostEditFormPopover{
+    .CostEditFormPopover,
+    .gf94yEMELbgGrm4E{
         box-shadow: var(--vkui--elevation2);
     }
 
