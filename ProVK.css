@@ -1427,8 +1427,8 @@ display:block !important;
 
     .RE_ModalHeader,
     .gf94yEMELbgGrm4E {
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
+        border-top-left-radius: 24px!important;
+        border-top-right-radius: 24px!important;
     }
 
     .ForeignMessagesHistory__modalWrapper {
