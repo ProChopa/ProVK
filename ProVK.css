@@ -1360,7 +1360,8 @@ display:block !important;
     .videoplayer_media_provider,
     .gf94yEMELbgGrm4E,
     .vkuihost--KYHTy,
-    .video_showcase .tt_w:not(.tt_black){
+    .video_showcase .tt_w:not(.tt_black),
+    .vkitAudioRow__tappableBorderM--gV05T{
         border-radius: 24px;
     }
 
