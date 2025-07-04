@@ -567,7 +567,10 @@ display:block !important;
     .exchange_not_found.table,
     .HeaderSectionSwitcherDropdown__itemTitle,
     .HeaderSectionSwitcherDropdown__listItemLink,
-    .HeaderSectionSwitcherDropdown{
+    .HeaderSectionSwitcherDropdown,
+    .vkuiPopover__inWithStyling,
+    .vkuiCalendar__host,
+    .vkuiCustomSelectDropdown__host{
         background: #222c37;
     }
 
@@ -665,8 +668,7 @@ display:block !important;
     .eltt.feature_intro_blue_tt,
     .HeaderSectionSwitcherDropdown__itemTitle:focus,
     .HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .exchange_table th,
-    .vkuiPopover__inWithStyling{
+    .exchange_table th{
         background: #2a3742;
     }
 
@@ -1363,7 +1365,14 @@ display:block !important;
     .video_showcase .tt_w:not(.tt_black),
     .vkitAudioRow__tappableBorderM--gV05T,
     .n0s06xfh2zw,
-    .n0s06xfh2zw:before{
+    .n0s06xfh2zw:before,
+    .vkitContentBadge__rootAppearanceOverlay--FB2nB.vkitContentBadge__rootModePrimary--sBSx1,
+    .vkuiCalendar__host,
+    .vkuiCustomSelectDropdown__host,
+    .vkuiCustomSelectOption__host,
+    .vkitImageSingle__image--FvXFy,
+    .vkitPrimaryAttachment__noBorderRadius--8UNzW,
+    .vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq{
         border-radius: 24px;
     }
 
@@ -1974,7 +1983,8 @@ display:block !important;
     .HeaderSectionSwitcher,
     .CostEditFormPopover,
     .gf94yEMELbgGrm4E,
-    .video_showcase .tt_w:not(.tt_black){
+    .video_showcase .tt_w:not(.tt_black),
+    .vkuiCustomSelectDropdown__host{
         box-shadow: var(--vkui--elevation2);
     }
 
