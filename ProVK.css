@@ -1372,7 +1372,10 @@ display:block !important;
     .vkuiCustomSelectOption__host,
     .vkitImageSingle__image--FvXFy,
     .vkitPrimaryAttachment__noBorderRadius--8UNzW,
-    .vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq{
+    .vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq,
+    .vkitMediaGridImage__image--DCsOT,
+    .vkitMediaGridItem__root--mHSNF,
+    .vkitPrimaryAttachmentCrop__root--k639J{
         border-radius: 24px;
     }
 
@@ -1756,7 +1759,8 @@ display:block !important;
     .result_list,
     .CostEditFormPopover,
     .gf94yEMELbgGrm4E,
-    .video_showcase .tt_w:not(.tt_black){
+    .video_showcase .tt_w:not(.tt_black),
+    .vkitMediaGridItem__root--mHSNF{
         border: none;
     }
 
@@ -1828,7 +1832,9 @@ display:block !important;
     .article_editor_canvas[contenteditable=true] figure.article_ed__object_highlighted:not(.article__carousel):not(.article__carousel--noHover) .article_object_el,
     .article_editor_canvas[contenteditable=true] figure.article__carousel.article_ed__object_highlighted .article_ed__img_wrapper,
     .article_editor_canvas[contenteditable=true] figure.article__carousel:not(.article__carousel--noHover):hover .article_ed__img_wrapper,
-    .article_editor_canvas[contenteditable=true] figure:not(.article__carousel):not(.article__carousel--noHover):hover .article_object_el {
+    .article_editor_canvas[contenteditable=true] figure:not(.article__carousel):not(.article__carousel--noHover):hover .article_object_el,
+    .vkitPrimaryAttachmentCrop__root--k639J,
+    .vkitPrimaryAttachment__root--C8cW1{
         box-shadow: none;
     }
 
