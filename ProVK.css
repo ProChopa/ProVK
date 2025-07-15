@@ -759,6 +759,7 @@ display:block !important;
     }
 
     .vkitLeftMenuItem__counter--syb1p,
+    .vkuiCounter__host,
     .Token__Container,
     .UsersStack__counter,
     .im-navigation--label-in {
@@ -1375,7 +1376,9 @@ display:block !important;
     .vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq,
     .vkitMediaGridImage__image--DCsOT,
     .vkitMediaGridItem__root--mHSNF,
-    .vkitPrimaryAttachmentCrop__root--k639J{
+    .vkitPrimaryAttachmentCrop__root--k639J,
+    .ConvoProfileMembers__member--clickable:hover,
+    .GamesCatalogHeadContent .apps_featured_thumb__wrap{
         border-radius: 24px;
     }
 
@@ -1446,7 +1449,8 @@ display:block !important;
         border-top-right-radius: 24px!important;
     }
 
-    .ForeignMessagesHistory__modalWrapper {
+    .ForeignMessagesHistory__modalWrapper,
+    .GamesCatalogHeadContent .apps_featured_thumb_gradient{
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 24px;
     }
