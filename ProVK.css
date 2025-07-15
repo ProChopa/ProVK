@@ -1378,7 +1378,9 @@ display:block !important;
     .vkitMediaGridItem__root--mHSNF,
     .vkitPrimaryAttachmentCrop__root--k639J,
     .ConvoProfileMembers__member--clickable:hover,
-    .GamesCatalogHeadContent .apps_featured_thumb__wrap{
+    .GamesCatalogHeadContent .apps_featured_thumb__wrap,
+    .vkitPollBackground__background--dzP4Y,
+    .vkitPollOptions__votingOption--ZqWpW{
         border-radius: 24px;
     }
 
