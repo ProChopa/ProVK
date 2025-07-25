@@ -1380,7 +1380,9 @@ display:block !important;
     .ConvoProfileMembers__member--clickable:hover,
     .GamesCatalogHeadContent .apps_featured_thumb__wrap,
     .vkitPollBackground__background--dzP4Y,
-    .vkitPollOptions__votingOption--ZqWpW{
+    .vkitPollOptions__votingOption--ZqWpW,
+    .audio_progress,
+    .audio_progress_wrap{
         border-radius: 24px;
     }
 
