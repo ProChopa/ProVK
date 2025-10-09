@@ -1383,7 +1383,8 @@ display:block !important;
     .vkitPollOptions__votingOption--ZqWpW,
     .audio_progress,
     .audio_progress_wrap,
-    .vkuiTappable__stateLayer{
+    .vkuiTappable__stateLayer,
+    .EcosystemMultiAccounts-module_userCell__zsmJu{
         border-radius: 24px;
     }
 
@@ -1449,7 +1450,8 @@ display:block !important;
     }
 
     .RE_ModalHeader,
-    .gf94yEMELbgGrm4E {
+    .gf94yEMELbgGrm4E,
+.vkitPopover__rootNoTopRounded--hA0YE{
         border-top-left-radius: 24px!important;
         border-top-right-radius: 24px!important;
     }
