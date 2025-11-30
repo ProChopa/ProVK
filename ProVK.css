@@ -5,2028 +5,2109 @@ display:none !important;
 ._ads_block_data_w {
 display:block !important;
 }*/
-    :root {
-        --white: #cdd6f4;
-        --blue_420: #5785ba;
-        --blue_550: #5785ba;
-        --blue_600: #5785ba;
-        --blue_640: #5785ba;
-        --blue_800: #5785ba;
-        --gray_20: #cdd6f4;
-        --gray_40: #cdd6f4;
-        --gray_70: #cdd6f4;
-        --gray_100: #cdd6f4;
-        --gray_100_alpha60: #cdd6f4;
-        --gray_200: #cdd6f4;
-        --gray_300: #cdd6f4;
-        --gray_400: #7f849c;
-        --gray_500: #cdd6f4;
-        --gray_700: #2a3742;
-        --gray_800: #1b222a;
-        --gray_800_alpha72: #1b222a;
-        --gray_900: #222c37;
-        --steel_gray_10: #cdd6f4;
-        --steel_gray_200_alpha12: #2a3742;
-        --steel_gray_200_alpha16: #2a3742;
-        --steel_gray_300: #5785ba;
-        --sky_300: #5785ba;
-        --black_alpha8: #1b222a;
-        --black_alpha72: #222c37;
-    }
+:root {
+    --white: #cdd6f4;
+    --blue_420: #5785ba;
+    --blue_550: #5785ba;
+    --blue_600: #5785ba;
+    --blue_640: #5785ba;
+    --blue_800: #5785ba;
+    --gray_20: #cdd6f4;
+    --gray_40: #cdd6f4;
+    --gray_70: #cdd6f4;
+    --gray_100: #cdd6f4;
+    --gray_100_alpha60: #cdd6f4;
+    --gray_200: #cdd6f4;
+    --gray_300: #cdd6f4;
+    --gray_400: #7f849c;
+    --gray_500: #cdd6f4;
+    --gray_700: #2a3742;
+    --gray_800: #1b222a;
+    --gray_800_alpha72: #1b222a;
+    --gray_900: #222c37;
+    --steel_gray_10: #cdd6f4;
+    --steel_gray_200_alpha12: #2a3742;
+    --steel_gray_200_alpha16: #2a3742;
+    --steel_gray_300: #5785ba;
+    --sky_300: #5785ba;
+    --black_alpha8: #1b222a;
+    --black_alpha72: #222c37;
+}
 
-    :root,
-    [scheme=vkcom_light] {
-        --vkui--color_background_contrast_inverse: #2a3742;
-    }
+:root,
+[scheme=vkcom_light] {
+    --vkui--color_background_contrast_inverse: #2a3742;
+}
 
-    [scheme=vkcom_dark],
-    .vkui--vkBase--dark,
-    .vkui--vkCom--dark,
-    :is([scheme='vkcom_dark'], .vkui--vkCom--dark) :is(.VKCOMMessenger__integrationRoot .MEAppConfig) {
-        --vkui--color_accent_blue: #5785ba;
-        --vkui--color_accent_blue--hover: #5785ba;
-        --vkui--color_accent_blue--active: #5785ba;
-        --vkui--color_background_accent: #5785ba;
-        --vkui--color_background_accent--hover: #5785ba;
-        --vkui--color_background_accent--active: #5785ba;
-        --vkui--color_background_accent_themed: #5785ba;
-        --vkui--color_background_accent_themed--hover: #5785ba;
-        --vkui--color_background_accent_themed--active: #5785ba;
-        --vkui--color_background_accent_tint--hover: #5785ba;
-        --vkui--color_background_accent_tint--active: #5785ba;
-        --vkui--color_background_accent_alternative: #5785ba;
-        --vkui--color_background_accent_alternative--hover: #5785ba;
-        --vkui--color_background_accent_alternative--active: #5785ba;
-        --vkui--color_background: #1b222a;
-        --vkui--color_background--hover: #1b222a;
-        --vkui--color_background--active: #1b222a;
-        --vkui--color_background_content: #222c37;
-        --vkui--color_background_content--hover: #222c37;
-        --vkui--color_background_content--active: #222c37;
-        --vkui--color_background_secondary: #2a3742;
-        --vkui--color_background_secondary--hover: #2a3742;
-        --vkui--color_background_secondary--active: #2a3742;
-        --vkui--color_background_secondary_alpha: #2a3742;
-        --vkui--color_background_secondary_alpha--hover: #2a3742;
-        --vkui--color_background_secondary_alpha--active: #2a3742;
-        --vkui--color_background_tertiary: #222c37;
-        --vkui--color_background_tertiary--hover: #222c37;
-        --vkui--color_background_tertiary--active: #222c37;
-        --vkui--color_background_tertiary_alpha: #222c37;
-        --vkui--color_background_tertiary_alpha--hover: #222c37;
-        --vkui--color_background_tertiary_alpha--active: #222c37;
-        --vkui--color_background_contrast: #5785ba;
-        --vkui--color_background_contrast--hover: #222c37;
-        --vkui--color_background_contrast--active: #222c37;
-        --vkui--color_background_contrast_secondary_alpha: #222c37;
-        --vkui--color_background_contrast_inverse--hover: #222c37;
-        --vkui--color_background_contrast_inverse--active: #222c37;
-        --vkui--color_background_contrast_themed: #1b222a;
-        --vkui--color_background_contrast_themed--hover: #1b222a;
-        --vkui--color_background_contrast_themed--active: #1b222a;
-        --vkui--color_background_modal: #222c37;
-        --vkui--color_background_modal--hover: #222c37;
-        --vkui--color_background_modal--active: #222c37;
-        --vkui--color_background_modal_inverse: #cdd6f4;
-        --vkui--color_background_modal_inverse--hover: #cdd6f4;
-        --vkui--color_background_modal_inverse--active: #cdd6f4;
-        --vkui--color_background_positive: #5785ba;
-        --vkui--color_background_positive--hover: #5785ba;
-        --vkui--color_background_positive--active: #5785ba;
-        --vkui--color_background_positive_tint: #2a3742;
-        --vkui--color_background_positive_tint--hover: #2a3742;
-        --vkui--color_background_positive_tint--active: #2a3742;
-        --vkui--color_background_warning: #2a3742;
-        --vkui--color_background_warning--hover: #2a3742;
-        --vkui--color_background_warning--active: #2a3742;
-        --vkui--color_background_negative: #2a3742;
-        --vkui--color_background_negative--hover: #2a3742;
-        --vkui--color_background_negative--active: #2a3742;
-        --vkui--color_background_negative_tint: #2a3742;
-        --vkui--color_background_negative_tint--hover: #2a3742;
-        --vkui--color_background_negative_tint--active: #2a3742;
-        --vkui--color_field_background: #1b222a;
-        --vkui--color_field_background--hover: #1b222a;
-        --vkui--color_field_background--active: #1b222a;
-        --vkui--color_header_background: #222c37;
-        --vkui--color_header_background--hover: #222c37;
-        --vkui--color_header_background--active: #222c37;
-        --vkui--color_text_accent: #5785ba;
-        --vkui--color_text_accent--hover: #5785ba;
-        --vkui--color_text_accent--active: #5785ba;
-        --vkui--color_text_accent_themed: #cdd6f4;
-        --vkui--color_text_accent_themed--hover: #cdd6f4;
-        --vkui--color_text_accent_themed--active: #cdd6f4;
-        --vkui--color_text_primary: #cdd6f4;
-        --vkui--color_text_primary--hover: #cdd6f4;
-        --vkui--color_text_primary--active: #cdd6f4;
-        --vkui--color_text_primary_invariably--hover: #cdd6f4;
-        --vkui--color_text_primary_invariably--active: #cdd6f4;
-        --vkui--color_text_secondary: #7f849c;
-        --vkui--color_text_secondary--hover: #7f849c;
-        --vkui--color_text_secondary--active: #7f849c;
-        --vkui--color_text_subhead: #cdd6f4;
-        --vkui--color_text_subhead--hover: #cdd6f4;
-        --vkui--color_text_subhead--active: #cdd6f4;
-        --vkui--color_text_tertiary: #cdd6f4;
-        --vkui--color_text_tertiary--hover: #cdd6f4;
-        --vkui--color_text_tertiary--active: #cdd6f4;
-        --vkui--color_text_contrast: #cdd6f4;
-        --vkui--color_text_contrast--hover: #cdd6f4;
-        --vkui--color_text_contrast--active: #cdd6f4;
-        --vkui--color_text_contrast_themed: #222c37;
-        --vkui--color_text_contrast_themed--hover: #222c37;
-        --vkui--color_text_contrast_themed--active: #222c37;
-        --vkui--color_text_positive--hover: #cdd6f4;
-        --vkui--color_text_positive--active: #cdd6f4;
-        --vkui--color_text_negative: #cdd6f4;
-        --vkui--color_text_negative--hover: #cdd6f4;
-        --vkui--color_text_negative--active: #cdd6f4;
-        --vkui--color_text_link: #5785ba;
-        --vkui--color_text_link--hover: #5785ba;
-        --vkui--color_text_link--active: #5785ba;
-        --vkui--color_text_link_themed: #cdd6f4;
-        --vkui--color_text_link_themed--hover: #cdd6f4;
-        --vkui--color_text_link_themed--active: #cdd6f4;
-        --vkui--color_text_link_tint--hover: #5785ba;
-        --vkui--color_text_link_tint--active: #5785ba;
-        --vkui--color_text_link_visited--hover: #5785ba;
-        --vkui--color_text_link_visited--active: #5785ba;
-        --vkui--color_text_muted: #cdd6f4;
-        --vkui--color_text_muted--hover: #cdd6f4;
-        --vkui--color_text_muted--active: #cdd6f4;
-        --vkui--color_link_contrast--hover: #cdd6f4;
-        --vkui--color_link_contrast--active: #cdd6f4;
-        --vkui--color_icon_accent: #5785ba;
-        --vkui--color_icon_accent--hover: #5785ba;
-        --vkui--color_icon_accent--active: #5785ba;
-        --vkui--color_icon_accent_themed: #5785ba;
-        --vkui--color_icon_accent_themed--hover: #5785ba;
-        --vkui--color_icon_accent_themed--active: #5785ba;
-        --vkui--color_icon_primary: #5785ba;
-        --vkui--color_icon_primary--hover: #5785ba;
-        --vkui--color_icon_primary--active: #5785ba;
-        --vkui--color_icon_primary_invariably: #2a3742;
-        --vkui--color_icon_primary_invariably--hover: #2a3742;
-        --vkui--color_icon_primary_invariably--active: #2a3742;
-        --vkui--color_icon_medium: #5785ba;
-        --vkui--color_icon_medium--hover: #5785ba;
-        --vkui--color_icon_medium--active: #5785ba;
-        --vkui--color_icon_medium_alpha: #5785ba;
-        --vkui--color_icon_medium_alpha--hover: #5785ba;
-        --vkui--color_icon_medium_alpha--active: #5785ba;
-        --vkui--color_icon_secondary: #5785ba;
-        --vkui--color_icon_secondary--hover: #5785ba;
-        --vkui--color_icon_secondary--active: #5785ba;
-        --vkui--color_icon_secondary_alpha: #5785ba;
-        --vkui--color_icon_secondary_alpha--hover: #5785ba;
-        --vkui--color_icon_secondary_alpha--active: #5785ba;
-        --vkui--color_icon_tertiary: #5785ba;
-        --vkui--color_icon_tertiary--hover: #5785ba;
-        --vkui--color_icon_tertiary--active: #5785ba;
-        --vkui--color_icon_tertiary_alpha: #5785ba;
-        --vkui--color_icon_tertiary_alpha--hover: #5785ba;
-        --vkui--color_icon_tertiary_alpha--active: #5785ba;
-        --vkui--color_icon_contrast: #5785ba;
-        --vkui--color_icon_contrast--hover: #5785ba;
-        --vkui--color_icon_contrast--active: #5785ba;
-        --vkui--color_icon_contrast_themed: #1b222a;
-        --vkui--color_icon_contrast_themed--hover: #1b222a;
-        --vkui--color_icon_contrast_themed--active: #1b222a;
-        --vkui--color_icon_contrast_secondary--hover: #5785ba;
-        --vkui--color_icon_contrast_secondary--active: #5785ba;
-        --vkui--color_icon_positive--hover: #5785ba;
-        --vkui--color_icon_positive--active: #5785ba;
-        --vkui--color_icon_negative: #5785ba;
-        --vkui--color_icon_negative--hover: #5785ba;
-        --vkui--color_icon_negative--active: #5785ba;
-        --vkui--color_stroke_accent: #5785ba;
-        --vkui--color_stroke_accent--hover: #5785ba;
-        --vkui--color_stroke_accent--active: #5785ba;
-        --vkui--color_stroke_accent_themed: #cdd6f4;
-        --vkui--color_stroke_accent_themed--hover: #cdd6f4;
-        --vkui--color_stroke_accent_themed--active: #cdd6f4;
-        --vkui--color_separator_primary: #222c37;
-        --vkui--color_separator_primary--hover: #2a3742;
-        --vkui--color_separator_primary--active: #222c37;
-        --vkui--color_separator_primary2x: #2a3742;
-        --vkui--color_separator_primary2x--hover: #2a3742;
-        --vkui--color_separator_primary2x--active: #2a3742;
-        --vkui--color_separator_primary3x: #2a3742;
-        --vkui--color_separator_primary3x--hover: #2a3742;
-        --vkui--color_separator_primary3x--active: #2a3742;
-        --vkui--color_separator_primary_alpha: #2a3742;
-        --vkui--color_separator_primary_alpha--hover: #2a3742;
-        --vkui--color_separator_primary_alpha--active: #2a3742;
-        --vkui--color_separator_secondary: #2a3742;
-        --vkui--color_separator_secondary--hover: #2a3742;
-        --vkui--color_separator_secondary--active: #2a3742;
-        --vkui--color_stroke_positive--hover: #2a3742;
-        --vkui--color_stroke_positive--active: #2a3742;
-        --vkui--color_stroke_negative: #2a3742;
-        --vkui--color_stroke_negative--hover: #2a3742;
-        --vkui--color_stroke_negative--active: #2a3742;
-        --vkui--color_stroke_contrast: #cdd6f4;
-        --vkui--color_stroke_contrast--hover: #cdd6f4;
-        --vkui--color_stroke_contrast--active: #cdd6f4;
-        --vkui--color_image_border_alpha: #2a3742;
-        --vkui--color_image_border_alpha--hover: #2a3742;
-        --vkui--color_image_border_alpha--active: #2a3742;
-        --vkui--color_field_border_alpha: #222c37;
-        --vkui--color_field_border_alpha--hover: #222c37;
-        --vkui--color_field_border_alpha--active: #222c37;
-        --vkui--color_accent_green: #5785ba;
-        --vkui--color_accent_green--hover: #5785ba;
-        --vkui--color_accent_green--active: #5785ba;
-        --vkui--color_action_sheet_text: #5785ba;
-        --vkui--color_action_sheet_text--hover: #5785ba;
-        --vkui--color_action_sheet_text--active: #5785ba;
-        --vkui--color_image_placeholder: #2a3742;
-        --vkui--color_image_placeholder--hover: #2a3742;
-        --vkui--color_image_placeholder--active: #2a3742;
-        --vkui--color_image_placeholder_alpha: #2a3742;
-        --vkui--color_image_placeholder_alpha--hover: #2a3742;
-        --vkui--color_image_placeholder_alpha--active: #2a3742;
-        --vkui--color_skeleton_from: #1b222a;
-        --vkui--color_skeleton_from--hover: #1b222a;
-        --vkui--color_skeleton_from--active: #1b222a;
-        --vkui--color_skeleton_to: #2a3742;
-        --vkui--color_skeleton_to--hover: #2a3742;
-        --vkui--color_skeleton_to--active: #2a3742;
-        --vkui--color_button_text: #cdd6f4;
-        --vkui--color_button_text--hover: #cdd6f4;
-        --vkui--color_button_text--active: #cdd6f4;
-        --vkui--color_button_icon: #cdd6f4;
-        --vkui--color_button_icon--hover: #cdd6f4;
-        --vkui--color_button_icon--active: #cdd6f4;
-        --vkui--color_button_stroke: #cdd6f4;
-        --vkui--color_button_stroke--hover: #cdd6f4;
-        --vkui--color_button_stroke--active: #cdd6f4;
-        --vkui--color_write_bar_icon: #cdd6f4;
-        --vkui--color_write_bar_icon--hover: #cdd6f4;
-        --vkui--color_write_bar_icon--active: #cdd6f4;
-        --vkui--color_write_bar_input_background: #2a3742;
-        --vkui--color_write_bar_input_background--hover: #2a3742;
-        --vkui--color_write_bar_input_background--active: #2a3742;
-        --vkui--color_write_bar_input_border: #2a3742;
-        --vkui--color_write_bar_input_border--hover: #2a3742;
-        --vkui--color_write_bar_input_border--active: #2a3742;
-        --vkui--color_write_bar_input_border_alpha: #2a3742;
-        --vkui--color_write_bar_input_border_alpha--hover: #2a3742;
-        --vkui--color_write_bar_input_border_alpha--active: #2a3742;
-        --vkui--color_track_background: #1b222a;
-        --vkui--color_track_background--hover: #1b222a;
-        --vkui--color_track_background--active: #1b222a;
-        --vkui--color_track_buffer: #5785ba;
-        --vkui--color_track_buffer--hover: #5785ba;
-        --vkui--color_track_buffer--active: #5785ba;
-        --vkui--color_search_field_background: #2a3742;
-        --vkui--color_search_field_background--hover: #2a3742;
-        --vkui--color_search_field_background--active: #2a3742;
-        --vkui--color_panel_header_icon: #5785ba;
-        --vkui--color_panel_header_icon--hover: #5785ba;
-        --vkui--color_panel_header_icon--active: #5785ba;
-        --vkui--color_transparent--hover: #2a3742;
-        --vkui--color_transparent--active: #2a3742;
-        --vkui--vkontakte_color_snippet_border_alpha: #2a3742;
-        --vkui--vkontakte_color_snippet_border_alpha--hover: #2a3742;
-        --vkui--vkontakte_color_snippet_border_alpha--active: #2a3742;
-        --vkui--vkontakte_color_snippet_background: #2a3742;
-        --vkui--vkontakte_color_snippet_background--hover: #2a3742;
-        --vkui--vkontakte_color_snippet_background--active: #2a3742;
-        --vkui--vkontakte_color_input_border: #2a3742;
-        --vkui--vkontakte_color_input_border--hover: #2a3742;
-        --vkui--vkontakte_color_input_border--active: #2a3742;
-        --vkui--vkontakte_color_search_bar_background: #2a3742;
-        --vkui--vkontakte_color_search_bar_background--hover: #2a3742;
-        --vkui--vkontakte_color_search_bar_background--active: #2a3742;
-        --vkui--vkontakte_color_search_bar_field_tint: #2a3742;
-        --vkui--vkontakte_color_search_bar_field_tint--hover: #2a3742;
-        --vkui--vkontakte_color_search_bar_field_tint--active: #2a3742;
-        --vkui--vkontakte_background_hover_alpha: #2a3742;
-        --vkui--vkontakte_background_hover_alpha--hover: #2a3742;
-        --vkui--vkontakte_background_hover_alpha--active: #2a3742;
-        --vkui--vkontakte_color_accent_alternate: #cdd6f4;
-        --vkui--vkontakte_color_accent_alternate--hover: #cdd6f4;
-        --vkui--vkontakte_color_accent_alternate--active: #cdd6f4;
-        --vkui--vkontakte_color_background_suggestions: #2a3742;
-        --vkui--vkontakte_color_background_suggestions--hover: #2a3742;
-        --vkui--vkontakte_color_background_suggestions--active: #2a3742;
-        --vkui--vkontakte_color_background_keyboard: #2a3742;
-        --vkui--vkontakte_color_background_keyboard--hover: #2a3742;
-        --vkui--vkontakte_color_background_keyboard--active: #2a3742;
-        --vkui--vkontakte_color_content_placeholder_icon--hover: #cdd6f4;
-        --vkui--vkontakte_color_content_placeholder_icon--active: #cdd6f4;
-        --vkui--vkontakte_color_text_name: #cdd6f4;
-        --vkui--vkontakte_color_text_name--hover: #cdd6f4;
-        --vkui--vkontakte_color_text_name--active: #cdd6f4;
-        --vkui--vkontakte_color_control_background: #1b222a;
-        --vkui--vkontakte_color_control_background--hover: #1b222a;
-        --vkui--vkontakte_color_control_background--active: #1b222a;
-        --vkui--vkontakte_color_control_foreground: #cdd6f4;
-        --vkui--vkontakte_color_control_foreground--hover: #cdd6f4;
-        --vkui--vkontakte_color_control_foreground--active: #cdd6f4;
-        --vkui--vkontakte_color_control_tint_muted: #cdd6f4;
-        --vkui--vkontakte_color_control_tint_muted--hover: #cdd6f4;
-        --vkui--vkontakte_color_control_tint_muted--active: #cdd6f4;
-        --vkui--vkontakte_color_header_search_field_background: #2a3742;
-        --vkui--vkontakte_color_header_search_field_background--hover: #2a3742;
-        --vkui--vkontakte_color_header_search_field_background--active: #2a3742;
-        --vkui--vkontakte_color_header_search_field_tint: #cdd6f4;
-        --vkui--vkontakte_color_header_search_field_tint--hover: #cdd6f4;
-        --vkui--vkontakte_color_header_search_field_tint--active: #cdd6f4;
-        --vkui--vkontakte_color_icon_outline_medium: #5785ba;
-        --vkui--vkontakte_color_icon_outline_medium--hover: #5785ba;
-        --vkui--vkontakte_color_icon_outline_medium--active: #5785ba;
-        --vkui--vkontakte_color_icon_outline_secondary: #cdd6f4;
-        --vkui--vkontakte_color_icon_outline_secondary--hover: #cdd6f4;
-        --vkui--vkontakte_color_icon_outline_secondary--active: #cdd6f4;
-        --vkui--vkontakte_color_skeleton_shimmer_from: #222c37;
-        --vkui--vkontakte_color_skeleton_shimmer_from--hover: #222c37;
-        --vkui--vkontakte_color_skeleton_shimmer_from--active: #222c37;
-        --vkui--vkontakte_color_loader_background: #1b222a;
-        --vkui--vkontakte_color_loader_background--hover: #1b222a;
-        --vkui--vkontakte_color_loader_background--active: #1b222a;
-        --vkui--vkontakte_color_music_playback_icon: #cdd6f4;
-        --vkui--vkontakte_color_music_playback_icon--hover: #cdd6f4;
-        --vkui--vkontakte_color_music_playback_icon--active: #cdd6f4;
-        --vkui--vkontakte_color_status_background: #222c37;
-        --vkui--vkontakte_color_status_background--hover: #222c37;
-        --vkui--vkontakte_color_status_background--active: #222c37;
-        --vkui--vkontakte_color_placeholder_icon_foreground_primary: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_foreground_primary--hover: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_foreground_primary--active: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_foreground_secondary: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_foreground_secondary--hover: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_foreground_secondary--active: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_tint: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_tint--hover: #cdd6f4;
-        --vkui--vkontakte_color_placeholder_icon_tint--active: #cdd6f4;
-        --vkui--vkontakte_color_poll_option_background: #cdd6f4;
-        --vkui--vkontakte_color_poll_option_background--hover: #cdd6f4;
-        --vkui--vkontakte_color_poll_option_background--active: #cdd6f4;
-        --vkui--vkontakte_color_tabbar_active_icon: #cdd6f4;
-        --vkui--vkontakte_color_tabbar_active_icon--hover: #cdd6f4;
-        --vkui--vkontakte_color_tabbar_active_icon--active: #cdd6f4;
-        --vkui--vkontakte_color_tabbar_background: #2a3742;
-        --vkui--vkontakte_color_tabbar_background--hover: #2a3742;
-        --vkui--vkontakte_color_tabbar_background--active: #2a3742;
-        --vkui--vkontakte_color_tabbar_inactive_icon: #7f849c;
-        --vkui--vkontakte_color_tabbar_inactive_icon--hover: #7f849c;
-        --vkui--vkontakte_color_tabbar_inactive_icon--active: #7f849c;
-        --vkui--vkontakte_color_tabbar_tablet_text_secondary: #7f849c;
-        --vkui--vkontakte_color_tabbar_tablet_text_secondary--hover: #7f849c;
-        --vkui--vkontakte_color_tabbar_tablet_text_secondary--active: #7f849c;
-        --vkui--vkontakte_color_toolbar_attach_background_from: #7f849c;
-        --vkui--vkontakte_color_toolbar_attach_background_from--hover: #7f849c;
-        --vkui--vkontakte_color_toolbar_attach_background_from--active: #7f849c;
-        --vkui--vkontakte_color_splash_screen_icon: #2a3742;
-        --vkui--vkontakte_color_splash_screen_icon--hover: #2a3742;
-        --vkui--vkontakte_color_splash_screen_icon--active: #2a3742;
-        --vkui--vkontakte_color_icon_name: #cdd6f4;
-        --vkui--vkontakte_color_icon_name--hover: #cdd6f4;
-        --vkui--vkontakte_color_icon_name--active: #cdd6f4;
-        --vkui--vkontakte_color_panel_tab_active_text: #cdd6f4;
-        --vkui--vkontakte_color_panel_tab_active_text--hover: #cdd6f4;
-        --vkui--vkontakte_color_panel_tab_active_text--active: #cdd6f4;
-        --vkui--vkontakte_color_modal_card_header_close: #cdd6f4;
-        --vkui--vkontakte_color_modal_card_header_close--hover: #cdd6f4;
-        --vkui--vkontakte_color_modal_card_header_close--active: #cdd6f4;
-        --vkui--vkontakte_im_bubble_button_foreground: #cdd6f4;
-        --vkui--vkontakte_im_bubble_button_foreground--hover: #cdd6f4;
-        --vkui--vkontakte_im_bubble_button_foreground--active: #cdd6f4;
-        --vkui--vkontakte_im_bubble_incoming_highlighted: #cdd6f4;
-        --vkui--vkontakte_im_bubble_incoming_highlighted--hover: #cdd6f4;
-        --vkui--vkontakte_im_bubble_incoming_highlighted--active: #cdd6f4;
-        --vkui--vkontakte_im_bubble_outgoing_alternate: #1b222a;
-        --vkui--vkontakte_im_bubble_outgoing_alternate--hover: #1b222a;
-        --vkui--vkontakte_im_bubble_outgoing_alternate--active: #1b222a;
-        --vkui--vkontakte_im_attach_tint: #cdd6f4;
-        --vkui--vkontakte_im_attach_tint--hover: #cdd6f4;
-        --vkui--vkontakte_im_attach_tint--active: #cdd6f4;
-        --vkui--vkontakte_im_reply_separator: #5785ba;
-        --vkui--vkontakte_im_reply_separator--hover: #5785ba;
-        --vkui--vkontakte_im_reply_separator--active: #5785ba;
-        --vkui--vkontakte_im_toolbar_voice_msg_background: #1b222a;
-        --vkui--vkontakte_im_toolbar_voice_msg_background--hover: #1b222a;
-        --vkui--vkontakte_im_toolbar_voice_msg_background--active: #1b222a;
-        --vkui--vkontakte_color_im_forward_line_alpha: #5785ba;
-        --vkui--vkontakte_color_im_forward_line_alpha--hover: #5785ba;
-        --vkui--vkontakte_color_im_forward_line_alpha--active: #5785ba;
-        --vkui--vkontakte_color_im_bubble_incoming: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming--hover: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming--active: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_alternate: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_alternate--hover: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_alternate--active: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_expiring: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_expiring--hover: #2a3742;
-        --vkui--vkontakte_color_im_bubble_incoming_expiring--active: #2a3742;
-        --vkui--vkontakte_color_im_bubble_outgoing: #2a3742;
-        --vkui--vkontakte_color_im_bubble_outgoing--hover: #2a3742;
-        --vkui--vkontakte_color_im_bubble_outgoing--active: #2a3742;
-        --vkui--vkontakte_color_im_bubble_gift_text: #cdd6f4;
-        --vkui--vkontakte_color_im_bubble_gift_text--hover: #cdd6f4;
-        --vkui--vkontakte_color_im_bubble_gift_text--active: #cdd6f4;
-        --vkui--vkontakte_color_im_bubble_gift_text_secondary: #cdd6f4;
-        --vkui--vkontakte_color_im_bubble_gift_text_secondary--hover: #cdd6f4;
-        --vkui--vkontakte_color_im_bubble_gift_text_secondary--active: #cdd6f4;
-        --vkui--vkontakte_color_im_text_name: #5785ba;
-        --vkui--vkontakte_color_im_text_name--hover: #5785ba;
-        --vkui--vkontakte_color_im_text_name--active: #5785ba;
-        --vkui--vkontakte_button_muted_background: #2a3742;
-        --vkui--vkontakte_button_muted_background--hover: #2a3742;
-        --vkui--vkontakte_button_muted_background--active: #2a3742;
-        --vkui--vkontakte_button_tertiary_foreground: #cdd6f4;
-        --vkui--vkontakte_button_tertiary_foreground--hover: #cdd6f4;
-        --vkui--vkontakte_button_tertiary_foreground--active: #cdd6f4;
-        --vkui--vkontakte_float_button_foreground: #cdd6f4;
-        --vkui--vkontakte_float_button_foreground--hover: #cdd6f4;
-        --vkui--vkontakte_float_button_foreground--active: #cdd6f4;
-        --vkui--vkontakte_landing_background: #222c37;
-        --vkui--vkontakte_landing_background--hover: #222c37;
-        --vkui--vkontakte_landing_background--active: #222c37;
-        --vkui--vkontakte_im_bubble_incoming_alternate_highlighted: #cdd6f4;
-        --vkui--vkontakte_im_bubble_incoming_alternate_highlighted--hover: #cdd6f4;
-        --vkui--vkontakte_im_bubble_incoming_alternate_highlighted--active: #cdd6f4;
-        --vkui--vkontakte_im_bubble_outgoing_highlighted: #cdd6f4;
-        --vkui--vkontakte_im_bubble_outgoing_highlighted--hover: #cdd6f4;
-        --vkui--vkontakte_im_bubble_outgoing_highlighted--active: #cdd6f4;
-        --vkui--vkontakte_stories_skeleton_loader_background: #1b222a;
-        --vkui--vkontakte_stories_skeleton_loader_background--hover: #1b222a;
-        --vkui--vkontakte_stories_skeleton_loader_background--active: #1b222a;
-        --vkui--vkontakte_color_modal_card_border_alpha: none;
-        --vkui--vkontakte_color_modal_card_border_alpha--hover: none;
-        --vkui--vkontakte_color_modal_card_border_alpha--active: none;
-        --vkui--vkontakte_color_landing_snippet_border_alpha: none;
-        --vkui--vkontakte_color_landing_snippet_border_alpha--hover: none;
-        --vkui--vkontakte_color_landing_snippet_border_alpha--active: none;
-        --convoHistoryBackgroundColor: #2a3742;
-    }
+[scheme=vkcom_dark],
+.vkui--vkBase--dark,
+.vkui--vkCom--dark,
+:is([scheme='vkcom_dark'], .vkui--vkCom--dark) :is(.VKCOMMessenger__integrationRoot .MEAppConfig) {
+    --vkui--color_accent_blue: #5785ba;
+    --vkui--color_accent_blue--hover: #5785ba;
+    --vkui--color_accent_blue--active: #5785ba;
+    --vkui--color_background_accent: #5785ba;
+    --vkui--color_background_accent--hover: #5785ba;
+    --vkui--color_background_accent--active: #5785ba;
+    --vkui--color_background_accent_themed: #5785ba;
+    --vkui--color_background_accent_themed--hover: #5785ba;
+    --vkui--color_background_accent_themed--active: #5785ba;
+    --vkui--color_background_accent_tint--hover: #5785ba;
+    --vkui--color_background_accent_tint--active: #5785ba;
+    --vkui--color_background_accent_alternative: #5785ba;
+    --vkui--color_background_accent_alternative--hover: #5785ba;
+    --vkui--color_background_accent_alternative--active: #5785ba;
+    --vkui--color_background: #1b222a;
+    --vkui--color_background--hover: #1b222a;
+    --vkui--color_background--active: #1b222a;
+    --vkui--color_background_content: #222c37;
+    --vkui--color_background_content--hover: #222c37;
+    --vkui--color_background_content--active: #222c37;
+    --vkui--color_background_secondary: #2a3742;
+    --vkui--color_background_secondary--hover: #2a3742;
+    --vkui--color_background_secondary--active: #2a3742;
+    --vkui--color_background_secondary_alpha: #2a3742;
+    --vkui--color_background_secondary_alpha--hover: #2a3742;
+    --vkui--color_background_secondary_alpha--active: #2a3742;
+    --vkui--color_background_tertiary: #222c37;
+    --vkui--color_background_tertiary--hover: #222c37;
+    --vkui--color_background_tertiary--active: #222c37;
+    --vkui--color_background_tertiary_alpha: #222c37;
+    --vkui--color_background_tertiary_alpha--hover: #222c37;
+    --vkui--color_background_tertiary_alpha--active: #222c37;
+    --vkui--color_background_contrast: #5785ba;
+    --vkui--color_background_contrast--hover: #222c37;
+    --vkui--color_background_contrast--active: #222c37;
+    --vkui--color_background_contrast_secondary_alpha: #222c37;
+    --vkui--color_background_contrast_inverse--hover: #222c37;
+    --vkui--color_background_contrast_inverse--active: #222c37;
+    --vkui--color_background_contrast_themed: #1b222a;
+    --vkui--color_background_contrast_themed--hover: #1b222a;
+    --vkui--color_background_contrast_themed--active: #1b222a;
+    --vkui--color_background_modal: #222c37;
+    --vkui--color_background_modal--hover: #222c37;
+    --vkui--color_background_modal--active: #222c37;
+    --vkui--color_background_modal_inverse: #cdd6f4;
+    --vkui--color_background_modal_inverse--hover: #cdd6f4;
+    --vkui--color_background_modal_inverse--active: #cdd6f4;
+    --vkui--color_background_positive: #5785ba;
+    --vkui--color_background_positive--hover: #5785ba;
+    --vkui--color_background_positive--active: #5785ba;
+    --vkui--color_background_positive_tint: #2a3742;
+    --vkui--color_background_positive_tint--hover: #2a3742;
+    --vkui--color_background_positive_tint--active: #2a3742;
+    --vkui--color_background_warning: #2a3742;
+    --vkui--color_background_warning--hover: #2a3742;
+    --vkui--color_background_warning--active: #2a3742;
+    --vkui--color_background_negative: #2a3742;
+    --vkui--color_background_negative--hover: #2a3742;
+    --vkui--color_background_negative--active: #2a3742;
+    --vkui--color_background_negative_tint: #2a3742;
+    --vkui--color_background_negative_tint--hover: #2a3742;
+    --vkui--color_background_negative_tint--active: #2a3742;
+    --vkui--color_field_background: #1b222a;
+    --vkui--color_field_background--hover: #1b222a;
+    --vkui--color_field_background--active: #1b222a;
+    --vkui--color_header_background: #222c37;
+    --vkui--color_header_background--hover: #222c37;
+    --vkui--color_header_background--active: #222c37;
+    --vkui--color_text_accent: #5785ba;
+    --vkui--color_text_accent--hover: #5785ba;
+    --vkui--color_text_accent--active: #5785ba;
+    --vkui--color_text_accent_themed: #cdd6f4;
+    --vkui--color_text_accent_themed--hover: #cdd6f4;
+    --vkui--color_text_accent_themed--active: #cdd6f4;
+    --vkui--color_text_primary: #cdd6f4;
+    --vkui--color_text_primary--hover: #cdd6f4;
+    --vkui--color_text_primary--active: #cdd6f4;
+    --vkui--color_text_primary_invariably--hover: #cdd6f4;
+    --vkui--color_text_primary_invariably--active: #cdd6f4;
+    --vkui--color_text_secondary: #7f849c;
+    --vkui--color_text_secondary--hover: #7f849c;
+    --vkui--color_text_secondary--active: #7f849c;
+    --vkui--color_text_subhead: #cdd6f4;
+    --vkui--color_text_subhead--hover: #cdd6f4;
+    --vkui--color_text_subhead--active: #cdd6f4;
+    --vkui--color_text_tertiary: #cdd6f4;
+    --vkui--color_text_tertiary--hover: #cdd6f4;
+    --vkui--color_text_tertiary--active: #cdd6f4;
+    --vkui--color_text_contrast: #cdd6f4;
+    --vkui--color_text_contrast--hover: #cdd6f4;
+    --vkui--color_text_contrast--active: #cdd6f4;
+    --vkui--color_text_contrast_themed: #222c37;
+    --vkui--color_text_contrast_themed--hover: #222c37;
+    --vkui--color_text_contrast_themed--active: #222c37;
+    --vkui--color_text_positive--hover: #cdd6f4;
+    --vkui--color_text_positive--active: #cdd6f4;
+    --vkui--color_text_negative: #cdd6f4;
+    --vkui--color_text_negative--hover: #cdd6f4;
+    --vkui--color_text_negative--active: #cdd6f4;
+    --vkui--color_text_link: #5785ba;
+    --vkui--color_text_link--hover: #5785ba;
+    --vkui--color_text_link--active: #5785ba;
+    --vkui--color_text_link_themed: #cdd6f4;
+    --vkui--color_text_link_themed--hover: #cdd6f4;
+    --vkui--color_text_link_themed--active: #cdd6f4;
+    --vkui--color_text_link_tint--hover: #5785ba;
+    --vkui--color_text_link_tint--active: #5785ba;
+    --vkui--color_text_link_visited--hover: #5785ba;
+    --vkui--color_text_link_visited--active: #5785ba;
+    --vkui--color_text_muted: #cdd6f4;
+    --vkui--color_text_muted--hover: #cdd6f4;
+    --vkui--color_text_muted--active: #cdd6f4;
+    --vkui--color_link_contrast--hover: #cdd6f4;
+    --vkui--color_link_contrast--active: #cdd6f4;
+    --vkui--color_icon_accent: #5785ba;
+    --vkui--color_icon_accent--hover: #5785ba;
+    --vkui--color_icon_accent--active: #5785ba;
+    --vkui--color_icon_accent_themed: #5785ba;
+    --vkui--color_icon_accent_themed--hover: #5785ba;
+    --vkui--color_icon_accent_themed--active: #5785ba;
+    --vkui--color_icon_primary: #5785ba;
+    --vkui--color_icon_primary--hover: #5785ba;
+    --vkui--color_icon_primary--active: #5785ba;
+    --vkui--color_icon_primary_invariably: #2a3742;
+    --vkui--color_icon_primary_invariably--hover: #2a3742;
+    --vkui--color_icon_primary_invariably--active: #2a3742;
+    --vkui--color_icon_medium: #5785ba;
+    --vkui--color_icon_medium--hover: #5785ba;
+    --vkui--color_icon_medium--active: #5785ba;
+    --vkui--color_icon_medium_alpha: #5785ba;
+    --vkui--color_icon_medium_alpha--hover: #5785ba;
+    --vkui--color_icon_medium_alpha--active: #5785ba;
+    --vkui--color_icon_secondary: #5785ba;
+    --vkui--color_icon_secondary--hover: #5785ba;
+    --vkui--color_icon_secondary--active: #5785ba;
+    --vkui--color_icon_secondary_alpha: #5785ba;
+    --vkui--color_icon_secondary_alpha--hover: #5785ba;
+    --vkui--color_icon_secondary_alpha--active: #5785ba;
+    --vkui--color_icon_tertiary: #5785ba;
+    --vkui--color_icon_tertiary--hover: #5785ba;
+    --vkui--color_icon_tertiary--active: #5785ba;
+    --vkui--color_icon_tertiary_alpha: #5785ba;
+    --vkui--color_icon_tertiary_alpha--hover: #5785ba;
+    --vkui--color_icon_tertiary_alpha--active: #5785ba;
+    --vkui--color_icon_contrast: #5785ba;
+    --vkui--color_icon_contrast--hover: #5785ba;
+    --vkui--color_icon_contrast--active: #5785ba;
+    --vkui--color_icon_contrast_themed: #1b222a;
+    --vkui--color_icon_contrast_themed--hover: #1b222a;
+    --vkui--color_icon_contrast_themed--active: #1b222a;
+    --vkui--color_icon_contrast_secondary--hover: #5785ba;
+    --vkui--color_icon_contrast_secondary--active: #5785ba;
+    --vkui--color_icon_positive--hover: #5785ba;
+    --vkui--color_icon_positive--active: #5785ba;
+    --vkui--color_icon_negative: #5785ba;
+    --vkui--color_icon_negative--hover: #5785ba;
+    --vkui--color_icon_negative--active: #5785ba;
+    --vkui--color_stroke_accent: #5785ba;
+    --vkui--color_stroke_accent--hover: #5785ba;
+    --vkui--color_stroke_accent--active: #5785ba;
+    --vkui--color_stroke_accent_themed: #cdd6f4;
+    --vkui--color_stroke_accent_themed--hover: #cdd6f4;
+    --vkui--color_stroke_accent_themed--active: #cdd6f4;
+    --vkui--color_separator_primary: #222c37;
+    --vkui--color_separator_primary--hover: #2a3742;
+    --vkui--color_separator_primary--active: #222c37;
+    --vkui--color_separator_primary2x: #2a3742;
+    --vkui--color_separator_primary2x--hover: #2a3742;
+    --vkui--color_separator_primary2x--active: #2a3742;
+    --vkui--color_separator_primary3x: #2a3742;
+    --vkui--color_separator_primary3x--hover: #2a3742;
+    --vkui--color_separator_primary3x--active: #2a3742;
+    --vkui--color_separator_primary_alpha: #2a3742;
+    --vkui--color_separator_primary_alpha--hover: #2a3742;
+    --vkui--color_separator_primary_alpha--active: #2a3742;
+    --vkui--color_separator_secondary: #2a3742;
+    --vkui--color_separator_secondary--hover: #2a3742;
+    --vkui--color_separator_secondary--active: #2a3742;
+    --vkui--color_stroke_positive--hover: #2a3742;
+    --vkui--color_stroke_positive--active: #2a3742;
+    --vkui--color_stroke_negative: #2a3742;
+    --vkui--color_stroke_negative--hover: #2a3742;
+    --vkui--color_stroke_negative--active: #2a3742;
+    --vkui--color_stroke_contrast: #cdd6f4;
+    --vkui--color_stroke_contrast--hover: #cdd6f4;
+    --vkui--color_stroke_contrast--active: #cdd6f4;
+    --vkui--color_image_border_alpha: #2a3742;
+    --vkui--color_image_border_alpha--hover: #2a3742;
+    --vkui--color_image_border_alpha--active: #2a3742;
+    --vkui--color_field_border_alpha: #222c37;
+    --vkui--color_field_border_alpha--hover: #222c37;
+    --vkui--color_field_border_alpha--active: #222c37;
+    --vkui--color_accent_green: #5785ba;
+    --vkui--color_accent_green--hover: #5785ba;
+    --vkui--color_accent_green--active: #5785ba;
+    --vkui--color_action_sheet_text: #5785ba;
+    --vkui--color_action_sheet_text--hover: #5785ba;
+    --vkui--color_action_sheet_text--active: #5785ba;
+    --vkui--color_image_placeholder: #2a3742;
+    --vkui--color_image_placeholder--hover: #2a3742;
+    --vkui--color_image_placeholder--active: #2a3742;
+    --vkui--color_image_placeholder_alpha: #2a3742;
+    --vkui--color_image_placeholder_alpha--hover: #2a3742;
+    --vkui--color_image_placeholder_alpha--active: #2a3742;
+    --vkui--color_skeleton_from: #1b222a;
+    --vkui--color_skeleton_from--hover: #1b222a;
+    --vkui--color_skeleton_from--active: #1b222a;
+    --vkui--color_skeleton_to: #2a3742;
+    --vkui--color_skeleton_to--hover: #2a3742;
+    --vkui--color_skeleton_to--active: #2a3742;
+    --vkui--color_button_text: #cdd6f4;
+    --vkui--color_button_text--hover: #cdd6f4;
+    --vkui--color_button_text--active: #cdd6f4;
+    --vkui--color_button_icon: #cdd6f4;
+    --vkui--color_button_icon--hover: #cdd6f4;
+    --vkui--color_button_icon--active: #cdd6f4;
+    --vkui--color_button_stroke: #cdd6f4;
+    --vkui--color_button_stroke--hover: #cdd6f4;
+    --vkui--color_button_stroke--active: #cdd6f4;
+    --vkui--color_write_bar_icon: #cdd6f4;
+    --vkui--color_write_bar_icon--hover: #cdd6f4;
+    --vkui--color_write_bar_icon--active: #cdd6f4;
+    --vkui--color_write_bar_input_background: #2a3742;
+    --vkui--color_write_bar_input_background--hover: #2a3742;
+    --vkui--color_write_bar_input_background--active: #2a3742;
+    --vkui--color_write_bar_input_border: #2a3742;
+    --vkui--color_write_bar_input_border--hover: #2a3742;
+    --vkui--color_write_bar_input_border--active: #2a3742;
+    --vkui--color_write_bar_input_border_alpha: #2a3742;
+    --vkui--color_write_bar_input_border_alpha--hover: #2a3742;
+    --vkui--color_write_bar_input_border_alpha--active: #2a3742;
+    --vkui--color_track_background: #1b222a;
+    --vkui--color_track_background--hover: #1b222a;
+    --vkui--color_track_background--active: #1b222a;
+    --vkui--color_track_buffer: #5785ba;
+    --vkui--color_track_buffer--hover: #5785ba;
+    --vkui--color_track_buffer--active: #5785ba;
+    --vkui--color_search_field_background: #2a3742;
+    --vkui--color_search_field_background--hover: #2a3742;
+    --vkui--color_search_field_background--active: #2a3742;
+    --vkui--color_panel_header_icon: #5785ba;
+    --vkui--color_panel_header_icon--hover: #5785ba;
+    --vkui--color_panel_header_icon--active: #5785ba;
+    --vkui--color_transparent--hover: #2a3742;
+    --vkui--color_transparent--active: #2a3742;
+    --vkui--vkontakte_color_snippet_border_alpha: #2a3742;
+    --vkui--vkontakte_color_snippet_border_alpha--hover: #2a3742;
+    --vkui--vkontakte_color_snippet_border_alpha--active: #2a3742;
+    --vkui--vkontakte_color_snippet_background: #2a3742;
+    --vkui--vkontakte_color_snippet_background--hover: #2a3742;
+    --vkui--vkontakte_color_snippet_background--active: #2a3742;
+    --vkui--vkontakte_color_input_border: #2a3742;
+    --vkui--vkontakte_color_input_border--hover: #2a3742;
+    --vkui--vkontakte_color_input_border--active: #2a3742;
+    --vkui--vkontakte_color_search_bar_background: #2a3742;
+    --vkui--vkontakte_color_search_bar_background--hover: #2a3742;
+    --vkui--vkontakte_color_search_bar_background--active: #2a3742;
+    --vkui--vkontakte_color_search_bar_field_tint: #2a3742;
+    --vkui--vkontakte_color_search_bar_field_tint--hover: #2a3742;
+    --vkui--vkontakte_color_search_bar_field_tint--active: #2a3742;
+    --vkui--vkontakte_background_hover_alpha: #2a3742;
+    --vkui--vkontakte_background_hover_alpha--hover: #2a3742;
+    --vkui--vkontakte_background_hover_alpha--active: #2a3742;
+    --vkui--vkontakte_color_accent_alternate: #cdd6f4;
+    --vkui--vkontakte_color_accent_alternate--hover: #cdd6f4;
+    --vkui--vkontakte_color_accent_alternate--active: #cdd6f4;
+    --vkui--vkontakte_color_background_suggestions: #2a3742;
+    --vkui--vkontakte_color_background_suggestions--hover: #2a3742;
+    --vkui--vkontakte_color_background_suggestions--active: #2a3742;
+    --vkui--vkontakte_color_background_keyboard: #2a3742;
+    --vkui--vkontakte_color_background_keyboard--hover: #2a3742;
+    --vkui--vkontakte_color_background_keyboard--active: #2a3742;
+    --vkui--vkontakte_color_content_placeholder_icon--hover: #cdd6f4;
+    --vkui--vkontakte_color_content_placeholder_icon--active: #cdd6f4;
+    --vkui--vkontakte_color_text_name: #cdd6f4;
+    --vkui--vkontakte_color_text_name--hover: #cdd6f4;
+    --vkui--vkontakte_color_text_name--active: #cdd6f4;
+    --vkui--vkontakte_color_control_background: #1b222a;
+    --vkui--vkontakte_color_control_background--hover: #1b222a;
+    --vkui--vkontakte_color_control_background--active: #1b222a;
+    --vkui--vkontakte_color_control_foreground: #cdd6f4;
+    --vkui--vkontakte_color_control_foreground--hover: #cdd6f4;
+    --vkui--vkontakte_color_control_foreground--active: #cdd6f4;
+    --vkui--vkontakte_color_control_tint_muted: #cdd6f4;
+    --vkui--vkontakte_color_control_tint_muted--hover: #cdd6f4;
+    --vkui--vkontakte_color_control_tint_muted--active: #cdd6f4;
+    --vkui--vkontakte_color_header_search_field_background: #2a3742;
+    --vkui--vkontakte_color_header_search_field_background--hover: #2a3742;
+    --vkui--vkontakte_color_header_search_field_background--active: #2a3742;
+    --vkui--vkontakte_color_header_search_field_tint: #cdd6f4;
+    --vkui--vkontakte_color_header_search_field_tint--hover: #cdd6f4;
+    --vkui--vkontakte_color_header_search_field_tint--active: #cdd6f4;
+    --vkui--vkontakte_color_icon_outline_medium: #5785ba;
+    --vkui--vkontakte_color_icon_outline_medium--hover: #5785ba;
+    --vkui--vkontakte_color_icon_outline_medium--active: #5785ba;
+    --vkui--vkontakte_color_icon_outline_secondary: #cdd6f4;
+    --vkui--vkontakte_color_icon_outline_secondary--hover: #cdd6f4;
+    --vkui--vkontakte_color_icon_outline_secondary--active: #cdd6f4;
+    --vkui--vkontakte_color_skeleton_shimmer_from: #222c37;
+    --vkui--vkontakte_color_skeleton_shimmer_from--hover: #222c37;
+    --vkui--vkontakte_color_skeleton_shimmer_from--active: #222c37;
+    --vkui--vkontakte_color_loader_background: #1b222a;
+    --vkui--vkontakte_color_loader_background--hover: #1b222a;
+    --vkui--vkontakte_color_loader_background--active: #1b222a;
+    --vkui--vkontakte_color_music_playback_icon: #cdd6f4;
+    --vkui--vkontakte_color_music_playback_icon--hover: #cdd6f4;
+    --vkui--vkontakte_color_music_playback_icon--active: #cdd6f4;
+    --vkui--vkontakte_color_status_background: #222c37;
+    --vkui--vkontakte_color_status_background--hover: #222c37;
+    --vkui--vkontakte_color_status_background--active: #222c37;
+    --vkui--vkontakte_color_placeholder_icon_foreground_primary: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_foreground_primary--hover: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_foreground_primary--active: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_foreground_secondary: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_foreground_secondary--hover: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_foreground_secondary--active: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_tint: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_tint--hover: #cdd6f4;
+    --vkui--vkontakte_color_placeholder_icon_tint--active: #cdd6f4;
+    --vkui--vkontakte_color_poll_option_background: #cdd6f4;
+    --vkui--vkontakte_color_poll_option_background--hover: #cdd6f4;
+    --vkui--vkontakte_color_poll_option_background--active: #cdd6f4;
+    --vkui--vkontakte_color_tabbar_active_icon: #cdd6f4;
+    --vkui--vkontakte_color_tabbar_active_icon--hover: #cdd6f4;
+    --vkui--vkontakte_color_tabbar_active_icon--active: #cdd6f4;
+    --vkui--vkontakte_color_tabbar_background: #2a3742;
+    --vkui--vkontakte_color_tabbar_background--hover: #2a3742;
+    --vkui--vkontakte_color_tabbar_background--active: #2a3742;
+    --vkui--vkontakte_color_tabbar_inactive_icon: #7f849c;
+    --vkui--vkontakte_color_tabbar_inactive_icon--hover: #7f849c;
+    --vkui--vkontakte_color_tabbar_inactive_icon--active: #7f849c;
+    --vkui--vkontakte_color_tabbar_tablet_text_secondary: #7f849c;
+    --vkui--vkontakte_color_tabbar_tablet_text_secondary--hover: #7f849c;
+    --vkui--vkontakte_color_tabbar_tablet_text_secondary--active: #7f849c;
+    --vkui--vkontakte_color_toolbar_attach_background_from: #7f849c;
+    --vkui--vkontakte_color_toolbar_attach_background_from--hover: #7f849c;
+    --vkui--vkontakte_color_toolbar_attach_background_from--active: #7f849c;
+    --vkui--vkontakte_color_splash_screen_icon: #2a3742;
+    --vkui--vkontakte_color_splash_screen_icon--hover: #2a3742;
+    --vkui--vkontakte_color_splash_screen_icon--active: #2a3742;
+    --vkui--vkontakte_color_icon_name: #cdd6f4;
+    --vkui--vkontakte_color_icon_name--hover: #cdd6f4;
+    --vkui--vkontakte_color_icon_name--active: #cdd6f4;
+    --vkui--vkontakte_color_panel_tab_active_text: #cdd6f4;
+    --vkui--vkontakte_color_panel_tab_active_text--hover: #cdd6f4;
+    --vkui--vkontakte_color_panel_tab_active_text--active: #cdd6f4;
+    --vkui--vkontakte_color_modal_card_header_close: #cdd6f4;
+    --vkui--vkontakte_color_modal_card_header_close--hover: #cdd6f4;
+    --vkui--vkontakte_color_modal_card_header_close--active: #cdd6f4;
+    --vkui--vkontakte_im_bubble_button_foreground: #cdd6f4;
+    --vkui--vkontakte_im_bubble_button_foreground--hover: #cdd6f4;
+    --vkui--vkontakte_im_bubble_button_foreground--active: #cdd6f4;
+    --vkui--vkontakte_im_bubble_incoming_highlighted: #cdd6f4;
+    --vkui--vkontakte_im_bubble_incoming_highlighted--hover: #cdd6f4;
+    --vkui--vkontakte_im_bubble_incoming_highlighted--active: #cdd6f4;
+    --vkui--vkontakte_im_bubble_outgoing_alternate: #1b222a;
+    --vkui--vkontakte_im_bubble_outgoing_alternate--hover: #1b222a;
+    --vkui--vkontakte_im_bubble_outgoing_alternate--active: #1b222a;
+    --vkui--vkontakte_im_attach_tint: #cdd6f4;
+    --vkui--vkontakte_im_attach_tint--hover: #cdd6f4;
+    --vkui--vkontakte_im_attach_tint--active: #cdd6f4;
+    --vkui--vkontakte_im_reply_separator: #5785ba;
+    --vkui--vkontakte_im_reply_separator--hover: #5785ba;
+    --vkui--vkontakte_im_reply_separator--active: #5785ba;
+    --vkui--vkontakte_im_toolbar_voice_msg_background: #1b222a;
+    --vkui--vkontakte_im_toolbar_voice_msg_background--hover: #1b222a;
+    --vkui--vkontakte_im_toolbar_voice_msg_background--active: #1b222a;
+    --vkui--vkontakte_color_im_forward_line_alpha: #5785ba;
+    --vkui--vkontakte_color_im_forward_line_alpha--hover: #5785ba;
+    --vkui--vkontakte_color_im_forward_line_alpha--active: #5785ba;
+    --vkui--vkontakte_color_im_bubble_incoming: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming--hover: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming--active: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_alternate: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_alternate--hover: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_alternate--active: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_expiring: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_expiring--hover: #2a3742;
+    --vkui--vkontakte_color_im_bubble_incoming_expiring--active: #2a3742;
+    --vkui--vkontakte_color_im_bubble_outgoing: #2a3742;
+    --vkui--vkontakte_color_im_bubble_outgoing--hover: #2a3742;
+    --vkui--vkontakte_color_im_bubble_outgoing--active: #2a3742;
+    --vkui--vkontakte_color_im_bubble_gift_text: #cdd6f4;
+    --vkui--vkontakte_color_im_bubble_gift_text--hover: #cdd6f4;
+    --vkui--vkontakte_color_im_bubble_gift_text--active: #cdd6f4;
+    --vkui--vkontakte_color_im_bubble_gift_text_secondary: #cdd6f4;
+    --vkui--vkontakte_color_im_bubble_gift_text_secondary--hover: #cdd6f4;
+    --vkui--vkontakte_color_im_bubble_gift_text_secondary--active: #cdd6f4;
+    --vkui--vkontakte_color_im_text_name: #5785ba;
+    --vkui--vkontakte_color_im_text_name--hover: #5785ba;
+    --vkui--vkontakte_color_im_text_name--active: #5785ba;
+    --vkui--vkontakte_button_muted_background: #2a3742;
+    --vkui--vkontakte_button_muted_background--hover: #2a3742;
+    --vkui--vkontakte_button_muted_background--active: #2a3742;
+    --vkui--vkontakte_button_tertiary_foreground: #cdd6f4;
+    --vkui--vkontakte_button_tertiary_foreground--hover: #cdd6f4;
+    --vkui--vkontakte_button_tertiary_foreground--active: #cdd6f4;
+    --vkui--vkontakte_float_button_foreground: #cdd6f4;
+    --vkui--vkontakte_float_button_foreground--hover: #cdd6f4;
+    --vkui--vkontakte_float_button_foreground--active: #cdd6f4;
+    --vkui--vkontakte_landing_background: #222c37;
+    --vkui--vkontakte_landing_background--hover: #222c37;
+    --vkui--vkontakte_landing_background--active: #222c37;
+    --vkui--vkontakte_im_bubble_incoming_alternate_highlighted: #cdd6f4;
+    --vkui--vkontakte_im_bubble_incoming_alternate_highlighted--hover: #cdd6f4;
+    --vkui--vkontakte_im_bubble_incoming_alternate_highlighted--active: #cdd6f4;
+    --vkui--vkontakte_im_bubble_outgoing_highlighted: #cdd6f4;
+    --vkui--vkontakte_im_bubble_outgoing_highlighted--hover: #cdd6f4;
+    --vkui--vkontakte_im_bubble_outgoing_highlighted--active: #cdd6f4;
+    --vkui--vkontakte_stories_skeleton_loader_background: #1b222a;
+    --vkui--vkontakte_stories_skeleton_loader_background--hover: #1b222a;
+    --vkui--vkontakte_stories_skeleton_loader_background--active: #1b222a;
+    --vkui--vkontakte_color_modal_card_border_alpha: none;
+    --vkui--vkontakte_color_modal_card_border_alpha--hover: none;
+    --vkui--vkontakte_color_modal_card_border_alpha--active: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha--hover: none;
+    --vkui--vkontakte_color_landing_snippet_border_alpha--active: none;
+    --convoHistoryBackgroundColor: #2a3742;
+}
 
-    body,
-    .slider_loading_bar,
-    .audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
-    .audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
-    .Slider-module__backTransparent--L5JfD.Slider-module__sliderPrimary--HV2wY::before,
-    .slider.slider_size_1 .slider_slide,
-    .videoplayer_slider ._bars_wrap,
-    .videoplayer_slider ._loaded,
-    .vkuiSegmentedControl,
-    .article_layer .article_layer__views,
-    .article_dark .article_layer__content_footer,
-    .ads-story_dummy,
-    .Office__content .ads_edit_page_wrap3,
-    .Breadcrumbs,
-    .SideOfficeMenu__navList,
-    .SideOfficeMenu__footer,
-    .SideOfficeMenu__navList::after,
-    .SideOfficeMenu__nav::after,
-    #ads_page,
-    .Breadcrumbs__list,
-    .Office .ads_general_info_preview,
-    .Office #ad_preview_top,
-    .vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
-    .vkuitrack--r7_Kp,
-    .inlMainTable td.inlContent,
-    .Office__content .paginated_table>table>tbody>tr>th.even_row,
-    .Office__content .paginated_table>table>tbody>tr>td.even_row,
-    .Office__content .ads_unions_table>tbody>tr>th.even_row,
-    .Office__content .ads_unions_table>tbody>tr>td.even_row,
-    .dd_menu .dd_menu_body table .dd_menu_rows a,
-    .dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
-    .dd_menu .dd_menu_body table .dd_menu_rows,
-    .Office__content .ui_table .ui_table_cell_empty,
-    .Header__left,
-    .CostEditFormPopover {
-        background: #1b222a;
-    }
+body,
+.slider_loading_bar,
+.audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide,
+.audio_page_player2 .audio_page_player_volume_slider.slider.slider_size_1 .slider_slide,
+.Slider-module__backTransparent--L5JfD.Slider-module__sliderPrimary--HV2wY::before,
+.slider.slider_size_1 .slider_slide,
+.videoplayer_slider ._bars_wrap,
+.videoplayer_slider ._loaded,
+.vkuiSegmentedControl,
+.article_layer .article_layer__views,
+.article_dark .article_layer__content_footer,
+.ads-story_dummy,
+.Office__content .ads_edit_page_wrap3,
+.Breadcrumbs,
+.SideOfficeMenu__navList,
+.SideOfficeMenu__footer,
+.SideOfficeMenu__navList::after,
+.SideOfficeMenu__nav::after,
+#ads_page,
+.Breadcrumbs__list,
+.Office .ads_general_info_preview,
+.Office #ad_preview_top,
+.vkitSlider__backTransparent--9Tf61.vkitSlider__sliderPrimary--HWoOY::before,
+.vkuitrack--r7_Kp,
+.inlMainTable td.inlContent,
+.Office__content .paginated_table > table > tbody > tr > th.even_row,
+.Office__content .paginated_table > table > tbody > tr > td.even_row,
+.Office__content .ads_unions_table > tbody > tr > th.even_row,
+.Office__content .ads_unions_table > tbody > tr > td.even_row,
+.dd_menu .dd_menu_body table .dd_menu_rows a,
+.dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.Office__content .ui_table .ui_table_cell_empty,
+.Header__left,
+.CostEditFormPopover {
+    background: #1b222a;
+}
 
-    .redesign_web .RecommendedPlaylist__audios,
-    .StatusPanel-module__inner--DB7re,
-    .pv_more_acts,
-    #pv_more_acts_tt,
-    .pv_bottom_info,
-    .AttachWallNew__link--post,
-    .vkuiPopover__in--withStyling,
-    .eltt.feature_info_tooltip,
-    .ConvoMain__themeWrapper,
-    .wdd_list,
-    .videoplayer_settings_menu_list,
-    .videoplayer_settings_menu_sublist,
-    .DatePicker .groups_edit_datepicker,
-    .GoalsList__column,
-    .GoalsFilterList__item,
-    .ads_edit_link_type_card,
-    .ads_edit_link_type_card_image_wrapper,
-    .Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
-    .Table__FiltersPanel .Table__Button.ads_stat_date_range,
-    .Table__FiltersPanel .Table__Button,
-    .Table__wrapper,
-    .Table__Cell--header,
-    .Table__Cell--footer,
-    .Table__Cell,
-    .Header,
-    .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
-    .PredictionWidget__header,
-    .ads_schedule_cell,
-    .PredictionWidget,
-    .Suggestion__Item,
-    .Suggestions,
-    .ads_schedule_cell_checked:hover,
-    .ads_schedule_cell_checked.ads_schedule_cell_hovered,
-    .Office #ad_preview_top .ads_ad_box,
-    .videoplayer_context_menu,
-    .HeaderProfile__Dropdown,
-    .vkuiCalendar,
-    .FCConvo__content,
-    .post_from_tt_row.active,
-    .vkuiTooltipBase__content,
-    .tt_w.like_tt,
-    html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper a[class*="StoryCard__root"],
-    html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper div[class*="StoryCard__root"],
-    html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root a[class*="StoryCard__root"],
-    html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root div[class*="StoryCard__root"],
-    html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
-    html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
-    .ComposerFormattingMenu__panel,
-    .media_voting,
-    .story_poll .box_body,
-    .ReactionChip--incoming,
-    .BudgetBalance,
-    .BudgetStats,
-    .TableColumnsSettings,
-    .Office__content .ui_table th.ui_table_cell,
-    .Office__content .ui_table tr.ui_table_row.even,
-    .Office__content .ui_table tr.ui_table_row:hover,
-    .HeaderProfile__image,
-    .ReactionChip--outgoing,
-    .article_ed__caredit,
-    .article_ed__caredit .article_ed__caredit_header,
-    .HeaderSectionSwitcher__button,
-    .exchange_not_found.table,
-    .HeaderSectionSwitcherDropdown__itemTitle,
-    .HeaderSectionSwitcherDropdown__listItemLink,
-    .HeaderSectionSwitcherDropdown,
-    .vkuiPopover__inWithStyling,
-    .vkuiCalendar__host,
-    .vkuiCustomSelectDropdown__host{
-        background: #222c37;
-    }
+.redesign_web .RecommendedPlaylist__audios,
+.StatusPanel-module__inner--DB7re,
+.pv_more_acts,
+#pv_more_acts_tt,
+.pv_bottom_info,
+.AttachWallNew__link--post,
+.vkuiPopover__in--withStyling,
+.eltt.feature_info_tooltip,
+.ConvoMain__themeWrapper,
+.wdd_list,
+.videoplayer_settings_menu_list,
+.videoplayer_settings_menu_sublist,
+.DatePicker .groups_edit_datepicker,
+.GoalsList__column,
+.GoalsFilterList__item,
+.ads_edit_link_type_card,
+.ads_edit_link_type_card_image_wrapper,
+.Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
+.Table__FiltersPanel .Table__Button.ads_stat_date_range,
+.Table__FiltersPanel .Table__Button,
+.Table__wrapper,
+.Table__Cell--header,
+.Table__Cell--footer,
+.Table__Cell,
+.Header,
+.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
+.PredictionWidget__header,
+.ads_schedule_cell,
+.PredictionWidget,
+.Suggestion__Item,
+.Suggestions,
+.ads_schedule_cell_checked:hover,
+.ads_schedule_cell_checked.ads_schedule_cell_hovered,
+.Office #ad_preview_top .ads_ad_box,
+.videoplayer_context_menu,
+.HeaderProfile__Dropdown,
+.vkuiCalendar,
+.FCConvo__content,
+.post_from_tt_row.active,
+.vkuiTooltipBase__content,
+.tt_w.like_tt,
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper div[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .StoryFeedBlockWrapper__root div[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .stories_feed_wrap a[class*="StoryCard__root"],
+html.B4t8_W1rj4lX7nwx .stories_feed_wrap div[class*="StoryCard__root"],
+.ComposerFormattingMenu__panel,
+.media_voting,
+.story_poll .box_body,
+.ReactionChip--incoming,
+.BudgetBalance,
+.BudgetStats,
+.TableColumnsSettings,
+.Office__content .ui_table th.ui_table_cell,
+.Office__content .ui_table tr.ui_table_row.even,
+.Office__content .ui_table tr.ui_table_row:hover,
+.HeaderProfile__image,
+.ReactionChip--outgoing,
+.article_ed__caredit,
+.article_ed__caredit .article_ed__caredit_header,
+.HeaderSectionSwitcher__button,
+.exchange_not_found.table,
+.HeaderSectionSwitcherDropdown__itemTitle,
+.HeaderSectionSwitcherDropdown__listItemLink,
+.HeaderSectionSwitcherDropdown,
+.vkuiPopover__inWithStyling,
+.vkuiCalendar__host,
+.vkuiCustomSelectDropdown__host{
+    background: #222c37;
+}
 
-    .reply_fakebox,
-    .deep_active .replies .reply_box div.submit_post_field,
-    .ui_gallery_wall_cards .wall_card,
-    .ui_search_new .ui_search_input_inner,
-    .ui_search.ui_search_new.ui_search_with_custom_controls.ui_search_field_empty .ui_search_custom_ctrl,
-    .selector_container table.selector_table,
-    .big.selector_container.selector_focused.reverse table.selector_table,
-    .prefix_input_wrap,
-    .notifier_baloon,
-    .videoplayer_settings_menu_list_item:hover,
-    .videoplayer_settings_menu_sublist_item:hover,
-    .videoplayer_settings_menu_list_item.active:hover,
-    .videoplayer_settings_menu_sublist_item.active:hover,
-    .vkuiSegmentedControl__slider,
-    .ConvoList__item--separator::before,
-    .SideOfficeMenu__link--active,
-    .SideOfficeMenu__link--active:focus,
-    .SideOfficeMenu__link--active:hover,
-    .SideOfficeMenu__link:focus,
-    .SideOfficeMenu__link:hover,
-    .GoalsListItem,
-    .GoalsFilterList__item--selected,
-    .Table__Cell--hasSort:hover,
-    .Table__Row--body:hover .Table__Cell,
-    #ads_graph_navigation a.nav:hover,
-    #ads_demography_navigation a.nav:hover,
-    .Office__content #ads_graph_navigation a.nav_selected,
-    .Office__content #ads_graph_navigation a.nav_selected:hover,
-    .Office__content #ads_demography_navigation a.nav_selected,
-    .Office__content #ads_demography_navigation a.nav_selected:hover,
-    .Table__FiltersPanel .Table__Button:hover,
-    .Table__Cell--status_view.Table__Cell--editable:hover,
-    .Table__Cell--status_view_on.Table__Cell--editable:hover,
-    .HeaderSectionSwitcher__button:focus,
-    .HeaderSectionSwitcher__button:hover,
-    .HeaderSectionSwitcher__button--open,
-    .HeaderSectionSwitcherDropdown__listItemLink--active,
-    .HeaderSectionSwitcherDropdown__listItemLink:focus,
-    .HeaderSectionSwitcherDropdown__listItemLink:hover,
-    a.HeaderSectionSwitcherDropdown__itemTitle:focus,
-    a.HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .HeaderNotifier:hover,
-    .HeaderNotifier.active,
-    .HeaderProfile:focus,
-    .HeaderProfile:hover,
-    .FormulaInput__SuggestionsContainer,
-    .Suggestion__Item:hover,
-    .Suggestion__Item--selected,
-    .Suggestion__Item--selected:hover,
-    .Office .ads_relevance_score,
-    .ads_main_notice,
-    .videoplayer_context_menu ._item:hover,
-    .ads_ad_snippet,
-    .mv_chat_reply_form,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
-    .ConvoMessage--selected,
-    .pt_search_container input.text,
-    .ads_stat_date_range,
-    .ads_stat_date_range:hover,
-    .Inputs__input,
-    .Inputs__input:focus,
-    .Inputs__input--focused,
-    .StaticRanges__label:hover,
-    .HeaderBudget:focus,
-    .HeaderBudget:hover,
-    .HeaderProfile__DropdownUser:hover,
-    .HeaderProfile__DropdownRow:hover,
-    .ads_edit_ad_submit_post_box,
-    .Input,
-    #market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control,
-    .audio-msg-track--transcriptToggle,
-    .audio-msg-track--transcriptToggle:hover,
-    .vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
-    .ConvoMessageWithoutBubble:hover,
-    .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
-    .PinnedMessage__container--Ycf2B,
-    .media_voting_option,
-    .media_voting_option::before,
-    .vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
-    .vkuihover--eZhd8.vkuimodeAccent--FZTmT,
-    .EditableUnionName__editButton:hover,
-    .EditableUnionName__inputWrapper,
-    .TableColumnsSettings__selectedColumnsItem,
-    .dd_menu .dd_menu_body table .dd_menu_rows a:hover,
-    .vkuiFormField__hover,
-    .vkuiFormField__modeDefault,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap .groups_edit_cover_wrap_main_wrap_loading,
-    .eltt.feature_intro_blue_tt,
-    .HeaderSectionSwitcherDropdown__itemTitle:focus,
-    .HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .exchange_table th{
-        background: #2a3742;
-    }
+.reply_fakebox,
+.deep_active .replies .reply_box div.submit_post_field,
+.ui_gallery_wall_cards .wall_card,
+.ui_search_new .ui_search_input_inner,
+.ui_search.ui_search_new.ui_search_with_custom_controls.ui_search_field_empty .ui_search_custom_ctrl,
+.selector_container table.selector_table,
+.big.selector_container.selector_focused.reverse table.selector_table,
+.prefix_input_wrap,
+.notifier_baloon,
+.videoplayer_settings_menu_list_item:hover,
+.videoplayer_settings_menu_sublist_item:hover,
+.videoplayer_settings_menu_list_item.active:hover,
+.videoplayer_settings_menu_sublist_item.active:hover,
+.vkuiSegmentedControl__slider,
+.ConvoList__item--separator::before,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.Table__FiltersPanel .Table__Button:hover,
+.Table__Cell--status_view.Table__Cell--editable:hover,
+.Table__Cell--status_view_on.Table__Cell--editable:hover,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+.HeaderSectionSwitcher__button--open,
+.HeaderSectionSwitcherDropdown__listItemLink--active,
+.HeaderSectionSwitcherDropdown__listItemLink:focus,
+.HeaderSectionSwitcherDropdown__listItemLink:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderNotifier:hover,
+.HeaderNotifier.active,
+.HeaderProfile:focus,
+.HeaderProfile:hover,
+.FormulaInput__SuggestionsContainer,
+.Suggestion__Item:hover,
+.Suggestion__Item--selected,
+.Suggestion__Item--selected:hover,
+.Office .ads_relevance_score,
+.ads_main_notice,
+.videoplayer_context_menu ._item:hover,
+.ads_ad_snippet,
+.mv_chat_reply_form,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
+.ConvoMessage--selected,
+.pt_search_container input.text,
+.ads_stat_date_range,
+.ads_stat_date_range:hover,
+.Inputs__input,
+.Inputs__input:focus,
+.Inputs__input--focused,
+.StaticRanges__label:hover,
+.HeaderBudget:focus,
+.HeaderBudget:hover,
+.HeaderProfile__DropdownUser:hover,
+.HeaderProfile__DropdownRow:hover,
+.ads_edit_ad_submit_post_box,
+.Input,
+#market_search_wrap .ui_search_with_custom_controls .ui_search_fltr_control,
+.audio-msg-track--transcriptToggle,
+.audio-msg-track--transcriptToggle:hover,
+.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
+.ConvoMessageWithoutBubble:hover,
+.Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
+.PinnedMessage__container--Ycf2B,
+.media_voting_option,
+.media_voting_option::before,
+.vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
+.vkuihover--eZhd8.vkuimodeAccent--FZTmT,
+.EditableUnionName__editButton:hover,
+.EditableUnionName__inputWrapper,
+.TableColumnsSettings__selectedColumnsItem,
+.dd_menu .dd_menu_body table .dd_menu_rows a:hover,
+.vkuiFormField__hover,
+.vkuiFormField__modeDefault,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap .groups_edit_cover_wrap_main_wrap_loading,
+.eltt.feature_intro_blue_tt,
+.HeaderSectionSwitcherDropdown__itemTitle:focus,
+.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.exchange_table th {
+    background: #2a3742;
+}
 
-    .vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
-    .vkuiInternalHorizontalScroll .vkuiTabsItem:hover,
-    .DateSeparator--active:not(.DateSeparator--themed),
-    .vkuiScrollArrow__icon,
-    .vkuiSwitch__track,
-    .ui_tab_new.ui_tab_sel,
-    .ui_tab_new.ui_tab_group_sel,
-    .ui_tab_new.ui_tab_sel:hover,
-    .ui_tab_new.ui_tab_group_sel:hover,
-    .ui_tab_new.ui_tab_sel:active,
-    .ui_tab_new.ui_tab_group_sel:active,
-    .ConvoMain__composerContent,
-    input.text,
-    input.search,
-    input.big_text,
-    input.dark,
-    .fakeinput,
-    div[contenteditable=true],
-    textarea,
-    .tdd_control,
-    .Office__content .paginated_table>table>tbody>tr>th,
-    .Office__content .ads_unions_table>tbody>tr>th,
-    .vkuiTabsItem__selected.vkuiTabsItem__modeAccent,
-    .vkuiTabsItem__hover.vkuiTabsItem__modeAccent {
-        background: #2a3742;
-        box-shadow: none;
-    }
+.vkuiTabsItem--selected.vkuiTabsItem--mode-accent,
+.vkuiInternalHorizontalScroll .vkuiTabsItem:hover,
+.DateSeparator--active:not(.DateSeparator--themed),
+.vkuiScrollArrow__icon,
+.vkuiSwitch__track,
+.ui_tab_new.ui_tab_sel,
+.ui_tab_new.ui_tab_group_sel,
+.ui_tab_new.ui_tab_sel:hover,
+.ui_tab_new.ui_tab_group_sel:hover,
+.ui_tab_new.ui_tab_sel:active,
+.ui_tab_new.ui_tab_group_sel:active,
+.ConvoMain__composerContent,
+input.text,
+input.search,
+input.big_text,
+input.dark,
+.fakeinput,
+div[contenteditable=true],
+textarea,
+.tdd_control,
+.Office__content .paginated_table > table > tbody > tr > th,
+.Office__content .ads_unions_table > tbody > tr > th,
+.vkuiTabsItem__selected.vkuiTabsItem__modeAccent,
+.vkuiTabsItem__hover.vkuiTabsItem__modeAccent {
+    background: #2a3742;
+    box-shadow: none;
+}
 
-    .Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
-    .Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
-    .Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh,
-    .videoplayer_slider ._filled,
-    .button_green,
-    .button_green:hover,
-    .Token__Container,
-    .Token__Input:hover,
-    .ads_schedule_cell_checked,
-    .ads_schedule_preset_selected,
-    .ads_schedule_preset_selected:hover,
-    .ads_schedule_cell_hovered,
-    .ads_schedule_cell:hover,
-    .vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d,
-    .im-navigation--label-in,
-    .media_voting_option_bar,
-    .ReactionChip--outgoing.ReactionChip--active {
-        background: #5785ba;
-    }
+.Slider-module__fillWriteBarIcon--W6ijG.Slider-module__fill--Gxkxh,
+.Slider-module__fillTrackBuffered--DzV0t.Slider-module__fill--Gxkxh,
+.Slider-module__fillTransparent--BvWiT.Slider-module__fill--Gxkxh,
+.videoplayer_slider ._filled,
+.button_green,
+.button_green:hover,
+.Token__Container,
+.Token__Input:hover,
+.ads_schedule_cell_checked,
+.ads_schedule_preset_selected,
+.ads_schedule_preset_selected:hover,
+.ads_schedule_cell_hovered,
+.ads_schedule_cell:hover,
+.vkitSlider__sliderSizeL--U9ls4 .vkitSlider__fill--9yU7d,
+.im-navigation--label-in,
+.media_voting_option_bar,
+.ReactionChip--outgoing.ReactionChip--active {
+    background: #5785ba;
+}
 
-    .vkuiSwitch__pseudo:before {
-        background: #cdd6f4;
-    }
+.vkuiSwitch__pseudo:before {
+    background: #cdd6f4;
+}
 
-    .UnreadCounter.UnreadCounter--muted {
-        background: #5785baa3;
-        color: #1b222a;
-    }
+.UnreadCounter.UnreadCounter--muted {
+    background: #5785baa3;
+    color: #1b222a;
+}
 
-    .redesign_web .RecommendedPlaylist,
-    .vkuiImageBase__border,
-    .vkuiImageBase,
-    .OwnerContentTabAudiosPlaylistsItem__cover,
-    .OwnerContentTabAudiosItem__cover,
-    #group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
-    .RoundedGroupItem-module__rootShadow--__QR_,
-    #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
-    .videoplayer_end_screen,
-    .gedit_block_footer,
-    .HeaderSectionSwitcher,
-    .PredictionWidget__body,
-    .videoplayer_media_provider,
-    .UserRecommendationItem-module__main--d2bFU,
-    .Office__content .paginated_table>table,
-    .Office__content .ads_unions_table,
-    .Office__content .paginated_table>table>tbody>tr.empty_row td,
-    .Office__content .ads_unions_table>tbody>tr.empty_row td,
-    tr.ads_union_empty_row td.ads_union_empty_cell,
-    .Office__content .paginated_table>table>tbody>tr,
-    .Office__content .ads_unions_table>tbody>tr,
-    .ads_unions_list .table_footer td,
-    .pt_search_container,
-    .wall_module .wall_reply_text,
-    .PredictionWidget{
-        background: none;
-        border: none;
-    }
+.redesign_web .RecommendedPlaylist,
+.vkuiImageBase__border,
+.vkuiImageBase,
+.OwnerContentTabAudiosPlaylistsItem__cover,
+.OwnerContentTabAudiosItem__cover,
+#group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
+.RoundedGroupItem-module__rootShadow--__QR_,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
+.videoplayer_end_screen,
+.gedit_block_footer,
+.HeaderSectionSwitcher,
+.PredictionWidget__body,
+.videoplayer_media_provider,
+.UserRecommendationItem-module__main--d2bFU,
+.Office__content .paginated_table > table,
+.Office__content .ads_unions_table,
+.Office__content .paginated_table > table > tbody > tr.empty_row td,
+.Office__content .ads_unions_table > tbody > tr.empty_row td,
+tr.ads_union_empty_row td.ads_union_empty_cell,
+.Office__content .paginated_table > table > tbody > tr,
+.Office__content .ads_unions_table > tbody > tr,
+.ads_unions_list .table_footer td,
+.pt_search_container,
+.wall_module .wall_reply_text,
+.PredictionWidget {
+    background: none;
+    border: none;
+}
 
-    .vkitLeftMenuItem__counter--syb1p,
-    .vkuiCounter__host,
-    .Token__Container,
-    .UsersStack__counter,
-    .im-navigation--label-in {
-        color: #1b222a;
-    }
+.vkitLeftMenuItem__counter--syb1p,
+.vkuiCounter__host,
+.Token__Container,
+.UsersStack__counter,
+.im-navigation--label-in {
+    color: #1b222a;
+}
 
-    [dir] body .im-action_media:before,
-    [dir] body .im-action_mute:before,
-    .audio_row__more_actions .audio_row__more_action,
-    .audio_numeric .audio_row .audio_row__counter,
-    .audio_pl_snippet2 .audio_pl_snippet__stats,
-    div.img_title,
-    .article_dark .article,
-    .Breadcrumbs,
-    .Breadcrumb__link,
-    .Breadcrumb--bold,
-    .GoalsFilterList__item--selected,
-    .RequirementsModal__listItem,
-    .HeaderSectionSwitcherDropdown__itemTitleSpan,
-    #exchange_tasks_list_table .title,
-    #exchange_campaigns_list_table .title,
-    .SideOfficeMenu__link,
-    .SectionSwitcher__button,
-    .SectionSwitcherDropdown,
-    .HeaderSectionSwitcher__button,
-    .HeaderSectionSwitcherDropdown__listItemLink,
-    .PlatformChooser__title,
-    .Office__content .ads_edit_value_header,
-    .PredictionWidget__headerValue,
-    .PredictionWidget__headerTitle,
-    .PredictionItem__value,
-    .PredictionItem__title,
-    .PredictionWidget__bodyHeaderTitle,
-    .PredictionWidget__footer,
-    .PredictionItem__helper,
-    .ads_edit_targeting_group_hider_title,
-    .Suggestion__ItemName,
-    .ads_edit_tt_text,
-    .Office__content .paginated_table>table>tbody>tr.empty_row td,
-    .Office__content .ads_unions_table>tbody>tr.empty_row td,
-    .ads_stat_date_range:active,
-    .ads_stat_date_range_pressed,
-    .HeaderBudget__link,
-    #ads_unions_content .table_label,
-    tr.ads_union_empty_row td.ads_union_empty_cell,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing_text,
-    .post_from_tt_row.active,
-    .videoplayer_settings_menu_sublist_item,
-    .BudgetStats__td--money,
-    .Office__content .ui_table .ui_table_cell_empty,
-    .ads_union_promoted_post_stat_headline_item,
-    .HeaderSectionSwitcher__dropdownIcon,
-    .audio_edit_label,
-    .audio_edit_input.chk,
-    .article_ed__caredit .article_ed__caredit_header,
-    .vkitgetColorClass__colorIconContrast--3EgJQ,
-    .videoplayer_context_menu ._item,
-    .PredictionWidget--theme-inline .PredictionWidget__item .PredictionItem__title,
-    #pv_more_acts_tt .pv_more_act_item{
-        color: #cdd6f4;
-    }
+[dir] body .im-action_media:before,
+[dir] body .im-action_mute:before,
+.audio_row__more_actions .audio_row__more_action,
+.audio_numeric .audio_row .audio_row__counter,
+.audio_pl_snippet2 .audio_pl_snippet__stats,
+div.img_title,
+.article_dark .article,
+.Breadcrumbs,
+.Breadcrumb__link,
+.Breadcrumb--bold,
+.GoalsFilterList__item--selected,
+.RequirementsModal__listItem,
+.HeaderSectionSwitcherDropdown__itemTitleSpan,
+#exchange_tasks_list_table .title,
+#exchange_campaigns_list_table .title,
+.SideOfficeMenu__link,
+.SectionSwitcher__button,
+.SectionSwitcherDropdown,
+.HeaderSectionSwitcher__button,
+.HeaderSectionSwitcherDropdown__listItemLink,
+.PlatformChooser__title,
+.Office__content .ads_edit_value_header,
+.PredictionWidget__headerValue,
+.PredictionWidget__headerTitle,
+.PredictionItem__value,
+.PredictionItem__title,
+.PredictionWidget__bodyHeaderTitle,
+.PredictionWidget__footer,
+.PredictionItem__helper,
+.ads_edit_targeting_group_hider_title,
+.Suggestion__ItemName,
+.ads_edit_tt_text,
+.Office__content .paginated_table > table > tbody > tr.empty_row td,
+.Office__content .ads_unions_table > tbody > tr.empty_row td,
+.ads_stat_date_range:active,
+.ads_stat_date_range_pressed,
+.HeaderBudget__link,
+#ads_unions_content .table_label,
+tr.ads_union_empty_row td.ads_union_empty_cell,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing_text,
+.post_from_tt_row.active,
+.videoplayer_settings_menu_sublist_item,
+.BudgetStats__td--money,
+.Office__content .ui_table .ui_table_cell_empty,
+.ads_union_promoted_post_stat_headline_item,
+.HeaderSectionSwitcher__dropdownIcon,
+.audio_edit_label,
+.audio_edit_input.chk,
+.article_ed__caredit .article_ed__caredit_header,
+.vkitgetColorClass__colorIconContrast--3EgJQ,
+.videoplayer_context_menu ._item,
+.PredictionWidget--theme-inline .PredictionWidget__item .PredictionItem__title,
+#pv_more_acts_tt .pv_more_act_item {
+    color: #cdd6f4;
+}
 
-    .top_audio_player .top_audio_player_title,
-    .article_theme[theme=dark] .article>h3 {
-        color: #5785ba;
-    }
+.top_audio_player .top_audio_player_title,
+.article_theme[theme=dark] .article > h3 {
+    color: #5785ba;
+}
 
-    .ProfileIndicatorBadge__badgeLastSeen,
-    body .reply_author_label {
-        color: #222c37;
-    }
+.ProfileIndicatorBadge__badgeLastSeen,
+body .reply_author_label {
+    color: #222c37;
+}
 
-    .tt_black .tt_text {
-        background: #2a3742;
-        color: #cdd6f4;
-    }
+.tt_black .tt_text {
+    background: #2a3742;
+    color: #cdd6f4;
+}
 
-    .vkuiSeparator--mode-primary,
-    .vkuiTooltipBase__arrow {
-        color: transparent;
-    }
+.vkuiSeparator--mode-primary,
+.vkuiTooltipBase__arrow {
+    color: transparent;
+}
 
-    .videoplayer_settings_menu_sublist_divider {
-        background: transparent;
-    }
+.videoplayer_settings_menu_sublist_divider {
+    background: transparent;
+}
 
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews        .groups_edit_cover_wrap_live_upload.disabled .groups_edit_cover_wrap_live_upload_placeholder_disabled,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_enabled,
-    .TemplatesDropDown__container,
-    .VideoRestriction__boxWrap,
-    .tt_w.tt_black,
-    .flat_button:active,
-    .flat_button.active,
-    .button_blue button:active,
-    .button_blue button.active,
-    .medadd_c_linkbtn .flat_button.active,
-    .medadd_inline_editable,
-    .medadd_inline_editable:hover,
-    .page_media_link_url.medadd_inline_editable,
-    .EditorCanvas-module__roundedCanvas--xh8XZ,
-    .ok_msg,
-    .feedback_row_wrap.unread:not(.feedback_row_touched),
-    .wddi,
-    .wddi_over,
-    .videoplayer,
-    .videoplayer_slider ._loaded,
-    .videoplayer_slider ._bars_wrap,
-    .videoplayer_settings_menu_list,
-    .videoplayer_settings_menu_sublist,
-    .videoplayer_settings_menu_list_item:hover,
-    .videoplayer_settings_menu_sublist_item:hover,
-    .videoplayer_settings_menu_list_item.active:hover,
-    .videoplayer_settings_menu_sublist_item.active:hover,
-    .index_user_row,
-    .index_page .page_block,
-    .VkIdForm__input,
-    .SitesExamplesGalleryCard,
-    .groups_edit_event_log_page .groups_edit_event_log_items_wrap .groups_edit_event_log_item_main,
-    .DatePicker,
-    .DatePicker .groups_edit_datepicker,
-    #groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview.preview .groups_edit_menu_item_preview_img,
-    .PhotoItem,
-    .thumbed_link--group-snippet,
-    .nim-dialog.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog:hover,
-    .nim-dialog:not(.nim-dialog_deleted):hover+.nim-dialog,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_hovered,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered+.nim-dialog,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_classic.nim-dialog_unread,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic+.nim-dialog,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered+.im-search-results-head,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic+.im-search-results-head,
-    .nim-dialog:not(.nim-dialog_deleted):hover+.im-search-results-head,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.nim-dialog,
-    .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected+.im-search-results-head,
-    .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light),
-    .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_selected,
-    .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_light,
-    .im-page_classic.im-page .im-mess-stack--mess li:last-of-type,
-    .stories_groups_block_stories_wrap .stories_groups_block_stories_row,
-    .cal_table,
-    .cal_table .today,
-    .cal_table .today:not(.sel),
-    .cal_table .next_month_day,
-    .cal_table .prev_month_day,
-    .cal_table .day.sel,
-    .cal_table .day:hover:not(.inactive_day),
-    .ConvoList__item--separator::before,
-    .MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
-    .tdd_control,
-    .MediaViewer__footer,
-    .ads-story_dummy,
-    .Office .EditableLabel__textarea,
-    .EditableLabel:hover .EditableLabel__text,
-    .Token__Container,
-    .Token__Container.Token--type-2 .Token__Closer,
-    .Token__Container.Token--type-2:hover .Token__Closer,
-    .Token__Input:hover,
-    .Suggestion__Item,
-    .Suggestions,
-    .Table__FiltersPanel .Table__SearchTermInput,
-    .Office #ad_preview_top,
-    .Office #ad_preview_top.promoted_post .ads_ad_box,
-    .Office #ad_preview_top .ads_ad_box.story,
-    .VideoCard__postponePublishInfo,
-    .VideoCardControls-module__controls--OLuow,
-    .VideoCardBadge-module__durationBadge--AjdSt.VideoCardBadge-module__durationBadge--AjdSt,
-    .VideoCardViewedDuration-module__viewedDuration--fPxO4,
-    .MenuList__item,
-    .PlaylistPanel__item,
-    .PlaylistPanel__itemAction,
-    .PortalNavigation:hover,
-    .PortalNavigation--expanded,
-    .PortalNavigationDropdown.PortalNavigationDropdown,
-    .VideoRecomsItem__duration,
-    .VideoRecomsItem__thumb_wrap,
-    .mv_info,
-    #mv_box._has_recomms:not(._hide_recomms):not(._has_time_codes):not(._has_goods) .mv_info_narrow_column,
-    .videoplayer_context_menu,
-    .videoplayer_context_menu ._item,
-    .VideoCard__thumbWrapper,
-    .VideoSearchInput.ui_search_new .ui_search_input_block,
-    .VideoCard .VideoCard__actions,
-    .VideoCard__label,
-    .VideoCardMenu,
-    .VideoCardMenu__item,
-    .VibeRecomsPlaylist,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_edit .groups_edit_cover_wrap_main_edit_img,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_preview img,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
-    .groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area span,
-    .editable_thumbs .thumb_wrap .draggable_thumb,
-    .pt_search_container input.text,
-    .HeaderProfile__DropdownUser:hover,
-    .HeaderProfile__DropdownRow:hover,
-    .ads_warning,
-    .ads_edit_easy_promote_box.checkout_enabled.box_no_title,
-    .ads_edit_easy_promote_box.checkout_enabled .ads_edit_easy_promote_box__image_pay,
-    .vkitLeftMenuItem__item--qlG6N.vkitLeftMenuItem__item--qlG6N,
-    .im-group-online-box .box_body,
-    .StepAsideInfo__asideInfo--o6ycN,
-    .VideoPreview__videoDuration--4OljO,
-    .audio_pl_snippet2 .audio_shuffle_all_button:hover,
-    .oXPVlZtlcjoi6d8e,
-    .Qz12flm1ckhwWMRi,
-    .AudioLyricsPlayer__player--xVDMn,
-    .AudioLyricsLine__line--OHlKB,
-    .audio_page_save_as_playlist .audio_page_save_as_playlist_icon_wrapper,
-    .NarrativeSnippet,
-    .vkitContentBadge__root--i6wr7,
-    .MarketServiceCreatePhotos__photo--dlloZ,
-    .market_row_controls,
-    .audio-msg-track--transcriptToggle,
-    .im_msg_audiomsg .audio-msg-track:not(.audio-msg-player),
-    .vkuiCalendar,
-    .vkuiCalendarDay__inner,
-    .TemplatesDropDown__item,
-    .video_upload__thumb_chooser_wrap .video_tc_item,
-    .video_tc_item_selected .video_tc_item_check,
-    .video_tc_item_selected .ThumbChooser__itemCheck,
-    .app_widget_list_icon .app_widget_image,
-    .vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
-    .ExclusivePlaylist,
-    .ExclusivePlaylist__cover,
-    .vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl,
-    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value:hover,
-    .my_current_info:hover,
-    .no_current_info:hover,
-    .NewCropControls__buttons--1xajS,
-    .feedback_rphoto_img,
-    .VideoPrimaryAttachment__thumbWrapper,
-    .AudioPlaylistSnippet__cover,
-    .AudioPlaylistSnippet__covers,
-    .CategoryMenuDropdown__list--5FB4F,
-    .vkitProductPreview__wrapperActive--xGFBg,
-    .vkuiActionSheet__content-wrapper,
-    .wall_card__close,
-    .PhotoCarouselImage,
-    .BookmarkGameBlock__contentWithImage,
-    .BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image,
-    .BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured,
-    .app_widget_tiles_tile .app_widget_image,
-    .vkitMiniProductCardSlider__gallery--oXEbo,
-    .vkitPollOptions__votingOption--0vJwA,
-    .ConvoMessageWithoutBubble:hover,
-    .Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
-    .ConvoMessageWithoutBubble,
-    .ComposerSelecting,
-    .groups_cover_box .groups_edit_cover_wrap .page_cover_menu.video_size .page_cover_action,
-    .HiddenPostBlank,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
-    .EcoPlate_item__pFaRt,
-    .SearchResults__root--4ml3U,
-    .post_from_tt_row.active,
-    .post_from_tt_row:hover,
-    .deep_active .replies .replies_wrap_deep .replies_deep_collapse::before,
-    .deep_active .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
-    .deep_active.wall_module .replies .replies_wrap_deep .replies_deep_collapse::before,
-    .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
-    .blst_last:hover,
-    .Post--redesignV3 .VideoPrimaryAttachment__thumbWrapper,
-    .Post--redesignV3 .VideoPrimaryAttachment,
-    .VideoTrack__cover,
-    .vkitOverlay__root--AjJAj.vkitOverlay__root--AjJAj,
-    .vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
-    .tt_w.like_tt,
-    .replies .reply.reply_inline:hover,
-    .PinnedMessage__container--Ycf2B,
-    .vkitMusicTrackOverlayBadge__root--JroqM,
-    .vkitMusicPlaylistOverlayBadge__root--WhtZe,
-    .vkitPrimaryAttachmentCrop__root--gUsGz,
-    .vkuiTappable__stateLayer--OFlce,
-    .pretty-card,
-    .vkmListHeader__button,
-    :where(.ActionsMenu),
-    .ActionsMenuAction--size-regular,
-    .SearchResults-module__root--mnxjb,
-    .top_notify_wrap.layer_place,
-    #audio_layer_tt,
-    .EcosystemServicesNavigationDropdown_popout__NYAnq,
-    .EcosystemServicesNavigationBaseItem_icon__x0vZr::after,
-    #top_profile_menu.top_profile_menu_react,
-    .ui_search_fltr,
-    .result_list ul li,
-    .big.selector_container.selector_focused table.selector_table,
-    .Slider-module__root--_8EdI,
-    .top_notify_cont .feedback_row:not(.dld).hover,
-    .top_notify_cont .feedback_row:not(.dld):hover,
-    .top_notify_show_all:hover,
-    .notify_sources_tt_content,
-    .tt_default,
-    .tt_default_right,
-    .audio_pl_item2 .audio_pl__cover,
-    .audio_pl__actions_wrap,
-    .MusicAuthor__playButton,
-    .video_item .video_item_thumb,
-    .video_item .video_item_thumb_wrap,
-    .video_thumb_actions,
-    .video_thumb_label,
-    .ap_layer_wrap .ap_layer__content,
-    .audio_pl_snippet2,
-    .audio_pl_snippet2:last-child,
-    .page-group-actions .page-group-action,
-    .redesigned-group-main-action:hover,
-    .narrow_column.narrow_redesign .page_photo.page_action_menu_groups .PageActionCell,
-    .Pz6oeKouv4v2NV4X,
-    .f6_Sg6L_FH1PvbOs,
-    .AudioSnippetBanner__image,
-    .RecomsPlaylist__content,
-    .RecomsPlaylist__cover,
-    .RecomsPlaylist__actions,
-    .VibeRecomsPlaylist__content,
-    .VibeRecomsPlaylist__image_wrapper,
-    .RecommendedPlaylist__actions,
-    .RecommendedPlaylist__top,
-    .RecommendedPlaylist,
-    .RecommendedPlaylist__backdrop--colors,
-    .RecommendedPlaylist__backdrop,
-    .AudioRadiostationItem__actionsContainer,
-    .AudioRadiostationItem__banner,
-    .BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
-    .PhotoPrimaryAttachment,
-    .MediaGrid__imageElement,
-    .image_cover,
-    .ConvoAttachPhoto__img,
-    .ConvoAttachesPhotos__item,
-    .ConvoAttachesVideoItem__preview,
-    .ConvoAttachesLinks__itemContainer,
-    .AttachWallNew__donut,
-    .AttachWallNew__deleted,
-    .AttachWallNew__link--post,
-    .DateSeparator,
-    .MediaViewerPhoto__imgView,
-    div.wdd.wdd_focused,
-    .ConvoHeader__action,
-    .sTpn2Kx9DZpQUest,
-    .BurgerMenu__button,
-    .MEConfig button,
-    .OwnerContentTabPhotos__itemsWrapper,
-    .PostBottomAction--withBg,
-    .tt_black .tt_text,
-    .deep_active .replies .reply_fakebox,
-    .deep_active .wl_replies_block_wrap .reply_fakebox,
-    .deep_active.wall_module .replies .reply_fakebox,
-    .deep_active.wall_module .wl_replies_block_wrap .reply_fakebox,
-    .deep_active .replies .reply_field_wrap .reply_field,
-    .deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .replies .reply_field_wrap .reply_field,
-    .deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field,
-    .deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .ConvoMain__composerContent,
-    .ConvoComposer__stickersPanel,
-    .MessageReactionPickerExtended,
-    .ConvoStack,
-    .ConvoHistory__flowStack,
-    .StickerEmojiMenuPopper__content,
-    body .reply_author_label,
-    .app_widget_image,
-    .app_widget_list_cover_gradient,
-    .groups-redesigned-info-rows .page_list_module .line_cell,
-    .groups-redesigned-info-rows .page_list_module .line_cell:first-child,
-    .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
-    .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
-    #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
-    #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
-    #group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
-    .ui_gallery_wall_cards .wall_card,
-    .redesigned-group-subscribed--button:hover,
-    #wk_box.wk_info_content .group-info-box,
-    #pv_more_acts_tt,
-    #pv_more_acts_tt .pv_more_act_item:hover,
-    .pv_more_act_item_sep,
-    .group-redesigned-narrow.narrow_column .module_body .people_cell,
-    .group-tab-photos,
-    .StoryPreviewContainer,
-    .NarrativeEditorDataPanel__nameInput,
-    .StoryArchivePreview__linkBtn,
-    .eltt.feature_intro_tt,
-    .eltt,
-    .Post__copyrightButton:hover,
-    .photos_container_albums .photos_album_thumb,
-    .photos_container_albums .photos_album_title_wrap,
-    .photos_choose_row,
-    .flist_item_wrap:hover,
-    .im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
-    .im-chat-input .im-chat-input--txt-wrap,
-    .im-chat-input .im-chat-input--text,
-    .settings_silent_mode,
-    .privacy_dropdown,
-    .friends_cur_filters .token,
-    .friends_find_user_img,
-    .big.selector_container.selector_focused.reverse table.selector_table,
-    .idd_popup,
-    .idd_popup .idd_item,
-    .idd_popup .idd_items_content,
-    .idd_popup .idd_header_wrap,
-    .audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
-    .audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]),
-    .vkuiTappable--hovered-background>.vkuiTappable__stateLayer,
-    .EcosystemMultiAccounts_userCell__CT-qt,
-    .PrimaryAttachmentArticle-module__container--QRb3_,
-    .Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
-    #groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
-    .SideOfficeMenu__link--active,
-    .SideOfficeMenu__link--active:focus,
-    .SideOfficeMenu__link--active:hover,
-    .SideOfficeMenu__link:focus,
-    .SideOfficeMenu__link:hover,
-    a.HeaderSectionSwitcherDropdown__itemTitle:focus,
-    a.HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .HeaderSectionSwitcherDropdown__listItemLink--active,
-    .HeaderSectionSwitcherDropdown__listItemLink:focus,
-    .HeaderSectionSwitcherDropdown__listItemLink:hover,
-    .GoalsListItem,
-    .GoalsFilterList__item--selected,
-    .Table__Cell--hasSort:hover,
-    .Table__Row--body:hover .Table__Cell,
-    #ads_graph_navigation a.nav:hover,
-    #ads_demography_navigation a.nav:hover,
-    .Office__content #ads_graph_navigation a.nav_selected,
-    .Office__content #ads_graph_navigation a.nav_selected:hover,
-    .Office__content #ads_demography_navigation a.nav_selected,
-    .Office__content #ads_demography_navigation a.nav_selected:hover,
-    .GoalsList__column,
-    .GoalsFilterList__item,
-    .ads_edit_link_type_card,
-    .ads_edit_link_type_card_image_wrapper,
-    .Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
-    .Table__FiltersPanel .Table__Button.ads_stat_date_range,
-    .Table__FiltersPanel .Table__Button,
-    .Table__wrapper,
-    .Table__Cell--header,
-    .Table__Cell--footer,
-    .Table__Cell,
-    .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
-    .PredictionWidget__header,
-    .ads_schedule_cell,
-    .ads_schedule_cell_hovered,
-    .ads_schedule_cell:hover,
-    .ads_schedule_row:first-child .ads_schedule_cell:first-child,
-    .ads_schedule_row:first-child .ads_schedule_cell:last-child,
-    .ads_schedule_row:last-child .ads_schedule_cell:last-child,
-    .ads_schedule_row:last-child .ads_schedule_cell:first-child,
-    .ads_schedule_row:first-child .ads_schedule_cell,
-    .ads_schedule_cell:first-child,
-    .FormulaInput__SuggestionsContainer,
-    .tt .tt_text,
-    .Office .ads_relevance_score,
-    .ads_main_notice,
-    .VideoRecomsItem__thumb_wrap::after,
-    .FCWindow__header,
-    .FCWindow,
-    .ads_ad_snippet,
-    .mv_chat_reply_form,
-    .VideoChatHideButton-module__button--URjJQ,
-    .wide_column .group-tab-clips .short_video_item,
-    .group-tab-videos .VideoSectionCard .video_thumb_label,
-    .page_video_thumb,
-    .group-tab-videos .VideoSectionCard .video,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover_back,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__sound_bars,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
-    .group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
-    .PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
-    .PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI,
-    .Office__content .paginated_table>table>tbody>tr>th,
-    .Office__content .ads_unions_table>tbody>tr>th,
-    .pt_search_container input.text,
-    .ads_stat_date_range,
-    .HeaderProfile__Dropdown,
-    input.ads_edit_easy_promote_box__payments-input-amount,
-    .thumbed_link,
-    .owner_photo_additional,
-    .vkitSlider__fill--9yU7d,
-    .vkitSlider__root--8vBVk::before,
-    .bordered-thumb::after,
-    .EcommPreviewProductCardProductPicture::after,
-    .InfoBlock--neutral,
-    .VideoPrimaryAttachment,
-    .author_page_article_image,
-    .author_page_article_image::after,
-    .author_page_bookmark_wrap,
-    .group-tab-addresses .group_info_row.map .group_info_map,
-    .vkuistateLayer--Af_cW,
-    .wk_address_content .addresses_wrap .addresses_map,
-    .ymaps-2-1-79-float-button,
-    .group_info_rows_redesign .group_info_row.map .group_info_map,
-    .FancyElementTT__item:hover,
-    .ComposerFormattingMenu__panel,
-    .vkitClipContainer__actions--ARg99,
-    .vkitVideoCardControls__controls--lVxzZ,
-    .media_voting,
-    .story_poll .box_body,
-    .media_voting_option,
-    .stories_vk_video,
-    .stories_video,
-    .stories_photo,
-    .stories_preview,
-    .stories_live,
-    .stories_item::after,
-    .ConvoAttachesDocs__itemContainer,
-    .ConvoAttachesVideoItem__preview img,
-    .ConvoAttachesAudios__audio,
-    .article>figure img,
-    .article>figure video[src],
-    .article>figure .article_object_video,
-    .article_view>figure[data-type="101"] img,
-    .article_view>figure[data-type="101"] .article_photo_carousel,
-    .vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO,
-    .ui_search_sugg_list .ui_search_suggestion_selected,
-    .ui_search_sugg_list,
-    .inlMainTable td.inlContent,
-    .ads_inline_edit_table .inlInput,
-    .AudioPlaylistSnippet__play,
-    .AudioPlaylistSnippet__stop,
-    .ActionsMenu__inner,
-    .ActionsMenu__item:hover,
-    .ActionsMenu__item--hover,
-    .wdd_list,
-    .TopNavBtn.TopNavBtn--active,
-    .TopNavBtn.active,
-    .TopNavBtn__profileLink:hover,
-    .TopNavBtn__ecosystemMenuLink:hover,
-    .top_audio_player.top_audio_player_enabled,
-    .TopNavBtn:hover,
-    .notify_sources_tt_content .line_cell:hover,
-    .notify_sources_tt_content .content:not(:hover) .line_cell.selected,
-    .AudioPlaylistSnippet .ActionButton--shuffle:hover,
-    .Header,
-    .HeaderBudget,
-    .HeaderProfile:focus,
-    .HeaderProfile:hover,
-    .BudgetBalance,
-    .BudgetStats,
-    .EditableUnionName__inputWrapper,
-    .ads_inline_edit_time_input_block .selector_container table.selector_table,
-    .result_list,
-    .TableColumnsSettings__selectedColumnsItem,
-    .dd_menu .dd_menu_body table .dd_menu_rows a,
-    .dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
-    .dd_menu .dd_menu_body table .dd_menu_rows,
-    .ads_retargeting_menu .dd_menu_body,
-    .HeaderSectionSwitcherDropdown__container,
-    .NicknameEditResultMessage,
-    .vkitSnippetAttachment__root--QAlh8,
-    .vkitIconButton__rootCustomSize--Wykl1,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
-    .error,
-    .ui_tabs_new .ui_tab_group_items,
-    .ui_tab_group_new.shown .ui_tab_group_items,
-    .big.selector_container .result_list,
-    .ArticleEditorHeader__comments:hover,
-    .article_ed__caredit .article_ed__caredit_header,
-    .article_ed_layer__list_item.article_ed_layer__list_item--selected,
-    .article_ed_layer__list_item:not(.article_ed_layer__list_item--selected):hover,
-    .article_ed_layer__publish_settings_cover,
-    .article_ed_layer__publish_settings_cover .article_ed_layer__publish_settings_cover_close,
-    .AuthorPageDraftRow,
-    .AuthorPageDraftRow:hover,
-    .AuthorPageDraftCell__cover,
-    .article>figure figcaption.article_ed__figcaption .article_ed__figcaption_edit,
-    .ArticleEditorHeader__comments--active,
-    div.styles__tooltip--05bUL.styles__visible--HNVox,
-    .ArticleComments__tooltipItem--sort:hover,
-    .author_page_actions_wrap,
-    .pv_more_acts,
-    input.text,
-    input.search,
-    input.big_text,
-    input.dark,
-    .fakeinput,
-    div[contenteditable=true],
-    textarea,
-    .HeaderSectionSwitcherDropdown,
-    .HeaderSectionSwitcher,
-    .exchange_not_found.table,
-    .exchange_table th,
-    .HeaderSectionSwitcherDropdown__itemTitle:focus,
-    .HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .vkitgetColorClass__colorIconContrast--3EgJQ,
-    .ConvoList--collapsed .ConvoList__footerIcon,
-    .ConvoListFoldersDropdown__Trigger:hover,
-    .PeerListItem--clickable:hover,
-    .RE_ModalPanel,
-    .MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content,
-    .ThemeStylePreview__background,
-    #pb_text,
-    .big.selector_container.reverse .result_list,
-    .dark_box_cont,
-    .ConvoMessageBubbleBackground,
-    .CostEditFormPopover,
-    .polcnuvc0zt,
-    .polcnuvc0zt:before,
-    .videoplayer_media_provider,
-    .gf94yEMELbgGrm4E,
-    .vkuihost--KYHTy,
-    .video_showcase .tt_w:not(.tt_black),
-    .vkitAudioRow__tappableBorderM--gV05T,
-    .n0s06xfh2zw,
-    .n0s06xfh2zw:before,
-    .vkitContentBadge__rootAppearanceOverlay--FB2nB.vkitContentBadge__rootModePrimary--sBSx1,
-    .vkuiCalendar__host,
-    .vkuiCustomSelectDropdown__host,
-    .vkuiCustomSelectOption__host,
-    .vkitImageSingle__image--FvXFy,
-    .vkitPrimaryAttachment__noBorderRadius--8UNzW,
-    .vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq,
-    .vkitMediaGridImage__image--DCsOT,
-    .vkitMediaGridItem__root--mHSNF,
-    .vkitPrimaryAttachmentCrop__root--k639J,
-    .ConvoProfileMembers__member--clickable:hover,
-    .GamesCatalogHeadContent .apps_featured_thumb__wrap,
-    .vkitPollBackground__background--dzP4Y,
-    .vkitPollOptions__votingOption--ZqWpW,
-    .audio_progress,
-    .audio_progress_wrap,
-    .vkuiTappable__stateLayer,
-    .EcosystemMultiAccounts-module_userCell__zsmJu{
-        border-radius: 24px;
-    }
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.disabled .groups_edit_cover_wrap_live_upload_placeholder_disabled,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_enabled,
+.TemplatesDropDown__container,
+.VideoRestriction__boxWrap,
+.tt_w.tt_black,
+.flat_button:active,
+.flat_button.active,
+.button_blue button:active,
+.button_blue button.active,
+.medadd_c_linkbtn .flat_button.active,
+.medadd_inline_editable,
+.medadd_inline_editable:hover,
+.page_media_link_url.medadd_inline_editable,
+.EditorCanvas-module__roundedCanvas--xh8XZ,
+.ok_msg,
+.feedback_row_wrap.unread:not(.feedback_row_touched),
+.wddi,
+.wddi_over,
+.videoplayer,
+.videoplayer_slider ._loaded,
+.videoplayer_slider ._bars_wrap,
+.videoplayer_settings_menu_list,
+.videoplayer_settings_menu_sublist,
+.videoplayer_settings_menu_list_item:hover,
+.videoplayer_settings_menu_sublist_item:hover,
+.videoplayer_settings_menu_list_item.active:hover,
+.videoplayer_settings_menu_sublist_item.active:hover,
+.index_user_row,
+.index_page .page_block,
+.VkIdForm__input,
+.SitesExamplesGalleryCard,
+.groups_edit_event_log_page .groups_edit_event_log_items_wrap .groups_edit_event_log_item_main,
+.DatePicker,
+.DatePicker .groups_edit_datepicker,
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview.preview .groups_edit_menu_item_preview_img,
+.PhotoItem,
+.thumbed_link--group-snippet,
+.nim-dialog.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog:hover,
+.nim-dialog:not(.nim-dialog_deleted):hover + .nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_hovered,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered + .nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_classic.nim-dialog_unread,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic + .nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered + .im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic + .im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted):hover + .im-search-results-head,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected + .nim-dialog,
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected + .im-search-results-head,
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light),
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_selected,
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread.im-mess_light,
+.im-page_classic.im-page .im-mess-stack--mess li:last-of-type,
+.stories_groups_block_stories_wrap .stories_groups_block_stories_row,
+.cal_table,
+.cal_table .today,
+.cal_table .today:not(.sel),
+.cal_table .next_month_day,
+.cal_table .prev_month_day,
+.cal_table .day.sel,
+.cal_table .day:hover:not(.inactive_day),
+.ConvoList__item--separator::before,
+.MusicAuthor_block__content .wGnjLCZ_kHG1SsM_,
+.tdd_control,
+.MediaViewer__footer,
+.ads-story_dummy,
+.Office .EditableLabel__textarea,
+.EditableLabel:hover .EditableLabel__text,
+.Token__Container,
+.Token__Container.Token--type-2 .Token__Closer,
+.Token__Container.Token--type-2:hover .Token__Closer,
+.Token__Input:hover,
+.Suggestion__Item,
+.Suggestions,
+.Table__FiltersPanel .Table__SearchTermInput,
+.Office #ad_preview_top,
+.Office #ad_preview_top.promoted_post .ads_ad_box,
+.Office #ad_preview_top .ads_ad_box.story,
+.VideoCard__postponePublishInfo,
+.VideoCardControls-module__controls--OLuow,
+.VideoCardBadge-module__durationBadge--AjdSt.VideoCardBadge-module__durationBadge--AjdSt,
+.VideoCardViewedDuration-module__viewedDuration--fPxO4,
+.MenuList__item,
+.PlaylistPanel__item,
+.PlaylistPanel__itemAction,
+.PortalNavigation:hover,
+.PortalNavigation--expanded,
+.PortalNavigationDropdown.PortalNavigationDropdown,
+.VideoRecomsItem__duration,
+.VideoRecomsItem__thumb_wrap,
+.mv_info,
+#mv_box._has_recomms:not(._hide_recomms):not(._has_time_codes):not(._has_goods) .mv_info_narrow_column,
+.videoplayer_context_menu,
+.videoplayer_context_menu ._item,
+.VideoCard__thumbWrapper,
+.VideoSearchInput.ui_search_new .ui_search_input_block,
+.VideoCard .VideoCard__actions,
+.VideoCard__label,
+.VideoCardMenu,
+.VideoCardMenu__item,
+.VibeRecomsPlaylist,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_edit .groups_edit_cover_wrap_main_edit_img,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_preview img,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.delete,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu .page_cover_action.upload,
+.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area span,
+.editable_thumbs .thumb_wrap .draggable_thumb,
+.pt_search_container input.text,
+.HeaderProfile__DropdownUser:hover,
+.HeaderProfile__DropdownRow:hover,
+.ads_warning,
+.ads_edit_easy_promote_box.checkout_enabled.box_no_title,
+.ads_edit_easy_promote_box.checkout_enabled .ads_edit_easy_promote_box__image_pay,
+.vkitLeftMenuItem__item--qlG6N.vkitLeftMenuItem__item--qlG6N,
+.im-group-online-box .box_body,
+.StepAsideInfo__asideInfo--o6ycN,
+.VideoPreview__videoDuration--4OljO,
+.audio_pl_snippet2 .audio_shuffle_all_button:hover,
+.oXPVlZtlcjoi6d8e,
+.Qz12flm1ckhwWMRi,
+.AudioLyricsPlayer__player--xVDMn,
+.AudioLyricsLine__line--OHlKB,
+.audio_page_save_as_playlist .audio_page_save_as_playlist_icon_wrapper,
+.NarrativeSnippet,
+.vkitContentBadge__root--i6wr7,
+.MarketServiceCreatePhotos__photo--dlloZ,
+.market_row_controls,
+.audio-msg-track--transcriptToggle,
+.im_msg_audiomsg .audio-msg-track:not(.audio-msg-player),
+.vkuiCalendar,
+.vkuiCalendarDay__inner,
+.TemplatesDropDown__item,
+.video_upload__thumb_chooser_wrap .video_tc_item,
+.video_tc_item_selected .video_tc_item_check,
+.video_tc_item_selected .ThumbChooser__itemCheck,
+.app_widget_list_icon .app_widget_image,
+.vkitAttachmentLabel__label--yiFj8.vkitAttachmentLabel__label--yiFj8,
+.ExclusivePlaylist,
+.ExclusivePlaylist__cover,
+.vkitGroup__group--f8Opf.vkitGroup__groupModeCard--jNpCl.vkitGroup__groupModeCard--jNpCl,
+.group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value:hover,
+.my_current_info:hover,
+.no_current_info:hover,
+.NewCropControls__buttons--1xajS,
+.feedback_rphoto_img,
+.VideoPrimaryAttachment__thumbWrapper,
+.AudioPlaylistSnippet__cover,
+.AudioPlaylistSnippet__covers,
+.CategoryMenuDropdown__list--5FB4F,
+.vkitProductPreview__wrapperActive--xGFBg,
+.vkuiActionSheet__content-wrapper,
+.wall_card__close,
+.PhotoCarouselImage,
+.BookmarkGameBlock__contentWithImage,
+.BookmarkGameBlock__imageWrap img.BookmarkGameBlock__image,
+.BookmarkGameBlock__avatarWithBlur img.BookmarkGameBlock__blured,
+.app_widget_tiles_tile .app_widget_image,
+.vkitMiniProductCardSlider__gallery--oXEbo,
+.vkitPollOptions__votingOption--0vJwA,
+.ConvoMessageWithoutBubble:hover,
+.Reply--isOut.Reply--clickable:not(.Reply--withoutBubble):hover::before,
+.ConvoMessageWithoutBubble,
+.ComposerSelecting,
+.groups_cover_box .groups_edit_cover_wrap .page_cover_menu.video_size .page_cover_action,
+.HiddenPostBlank,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload.processing .groups_edit_cover_wrap_live_upload_preview .groups_edit_cover_wrap_live_upload_processing,
+.EcoPlate_item__pFaRt,
+.SearchResults__root--4ml3U,
+.post_from_tt_row.active,
+.post_from_tt_row:hover,
+.deep_active .replies .replies_wrap_deep .replies_deep_collapse::before,
+.deep_active .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
+.deep_active.wall_module .replies .replies_wrap_deep .replies_deep_collapse::before,
+.deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .replies_deep_collapse::before,
+.blst_last:hover,
+.Post--redesignV3 .VideoPrimaryAttachment__thumbWrapper,
+.Post--redesignV3 .VideoPrimaryAttachment,
+.VideoTrack__cover,
+.vkitOverlay__root--AjJAj.vkitOverlay__root--AjJAj,
+.vkitFeedActionCell__root--vUfoD.vkitFeedActionCell__root--vUfoD,
+.tt_w.like_tt,
+.replies .reply.reply_inline:hover,
+.PinnedMessage__container--Ycf2B,
+.vkitMusicTrackOverlayBadge__root--JroqM,
+.vkitMusicPlaylistOverlayBadge__root--WhtZe,
+.vkitPrimaryAttachmentCrop__root--gUsGz,
+.vkuiTappable__stateLayer--OFlce,
+.pretty-card,
+.vkmListHeader__button,
+:where(.ActionsMenu),
+.ActionsMenuAction--size-regular,
+.SearchResults-module__root--mnxjb,
+.top_notify_wrap.layer_place,
+#audio_layer_tt,
+.EcosystemServicesNavigationDropdown_popout__NYAnq,
+.EcosystemServicesNavigationBaseItem_icon__x0vZr::after,
+#top_profile_menu.top_profile_menu_react,
+.ui_search_fltr,
+.result_list ul li,
+.big.selector_container.selector_focused table.selector_table,
+.Slider-module__root--_8EdI,
+.top_notify_cont .feedback_row:not(.dld).hover,
+.top_notify_cont .feedback_row:not(.dld):hover,
+.top_notify_show_all:hover,
+.notify_sources_tt_content,
+.tt_default,
+.tt_default_right,
+.audio_pl_item2 .audio_pl__cover,
+.audio_pl__actions_wrap,
+.MusicAuthor__playButton,
+.video_item .video_item_thumb,
+.video_item .video_item_thumb_wrap,
+.video_thumb_actions,
+.video_thumb_label,
+.ap_layer_wrap .ap_layer__content,
+.audio_pl_snippet2,
+.audio_pl_snippet2:last-child,
+.page-group-actions .page-group-action,
+.redesigned-group-main-action:hover,
+.narrow_column.narrow_redesign .page_photo.page_action_menu_groups .PageActionCell,
+.Pz6oeKouv4v2NV4X,
+.f6_Sg6L_FH1PvbOs,
+.AudioSnippetBanner__image,
+.RecomsPlaylist__content,
+.RecomsPlaylist__cover,
+.RecomsPlaylist__actions,
+.VibeRecomsPlaylist__content,
+.VibeRecomsPlaylist__image_wrapper,
+.RecommendedPlaylist__actions,
+.RecommendedPlaylist__top,
+.RecommendedPlaylist,
+.RecommendedPlaylist__backdrop--colors,
+.RecommendedPlaylist__backdrop,
+.AudioRadiostationItem__actionsContainer,
+.AudioRadiostationItem__banner,
+.BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
+.PhotoPrimaryAttachment,
+.MediaGrid__imageElement,
+.image_cover,
+.ConvoAttachPhoto__img,
+.ConvoAttachesPhotos__item,
+.ConvoAttachesVideoItem__preview,
+.ConvoAttachesLinks__itemContainer,
+.AttachWallNew__donut,
+.AttachWallNew__deleted,
+.AttachWallNew__link--post,
+.DateSeparator,
+.MediaViewerPhoto__imgView,
+div.wdd.wdd_focused,
+.ConvoHeader__action,
+.sTpn2Kx9DZpQUest,
+.BurgerMenu__button,
+.MEConfig button,
+.OwnerContentTabPhotos__itemsWrapper,
+.PostBottomAction--withBg,
+.tt_black .tt_text,
+.deep_active .replies .reply_fakebox,
+.deep_active .wl_replies_block_wrap .reply_fakebox,
+.deep_active.wall_module .replies .reply_fakebox,
+.deep_active.wall_module .wl_replies_block_wrap .reply_fakebox,
+.deep_active .replies .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.ConvoMain__composerContent,
+.ConvoComposer__stickersPanel,
+.MessageReactionPickerExtended,
+.ConvoStack,
+.ConvoHistory__flowStack,
+.StickerEmojiMenuPopper__content,
+body .reply_author_label,
+.app_widget_image,
+.app_widget_list_cover_gradient,
+.groups-redesigned-info-rows .page_list_module .line_cell,
+.groups-redesigned-info-rows .page_list_module .line_cell:first-child,
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
+#group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
+.ui_gallery_wall_cards .wall_card,
+.redesigned-group-subscribed--button:hover,
+#wk_box.wk_info_content .group-info-box,
+#pv_more_acts_tt,
+#pv_more_acts_tt .pv_more_act_item:hover,
+.pv_more_act_item_sep,
+.group-redesigned-narrow.narrow_column .module_body .people_cell,
+.group-tab-photos,
+.StoryPreviewContainer,
+.NarrativeEditorDataPanel__nameInput,
+.StoryArchivePreview__linkBtn,
+.eltt.feature_intro_tt,
+.eltt,
+.Post__copyrightButton:hover,
+.photos_container_albums .photos_album_thumb,
+.photos_container_albums .photos_album_title_wrap,
+.photos_choose_row,
+.flist_item_wrap:hover,
+.im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
+.im-chat-input .im-chat-input--txt-wrap,
+.im-chat-input .im-chat-input--text,
+.settings_silent_mode,
+.privacy_dropdown,
+.friends_cur_filters .token,
+.friends_find_user_img,
+.big.selector_container.selector_focused.reverse table.selector_table,
+.idd_popup,
+.idd_popup .idd_item,
+.idd_popup .idd_items_content,
+.idd_popup .idd_header_wrap,
+.audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
+.audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]),
+.vkuiTappable--hovered-background > .vkuiTappable__stateLayer,
+.EcosystemMultiAccounts_userCell__CT-qt,
+.PrimaryAttachmentArticle-module__container--QRb3_,
+.Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderSectionSwitcherDropdown__listItemLink--active,
+.HeaderSectionSwitcherDropdown__listItemLink:focus,
+.HeaderSectionSwitcherDropdown__listItemLink:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.GoalsList__column,
+.GoalsFilterList__item,
+.ads_edit_link_type_card,
+.ads_edit_link_type_card_image_wrapper,
+.Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
+.Table__FiltersPanel .Table__Button.ads_stat_date_range,
+.Table__FiltersPanel .Table__Button,
+.Table__wrapper,
+.Table__Cell--header,
+.Table__Cell--footer,
+.Table__Cell,
+.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
+.PredictionWidget__header,
+.ads_schedule_cell,
+.ads_schedule_cell_hovered,
+.ads_schedule_cell:hover,
+.ads_schedule_row:first-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell,
+.ads_schedule_cell:first-child,
+.FormulaInput__SuggestionsContainer,
+.tt .tt_text,
+.Office .ads_relevance_score,
+.ads_main_notice,
+.VideoRecomsItem__thumb_wrap::after,
+.FCWindow__header,
+.FCWindow,
+.ads_ad_snippet,
+.mv_chat_reply_form,
+.VideoChatHideButton-module__button--URjJQ,
+.wide_column .group-tab-clips .short_video_item,
+.group-tab-videos .VideoSectionCard .video_thumb_label,
+.page_video_thumb,
+.group-tab-videos .VideoSectionCard .video,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_back,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__sound_bars,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
+.group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
+.PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
+.PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI,
+.Office__content .paginated_table > table > tbody > tr > th,
+.Office__content .ads_unions_table > tbody > tr > th,
+.pt_search_container input.text,
+.ads_stat_date_range,
+.HeaderProfile__Dropdown,
+input.ads_edit_easy_promote_box__payments-input-amount,
+.thumbed_link,
+.owner_photo_additional,
+.vkitSlider__fill--9yU7d,
+.vkitSlider__root--8vBVk::before,
+.bordered-thumb::after,
+.EcommPreviewProductCardProductPicture::after,
+.InfoBlock--neutral,
+.VideoPrimaryAttachment,
+.author_page_article_image,
+.author_page_article_image::after,
+.author_page_bookmark_wrap,
+.group-tab-addresses .group_info_row.map .group_info_map,
+.vkuistateLayer--Af_cW,
+.wk_address_content .addresses_wrap .addresses_map,
+.ymaps-2-1-79-float-button,
+.group_info_rows_redesign .group_info_row.map .group_info_map,
+.FancyElementTT__item:hover,
+.ComposerFormattingMenu__panel,
+.vkitClipContainer__actions--ARg99,
+.vkitVideoCardControls__controls--lVxzZ,
+.media_voting,
+.story_poll .box_body,
+.media_voting_option,
+.stories_vk_video,
+.stories_video,
+.stories_photo,
+.stories_preview,
+.stories_live,
+.stories_item::after,
+.ConvoAttachesDocs__itemContainer,
+.ConvoAttachesVideoItem__preview img,
+.ConvoAttachesAudios__audio,
+.article > figure img,
+.article > figure video[src],
+.article > figure .article_object_video,
+.article_view > figure[data-type="101"] img,
+.article_view > figure[data-type="101"] .article_photo_carousel,
+.vkitVideoCardBadge__durationBadgeSizeS--z8nyO.vkitVideoCardBadge__durationBadgeSizeS--z8nyO,
+.ui_search_sugg_list .ui_search_suggestion_selected,
+.ui_search_sugg_list,
+.inlMainTable td.inlContent,
+.ads_inline_edit_table .inlInput,
+.AudioPlaylistSnippet__play,
+.AudioPlaylistSnippet__stop,
+.ActionsMenu__inner,
+.ActionsMenu__item:hover,
+.ActionsMenu__item--hover,
+.wdd_list,
+.TopNavBtn.TopNavBtn--active,
+.TopNavBtn.active,
+.TopNavBtn__profileLink:hover,
+.TopNavBtn__ecosystemMenuLink:hover,
+.top_audio_player.top_audio_player_enabled,
+.TopNavBtn:hover,
+.notify_sources_tt_content .line_cell:hover,
+.notify_sources_tt_content .content:not(:hover) .line_cell.selected,
+.AudioPlaylistSnippet .ActionButton--shuffle:hover,
+.Header,
+.HeaderBudget,
+.HeaderProfile:focus,
+.HeaderProfile:hover,
+.BudgetBalance,
+.BudgetStats,
+.EditableUnionName__inputWrapper,
+.ads_inline_edit_time_input_block .selector_container table.selector_table,
+.result_list,
+.TableColumnsSettings__selectedColumnsItem,
+.dd_menu .dd_menu_body table .dd_menu_rows a,
+.dd_menu .dd_menu_body table .dd_menu_rows a:first-child,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.ads_retargeting_menu .dd_menu_body,
+.HeaderSectionSwitcherDropdown__container,
+.NicknameEditResultMessage,
+.vkitSnippetAttachment__root--QAlh8,
+.vkitIconButton__rootCustomSize--Wykl1,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_live .groups_edit_cover_wrap_live_previews .groups_edit_cover_wrap_live_upload .groups_edit_cover_wrap_live_upload_placeholder_loading,
+.error,
+.ui_tabs_new .ui_tab_group_items,
+.ui_tab_group_new.shown .ui_tab_group_items,
+.big.selector_container .result_list,
+.ArticleEditorHeader__comments:hover,
+.article_ed__caredit .article_ed__caredit_header,
+.article_ed_layer__list_item.article_ed_layer__list_item--selected,
+.article_ed_layer__list_item:not(.article_ed_layer__list_item--selected):hover,
+.article_ed_layer__publish_settings_cover,
+.article_ed_layer__publish_settings_cover .article_ed_layer__publish_settings_cover_close,
+.AuthorPageDraftRow,
+.AuthorPageDraftRow:hover,
+.AuthorPageDraftCell__cover,
+.article > figure figcaption.article_ed__figcaption .article_ed__figcaption_edit,
+.ArticleEditorHeader__comments--active,
+div.styles__tooltip--05bUL.styles__visible--HNVox,
+.ArticleComments__tooltipItem--sort:hover,
+.author_page_actions_wrap,
+.pv_more_acts,
+input.text,
+input.search,
+input.big_text,
+input.dark,
+.fakeinput,
+div[contenteditable=true],
+textarea,
+.HeaderSectionSwitcherDropdown,
+.HeaderSectionSwitcher,
+.exchange_not_found.table,
+.exchange_table th,
+.HeaderSectionSwitcherDropdown__itemTitle:focus,
+.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.vkitgetColorClass__colorIconContrast--3EgJQ,
+.ConvoList--collapsed .ConvoList__footerIcon,
+.ConvoListFoldersDropdown__Trigger:hover,
+.PeerListItem--clickable:hover,
+.RE_ModalPanel,
+.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content,
+.ThemeStylePreview__background,
+#pb_text,
+.big.selector_container.reverse .result_list,
+.dark_box_cont,
+.ConvoMessageBubbleBackground,
+.CostEditFormPopover,
+.polcnuvc0zt,
+.polcnuvc0zt:before,
+.videoplayer_media_provider,
+.gf94yEMELbgGrm4E,
+.vkuihost--KYHTy,
+.video_showcase .tt_w:not(.tt_black),
+.vkitAudioRow__tappableBorderM--gV05T,
+.n0s06xfh2zw,
+.n0s06xfh2zw:before,
+.vkitContentBadge__rootAppearanceOverlay--FB2nB.vkitContentBadge__rootModePrimary--sBSx1,
+.vkuiCalendar__host,
+.vkuiCustomSelectDropdown__host,
+.vkuiCustomSelectOption__host,
+.vkitImageSingle__image--FvXFy,
+.vkitPrimaryAttachment__noBorderRadius--8UNzW,
+.vkitFeedActionCell__root--uFRKq.vkitFeedActionCell__root--uFRKq,
+.vkitMediaGridImage__image--DCsOT,
+.vkitMediaGridItem__root--mHSNF,
+.vkitPrimaryAttachmentCrop__root--k639J,
+.ConvoProfileMembers__member--clickable:hover,
+.GamesCatalogHeadContent .apps_featured_thumb__wrap,
+.vkitPollBackground__background--dzP4Y,
+.vkitPollOptions__votingOption--ZqWpW,
+.audio_progress,
+.audio_progress_wrap,
+.vkuiTappable__stateLayer,
+.EcosystemMultiAccounts-module_userCell__zsmJu,
+.vkitMiniProductCardSlider__gallery--brrbs,
+.PhotosTab__photosContainer--zgl8y,
+.vkitOverlay__root--0vs0E.vkitOverlay__root--0vs0E,
+.vkitPrimaryAttachment__root--9zeFF,
+.vkitMediaGridTwoItems__itemLeft--iSsOZ.vkitMediaGridTwoItems__itemLeft--iSsOZ,
+.vkitMediaGridTwoItems__itemRight--ksTg7.vkitMediaGridTwoItems__itemRight--ksTg7,
+.vkitSnippetAttachment__feed--zMbBR,
+.vkitFeedActionCell__root--bQ2TN.vkitFeedActionCell__root--bQ2TN,
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(1).vkitMediaGridTwoRows__item--zfMtE:nth-child(1),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(2).vkitMediaGridTwoRows__item--zfMtE:nth-child(2),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(3).vkitMediaGridTwoRows__item--zfMtE:nth-child(3),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(4).vkitMediaGridTwoRows__item--zfMtE:nth-child(4),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(5).vkitMediaGridTwoRows__item--zfMtE:nth-child(5),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(6).vkitMediaGridTwoRows__item--zfMtE:nth-child(6),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(7).vkitMediaGridTwoRows__item--zfMtE:nth-child(7),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(8).vkitMediaGridTwoRows__item--zfMtE:nth-child(8),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(9).vkitMediaGridTwoRows__item--zfMtE:nth-child(9),
+.vkitMediaGridTwoRows__item--zfMtE:nth-child(10).vkitMediaGridTwoRows__item--zfMtE:nth-child(10),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(1),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(2),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(3),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(4),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(5),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(6),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(7),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(8),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(9),
+.vkitMediaGridTriple__item--Yn5Ed:nth-child(10),
+.vkitPollOptions__votingOption--12FA8,
+.ads_ad_snippet_img,
+.feed_wall--no-islands .ads_ad_snippet,
+.vkitOverlay__root--olHPW.vkitOverlay__root--olHPW,
+.vkitPrimaryAttachment__root--cppNE,
+.vkitFeedActionCell__root--TsBOd.vkitFeedActionCell__root--TsBOd,
+.vkitMediaGridTwoRows__item--ifTda:nth-child(1).vkitMediaGridTwoRows__item--ifTda:nth-child(1),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(2).vkitMediaGridTwoRows__item--ifTda:nth-child(2),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(3).vkitMediaGridTwoRows__item--ifTda:nth-child(3),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(4).vkitMediaGridTwoRows__item--ifTda:nth-child(4),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(5).vkitMediaGridTwoRows__item--ifTda:nth-child(5),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(6).vkitMediaGridTwoRows__item--ifTda:nth-child(6),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(7).vkitMediaGridTwoRows__item--ifTda:nth-child(7),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(8).vkitMediaGridTwoRows__item--ifTda:nth-child(8),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(9).vkitMediaGridTwoRows__item--ifTda:nth-child(9),
+.vkitMediaGridTwoRows__item--ifTda:nth-child(10).vkitMediaGridTwoRows__item--ifTda:nth-child(10),
+.p6vN7KAmEFbh1IMJ,
+.vkitPollOptions__votingOption--uu7oz,
+.multiformatVkColumn--item--OgbpMN .multiformatVkColumn--imageVk--I_kLTT,
+.multiformatVkColumn--item--OgbpMN .multiformatVkColumn--image--w1hfU4,
+.vkuiTabsItem__selected.vkuiTabsItem__modeAccent,
+.vkuiTabsItem__hover.vkuiTabsItem__modeAccent,
+.vkuimodeSecondary--Px05H.vkuiappearanceAccent--fBoPf,
+.vkuimodeTertiary--Pb46l.vkuiappearanceAccent--fBoPf,
+.vkuimodeOutline--DTr0U.vkuiappearanceAccent--fBoPf,
+.vkuiButton__modeOutline.vkuiButton__appearanceAccent,
+.vkuiButton__modeSecondary.vkuiButton__appearanceAccent,
+.vkuiButton__modeTertiary.vkuiButton__appearanceAccent,
+.vkuiTabsItem__host,
+.ui_tab_new.ui_tab_sel,
+.ui_tab_new.ui_tab_group_sel,
+.ui_tab_new.ui_tab_sel:hover,
+.ui_tab_new.ui_tab_group_sel:hover,
+.ui_tab_new.ui_tab_sel:active,
+.ui_tab_new.ui_tab_group_sel:active,
+.ui_tab_new:not(.ui_tab_disabled_new):hover,
+.ui_tab_new:not(.ui_tab_disabled_new):active,
+.ui_tab_new,
+.ui_tabs_header .ui_tab_new,
+.vkuiGroup__modeCard,
+.vkuiGroup__sizeXRegular.vkuiGroup__modeNone,
+.ProfileHeader__in,
+.ProfileHeader,
+.vkuiPopover__inWithStyling,
+.vkitIconButton__rootCustomSize--V5GwL.vkitIconButton__rootCustomSize--V5GwL,
+.vkitClipCard__rootRadiusSmall--pSY9P,
+.OwnerContentTabPhotos__items .OwnerContentTabPhotos__item,
+.OwnerContentTabPhotosItem{
+    border-radius: 24px;
+}
 
-    .eltt.eltt_fancy{
-        border-radius: 24px!important;
-    }
+.eltt.eltt_fancy {
+    border-radius: 24px!important;
+}
 
-    .ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
-    .ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
-        border-radius: 24px 0 0 0;
-    }
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__button_play,
+.ap_layer .audio_pl_snippet2 .audio_pl_snippet__cover {
+    border-radius: 24px 0 0 0;
+}
 
-    .ui_search_new .ui_search_input_inner,
-    .thumbed_link--story .thumbed_link__thumb,
-    .HeaderSectionSwitcher__button,
-    .HeaderSectionSwitcher__button:focus,
-    .HeaderSectionSwitcher__button:hover,
-    .vk_mini_app_preview .medadd_c_linkcon:not(.medadd_c_linkimg_big) .medadd_c_linkimg_container{
-        border-radius: 24px 0 0 24px;
-    }
+.ui_search_new .ui_search_input_inner,
+.thumbed_link--story .thumbed_link__thumb,
+.HeaderSectionSwitcher__button,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+.vk_mini_app_preview .medadd_c_linkcon:not(.medadd_c_linkimg_big) .medadd_c_linkimg_container {
+    border-radius: 24px 0 0 24px;
+}
 
-    .ui_search_new .ui_search_button_search,
-    .VideoSearchInput__withNewSuggester button.ui_search_button_search,
-    .VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search,
-    .mv_chat,
-    .thumbed_link__thumb+.thumbed_link__label,
-    .vk_mini_app_preview .medadd_c_linkcon:not(.medadd_c_linkimg_big) .medadd_c_linkwrap{
-        border-radius: 0 24px 24px 0;
-    }
+.ui_search_new .ui_search_button_search,
+.VideoSearchInput__withNewSuggester button.ui_search_button_search,
+.VideoSearchInput__withNewSuggester.VideoSearchInput--sticky.ui_search_new button.ui_search_button_search,
+.mv_chat,
+.thumbed_link__thumb + .thumbed_link__label,
+.vk_mini_app_preview .medadd_c_linkcon:not(.medadd_c_linkimg_big) .medadd_c_linkwrap {
+    border-radius: 0 24px 24px 0;
+}
 
-    .pv_bottom_info {
-        border-radius: 0 0 0 24px;
-    }
+.pv_bottom_info {
+    border-radius: 0 0 0 24px;
+}
 
-    .VideoHeader .page_block_header,
-    .groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area,
-    .im-group-online-box .im-group-online-box--top,
-    .redesigned-group-cover,
-    .FCPanel__list,
-    .FCPanel__list:empty+.FCPanel__add,
-    .FCThumb:first-child,
-    .FCPanel__add::before,
-    .FCPanel__add:hover::before,
-    .FCPanel__add:focus::before,
-    .media_link--sized .media_link__media::after,
-    .media_link--video .media_link__media::after,
-    .media_link--sized .media_link__photo {
-        border-radius: 24px 24px 0 0;
-    }
+.VideoHeader .page_block_header,
+.groups_cover_box .groups_edit_cover_wrap--redesign .groups_edit_cover_hidden_area,
+.im-group-online-box .im-group-online-box--top,
+.redesigned-group-cover,
+.FCPanel__list,
+.FCPanel__list:empty + .FCPanel__add,
+.FCThumb:first-child,
+.FCPanel__add::before,
+.FCPanel__add:hover::before,
+.FCPanel__add:focus::before,
+.media_link--sized .media_link__media::after,
+.media_link--video .media_link__media::after,
+.media_link--sized .media_link__photo {
+    border-radius: 24px 24px 0 0;
+}
 
-    .media_link__label,
-    .VideoLayout__aside--collapsed,
-    .box_body_no_bottom #wl_postreach_stat_body{
-        border-radius: 0 0 24px 24px;
-    }
+.media_link__label,
+.VideoLayout__aside--collapsed,
+.box_body_no_bottom #wl_postreach_stat_body {
+    border-radius: 0 0 24px 24px;
+}
 
-    .StoryPreviewContainer {
-        --preview-border-radius: 24px;
-    }
+.StoryPreviewContainer {
+    --preview-border-radius: 24px;
+}
 
-    .PrimaryAttachmentReactBlock {
-        --primary-attachment-border-radius: 24px;
-    }
+.PrimaryAttachmentReactBlock {
+    --primary-attachment-border-radius: 24px;
+}
 
-    .RE_ModalHeader,
-    .gf94yEMELbgGrm4E,
-.vkitPopover__rootNoTopRounded--hA0YE{
-        border-top-left-radius: 24px!important;
-        border-top-right-radius: 24px!important;
-    }
+.RE_ModalHeader,
+.gf94yEMELbgGrm4E,
+.vkitPopover__rootNoTopRounded--hA0YE {
+    border-top-left-radius: 24px!important;
+    border-top-right-radius: 24px!important;
+}
 
-    .ForeignMessagesHistory__modalWrapper,
-    .GamesCatalogHeadContent .apps_featured_thumb_gradient{
-        border-bottom-left-radius: 24px;
-        border-bottom-right-radius: 24px;
-    }
+.ForeignMessagesHistory__modalWrapper,
+.GamesCatalogHeadContent .apps_featured_thumb_gradient {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
 
-    .SecondaryAttachmentAvatar,
-    .SecondaryAttachmentAvatar--shadow::after,
-    .OwnerContentTabAudiosItem__coverImage,
-    .AvatarRich--shadow::after,
-    .AttachAudio__album,
-    .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlockBackground,
-    .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock,
-    .AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after,
-    #group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
-    .apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
-    .audio_pl_snippet2 .audio_pl_snippet__cover,
-    .AudioCover__cover--wabyR,
-    .audio_pl_edit_box .ape_cover,
-    .apps_feedRightAppsBlock__ava,
-    .apps_feedRightAppsBlock__avaWrap::after {
-        border-radius: 50%;
-        border: none;
-        box-shadow: none;
-    }
+.SecondaryAttachmentAvatar,
+.SecondaryAttachmentAvatar--shadow::after,
+.OwnerContentTabAudiosItem__coverImage,
+.AvatarRich--shadow::after,
+.AttachAudio__album,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlockBackground,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock,
+.AttachmentCell__imageBlockContainer--square .AttachmentCell__imageBlock::after,
+#group_apps_list .group_apps_list_rows .group_apps_list_row .group_apps_list_row_img .group_apps_list_row_img_img,
+.apps_group_catalog_rows .apps_catalog_row .apps_catalog_row_img .apps_catalog_row_img_img,
+.audio_pl_snippet2 .audio_pl_snippet__cover,
+.AudioCover__cover--wabyR,
+.audio_pl_edit_box .ape_cover,
+.apps_feedRightAppsBlock__ava,
+.apps_feedRightAppsBlock__avaWrap::after {
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+}
 
-    .PrimaryAttachmentLink-module__linkContainer--gzB5h,
-    .LinkImage-module__photo--ZpNsd,
-    .LinkImage-module__photoContainer--gcMmG::after,
-    .VideoPreview-module__videoRounded--CvBzB,
-    .PhotoPrimaryAttachment--thinBorder,
-    .editable_thumbs .thumb_wrap:only-child .preview,
-    .editable_thumbs .thumb_wrap::before,
-    .photo_thumb_btns_overlay,
-    .medadd_c_linkcon,
-    .VideoPreview__thumb,
-    .Inputs__input,
-    .Inputs__input:focus,
-    .Inputs__input--focused,
-    .thumbed_link__thumb {
-        border-radius: 24px;
-        border: none;
-        box-shadow: none;
-    }
+.PrimaryAttachmentLink-module__linkContainer--gzB5h,
+.LinkImage-module__photo--ZpNsd,
+.LinkImage-module__photoContainer--gcMmG::after,
+.VideoPreview-module__videoRounded--CvBzB,
+.PhotoPrimaryAttachment--thinBorder,
+.editable_thumbs .thumb_wrap:only-child .preview,
+.editable_thumbs .thumb_wrap::before,
+.photo_thumb_btns_overlay,
+.medadd_c_linkcon,
+.VideoPreview__thumb,
+.Inputs__input,
+.Inputs__input:focus,
+.Inputs__input--focused,
+.thumbed_link__thumb {
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+}
 
-    .audio_pl_snippet2 .audio_pl_snippet__header,
-    .Office__content .ads_edit_page_wrap3,
-    .Breadcrumbs,
-    .SideOfficeMenu__navList,
-    .SideOfficeMenu__footer,
-    .SideOfficeMenu__navList::after,
-    .SideOfficeMenu__nav::after,
-    .HeaderSectionSwitcherDropdown__listItemLink,
-    #ads_page,
-    .HeaderSectionSwitcherDropdown,
-    .Breadcrumbs__list,
-    .ads_general_info_status_block,
-    .ads_edit_separator_big,
-    .Suggestion__Item,
-    .VideoSearchInput__withNewSuggester button.ui_search_button_search,
-    .ui_gallery_wall_cards .wall_card__photo,
-    .ui_gallery_wall_cards .wall_card__body,
-    .HeaderProfile__DropdownSeparator,
-    .ads_edit_ad_submit_post_box,
-    .vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border,
-    .empty_avatag_add,
-    .feed_wall--no-islands .ui_tabs,
-    .pretty-card__photo,
-    .pretty-card__content,
-    .vkmListHeader__button,
-    :where(.ActionsMenu),
-    .ActionsMenuAction--size-regular,
-    .SearchResults-module__root--mnxjb,
-    .top_notify_wrap.layer_place,
-    #audio_layer_tt,
-    .EcosystemServicesNavigationDropdown_popout__NYAnq,
-    .EcosystemServicesNavigationBaseItem_icon__x0vZr::after,
-    #top_profile_menu.top_profile_menu_react,
-    .ui_search_fltr,
-    .result_list ul li,
-    .big.selector_container.selector_focused table.selector_table,
-    .Slider-module__root--_8EdI,
-    .top_notify_cont .feedback_row:not(.dld).hover,
-    .top_notify_cont .feedback_row:not(.dld):hover,
-    .top_notify_show_all:hover,
-    .notify_sources_tt_content,
-    .tt_default,
-    .tt_default_right,
-    .audio_pl_item2 .audio_pl__cover,
-    .audio_pl__actions_wrap,
-    .MusicAuthor__playButton,
-    .video_item .video_item_thumb,
-    .video_item .video_item_thumb_wrap,
-    .video_thumb_actions,
-    .video_thumb_label,
-    .ap_layer_wrap .ap_layer__content,
-    .audio_pl_snippet2,
-    .audio_pl_snippet2:last-child,
-    .page-group-actions .page-group-action,
-    .redesigned-group-main-action:hover,
-    .narrow_column.narrow_redesign .page_photo.page_action_menu_groups .PageActionCell,
-    .Pz6oeKouv4v2NV4X,
-    .f6_Sg6L_FH1PvbOs,
-    .AudioSnippetBanner__image,
-    .RecomsPlaylist__content,
-    .RecomsPlaylist__cover,
-    .RecomsPlaylist__actions,
-    .VibeRecomsPlaylist__content,
-    .VibeRecomsPlaylist__image_wrapper,
-    .RecommendedPlaylist__actions,
-    .RecommendedPlaylist__top,
-    .RecommendedPlaylist,
-    .RecommendedPlaylist__backdrop--colors,
-    .RecommendedPlaylist__backdrop,
-    .AudioRadiostationItem__actionsContainer,
-    .AudioRadiostationItem__banner,
-    .BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
-    .PhotoPrimaryAttachment,
-    .MediaGrid__imageElement,
-    .image_cover,
-    .ConvoAttachPhoto__img,
-    .ConvoAttachesPhotos__item,
-    .ConvoAttachesVideoItem__preview,
-    .ConvoAttachesLinks__itemContainer,
-    .AttachWallNew__donut,
-    .AttachWallNew__deleted,
-    .AttachWallNew__link--post,
-    .DateSeparator,
-    .MediaViewerPhoto__imgView,
-    div.wdd.wdd_focused,
-    .ConvoHeader__action,
-    .sTpn2Kx9DZpQUest,
-    .BurgerMenu__button,
-    .MEConfig button,
-    .OwnerContentTabPhotos__itemsWrapper,
-    .PostBottomAction--withBg,
-    .tt_black .tt_text,
-    .deep_active .replies .reply_fakebox,
-    .deep_active .wl_replies_block_wrap .reply_fakebox,
-    .deep_active.wall_module .replies .reply_fakebox,
-    .deep_active.wall_module .wl_replies_block_wrap .reply_fakebox,
-    .deep_active .replies .reply_field_wrap .reply_field,
-    .deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .replies .reply_field_wrap .reply_field,
-    .deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field,
-    .deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
-    .ConvoMain__composerContent,
-    .ConvoComposer__stickersPanel,
-    .MessageReactionPickerExtended,
-    .ConvoStack,
-    .ConvoHistory__flowStack,
-    .StickerEmojiMenuPopper__content,
-    body .reply_author_label,
-    .app_widget_image,
-    .app_widget_list_cover_gradient,
-    .groups-redesigned-info-rows .page_list_module .line_cell,
-    .groups-redesigned-info-rows .page_list_module .line_cell:first-child,
-    .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
-    .group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
-    #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
-    #group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
-    #group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
-    .ui_gallery_wall_cards .wall_card,
-    .redesigned-group-subscribed--button:hover,
-    #wk_box.wk_info_content .group-info-box,
-    #pv_more_acts_tt,
-    #pv_more_acts_tt .pv_more_act_item:hover,
-    .pv_more_act_item_sep,
-    .group-redesigned-narrow.narrow_column .module_body .people_cell,
-    .group-tab-photos,
-    .StoryPreviewContainer,
-    .NarrativeEditorDataPanel__nameInput,
-    .StoryArchivePreview__linkBtn,
-    .eltt.feature_intro_tt,
-    .eltt,
-    .Post__copyrightButton:hover,
-    .photos_container_albums .photos_album_thumb,
-    .photos_container_albums .photos_album_title_wrap,
-    .photos_choose_row,
-    .flist_item_wrap:hover,
-    .im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
-    .im-chat-input .im-chat-input--txt-wrap,
-    .im-chat-input .im-chat-input--text,
-    .settings_silent_mode,
-    .privacy_dropdown,
-    .friends_cur_filters .token,
-    .friends_find_user_img,
-    .big.selector_container.selector_focused.reverse table.selector_table,
-    .idd_popup,
-    .idd_popup .idd_item,
-    .idd_popup .idd_items_content,
-    .idd_popup .idd_header_wrap,
-    .audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
-    .audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]),
-    .vkuiTappable--hovered-background>.vkuiTappable__stateLayer,
-    .EcosystemMultiAccounts_userCell__CT-qt,
-    .PrimaryAttachmentArticle-module__container--QRb3_,
-    .Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
-    #groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
-    .SideOfficeMenu__link--active,
-    .SideOfficeMenu__link--active:focus,
-    .SideOfficeMenu__link--active:hover,
-    .SideOfficeMenu__link:focus,
-    .SideOfficeMenu__link:hover,
-    .HeaderSectionSwitcher__button:focus,
-    .HeaderSectionSwitcher__button:hover,
-    a.HeaderSectionSwitcherDropdown__itemTitle:focus,
-    a.HeaderSectionSwitcherDropdown__itemTitle:hover,
-    .HeaderSectionSwitcherDropdown__listItemLink--active,
-    .HeaderSectionSwitcherDropdown__listItemLink:focus,
-    .HeaderSectionSwitcherDropdown__listItemLink:hover,
-    .GoalsListItem,
-    .GoalsFilterList__item--selected,
-    .Table__Cell--hasSort:hover,
-    .Table__Row--body:hover .Table__Cell,
-    #ads_graph_navigation a.nav:hover,
-    #ads_demography_navigation a.nav:hover,
-    .Office__content #ads_graph_navigation a.nav_selected,
-    .Office__content #ads_graph_navigation a.nav_selected:hover,
-    .Office__content #ads_demography_navigation a.nav_selected,
-    .Office__content #ads_demography_navigation a.nav_selected:hover,
-    .GoalsList__column,
-    .GoalsFilterList__item,
-    .ads_edit_link_type_card,
-    .ads_edit_link_type_card_image_wrapper,
-    .Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
-    .Table__FiltersPanel .Table__Button.ads_stat_date_range,
-    .Table__FiltersPanel .Table__Button,
-    .Table__wrapper,
-    .Table__Cell--header,
-    .Table__Cell--footer,
-    .Table__Cell,
-    .ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
-    .PredictionWidget__header,
-    .ads_schedule_cell,
-    .ads_schedule_cell_hovered,
-    .ads_schedule_cell:hover,
-    .ads_schedule_row:first-child .ads_schedule_cell:first-child,
-    .ads_schedule_row:first-child .ads_schedule_cell:last-child,
-    .ads_schedule_row:last-child .ads_schedule_cell:last-child,
-    .ads_schedule_row:last-child .ads_schedule_cell:first-child,
-    .ads_schedule_row:first-child .ads_schedule_cell,
-    .ads_schedule_cell:first-child,
-    .PredictionWidget,
-    .FormulaInput__SuggestionsContainer,
-    .tt .tt_text,
-    .Office .ads_relevance_score,
-    .ads_main_notice,
-    .VideoRecomsItem__thumb_wrap::after,
-    .FCWindow__header,
-    .FCWindow,
-    .ads_ad_snippet,
-    .mv_chat_reply_form,
-    .VideoChatHideButton-module__button--URjJQ,
-    .wide_column .group-tab-clips .short_video_item,
-    .group-tab-videos .VideoSectionCard .video_thumb_label,
-    .page_video_thumb,
-    .group-tab-videos .VideoSectionCard .video,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover_back,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__sound_bars,
-    .group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
-    .group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
-    .PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
-    .PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI,
-    .Office__content .paginated_table>table>tbody>tr>th,
-    .Office__content .ads_unions_table>tbody>tr>th,
-    .pt_search_container input.text,
-    .ads_stat_date_range,
-    .HeaderProfile__Dropdown,
-    input.ads_edit_easy_promote_box__payments-input-amount,
-    .thumbed_link,
-    .owner_photo_additional,
-    .vkitSlider__fill--9yU7d,
-    .vkitSlider__root--8vBVk::before,
-    .bordered-thumb::after,
-    .EcommPreviewProductCardProductPicture::after,
-    .InfoBlock--neutral,
-    .VideoPrimaryAttachment,
-    .pg_flnk,
-    .group-tab-addresses .group_info_row.map .group_info_map,
-    .vkuidefault--mToMb .vkuitrack--r7_Kp::before,
-    .group_info_rows_redesign .group_info_row.map .group_info_map,
-    .ComposerFormattingMenu__panel,
-    .vkitMediaGridItem__root--1XgQY,
-    .inlMainTable td.inlContent,
-    .ActionsMenu__inner,
-    .BudgetBalance,
-    .BudgetStats,
-    .BudgetBalance__autoBudget,
-    .EditableUnionName__inputWrapper,
-    .TableColumnsSettings__selectedColumnsItem,
-    .Office__content .ui_table tr.ui_table_row,
-    .dd_menu .dd_menu_body table .dd_menu_rows,
-    .ads_retargeting_menu .dd_menu_body,
-    .vkitPrimaryAttachment__root--KMoC5,
-    .vkuiFormField__focusVisible.vkuiFormField__focusVisible>.vkuiFormField__border,
-    .vkuiPopover__inWithStyling,
-    .groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap.loading,
-    .vkuiTabsItem__selected.vkuiTabsItem__modeAccent:before,
-    .oXPVlZtlcjoi6d8e,
-    div.styles__tooltip--05bUL.styles__visible--HNVox,
-    .HeaderSectionSwitcherDropdown,
-    .HeaderSectionSwitcherDropdown__itemTitle,
-    .MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content,
-    .exchange_title_head,
-    .exchange_table tr:first-child,
-    .exchange_table tr,
-    .result_list,
-    .CostEditFormPopover,
-    .gf94yEMELbgGrm4E,
-    .video_showcase .tt_w:not(.tt_black),
-    .vkitMediaGridItem__root--mHSNF{
-        border: none;
-    }
+.audio_pl_snippet2 .audio_pl_snippet__header,
+.Office__content .ads_edit_page_wrap3,
+.Breadcrumbs,
+.SideOfficeMenu__navList,
+.SideOfficeMenu__footer,
+.SideOfficeMenu__navList::after,
+.SideOfficeMenu__nav::after,
+.HeaderSectionSwitcherDropdown__listItemLink,
+#ads_page,
+.HeaderSectionSwitcherDropdown,
+.Breadcrumbs__list,
+.ads_general_info_status_block,
+.ads_edit_separator_big,
+.Suggestion__Item,
+.VideoSearchInput__withNewSuggester button.ui_search_button_search,
+.ui_gallery_wall_cards .wall_card__photo,
+.ui_gallery_wall_cards .wall_card__body,
+.HeaderProfile__DropdownSeparator,
+.ads_edit_ad_submit_post_box,
+.vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border,
+.empty_avatag_add,
+.feed_wall--no-islands .ui_tabs,
+.pretty-card__photo,
+.pretty-card__content,
+.vkmListHeader__button,
+:where(.ActionsMenu),
+.ActionsMenuAction--size-regular,
+.SearchResults-module__root--mnxjb,
+.top_notify_wrap.layer_place,
+#audio_layer_tt,
+.EcosystemServicesNavigationDropdown_popout__NYAnq,
+.EcosystemServicesNavigationBaseItem_icon__x0vZr::after,
+#top_profile_menu.top_profile_menu_react,
+.ui_search_fltr,
+.result_list ul li,
+.big.selector_container.selector_focused table.selector_table,
+.Slider-module__root--_8EdI,
+.top_notify_cont .feedback_row:not(.dld).hover,
+.top_notify_cont .feedback_row:not(.dld):hover,
+.top_notify_show_all:hover,
+.notify_sources_tt_content,
+.tt_default,
+.tt_default_right,
+.audio_pl_item2 .audio_pl__cover,
+.audio_pl__actions_wrap,
+.MusicAuthor__playButton,
+.video_item .video_item_thumb,
+.video_item .video_item_thumb_wrap,
+.video_thumb_actions,
+.video_thumb_label,
+.ap_layer_wrap .ap_layer__content,
+.audio_pl_snippet2,
+.audio_pl_snippet2:last-child,
+.page-group-actions .page-group-action,
+.redesigned-group-main-action:hover,
+.narrow_column.narrow_redesign .page_photo.page_action_menu_groups .PageActionCell,
+.Pz6oeKouv4v2NV4X,
+.f6_Sg6L_FH1PvbOs,
+.AudioSnippetBanner__image,
+.RecomsPlaylist__content,
+.RecomsPlaylist__cover,
+.RecomsPlaylist__actions,
+.VibeRecomsPlaylist__content,
+.VibeRecomsPlaylist__image_wrapper,
+.RecommendedPlaylist__actions,
+.RecommendedPlaylist__top,
+.RecommendedPlaylist,
+.RecommendedPlaylist__backdrop--colors,
+.RecommendedPlaylist__backdrop,
+.AudioRadiostationItem__actionsContainer,
+.AudioRadiostationItem__banner,
+.BannerItem--viewType-promo_banners_slider .Banner__backgroundImage,
+.PhotoPrimaryAttachment,
+.MediaGrid__imageElement,
+.image_cover,
+.ConvoAttachPhoto__img,
+.ConvoAttachesPhotos__item,
+.ConvoAttachesVideoItem__preview,
+.ConvoAttachesLinks__itemContainer,
+.AttachWallNew__donut,
+.AttachWallNew__deleted,
+.AttachWallNew__link--post,
+.DateSeparator,
+.MediaViewerPhoto__imgView,
+div.wdd.wdd_focused,
+.ConvoHeader__action,
+.sTpn2Kx9DZpQUest,
+.BurgerMenu__button,
+.MEConfig button,
+.OwnerContentTabPhotos__itemsWrapper,
+.PostBottomAction--withBg,
+.tt_black .tt_text,
+.deep_active .replies .reply_fakebox,
+.deep_active .wl_replies_block_wrap .reply_fakebox,
+.deep_active.wall_module .replies .reply_fakebox,
+.deep_active.wall_module .wl_replies_block_wrap .reply_fakebox,
+.deep_active .replies .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field,
+.deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field,
+.ConvoMain__composerContent,
+.ConvoComposer__stickersPanel,
+.MessageReactionPickerExtended,
+.ConvoStack,
+.ConvoHistory__flowStack,
+.StickerEmojiMenuPopper__content,
+body .reply_author_label,
+.app_widget_image,
+.app_widget_list_cover_gradient,
+.groups-redesigned-info-rows .page_list_module .line_cell,
+.groups-redesigned-info-rows .page_list_module .line_cell:first-child,
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app),
+.group-redesigned-narrow.narrow_column .page_list_module .line_cell:not(.page_single_app):first-child,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image .groups_menu_item_image_content,
+#group_section_menu.redesigned-group-menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item .groups_menu_item_image::after,
+#group_section_menu .module_body .ui_gallery .ui_gallery_item .groups_menu_item:hover,
+.ui_gallery_wall_cards .wall_card,
+.redesigned-group-subscribed--button:hover,
+#wk_box.wk_info_content .group-info-box,
+#pv_more_acts_tt,
+#pv_more_acts_tt .pv_more_act_item:hover,
+.pv_more_act_item_sep,
+.group-redesigned-narrow.narrow_column .module_body .people_cell,
+.group-tab-photos,
+.StoryPreviewContainer,
+.NarrativeEditorDataPanel__nameInput,
+.StoryArchivePreview__linkBtn,
+.eltt.feature_intro_tt,
+.eltt,
+.Post__copyrightButton:hover,
+.photos_container_albums .photos_album_thumb,
+.photos_container_albums .photos_album_title_wrap,
+.photos_choose_row,
+.flist_item_wrap:hover,
+.im-chat-input .im-chat-input--textarea:not(.im-chat-input_open-keyboard):not(.im-chat-input_close-keyboard):not(.im-chat-input--textarea_show-templates) .im-chat-input--text,
+.im-chat-input .im-chat-input--txt-wrap,
+.im-chat-input .im-chat-input--text,
+.settings_silent_mode,
+.privacy_dropdown,
+.friends_cur_filters .token,
+.friends_find_user_img,
+.big.selector_container.selector_focused.reverse table.selector_table,
+.idd_popup,
+.idd_popup .idd_item,
+.idd_popup .idd_items_content,
+.idd_popup .idd_header_wrap,
+.audio_page__shuffle_all .audio_page__shuffle_all_button:hover,
+.audio_page_save_as_playlist .audio_page_save_as_playlist_button:hover:not([disabled]),
+.vkuiTappable--hovered-background > .vkuiTappable__stateLayer,
+.EcosystemMultiAccounts_userCell__CT-qt,
+.PrimaryAttachmentArticle-module__container--QRb3_,
+.Overlay-module__root--FzKhf.Overlay-module__root--FzKhf,
+#groups_menu_items .groups_edit_menu_items .groups_edit_menu_item .groups_edit_menu_item_header .groups_edit_menu_item_preview,
+.SideOfficeMenu__link--active,
+.SideOfficeMenu__link--active:focus,
+.SideOfficeMenu__link--active:hover,
+.SideOfficeMenu__link:focus,
+.SideOfficeMenu__link:hover,
+.HeaderSectionSwitcher__button:focus,
+.HeaderSectionSwitcher__button:hover,
+a.HeaderSectionSwitcherDropdown__itemTitle:focus,
+a.HeaderSectionSwitcherDropdown__itemTitle:hover,
+.HeaderSectionSwitcherDropdown__listItemLink--active,
+.HeaderSectionSwitcherDropdown__listItemLink:focus,
+.HeaderSectionSwitcherDropdown__listItemLink:hover,
+.GoalsListItem,
+.GoalsFilterList__item--selected,
+.Table__Cell--hasSort:hover,
+.Table__Row--body:hover .Table__Cell,
+#ads_graph_navigation a.nav:hover,
+#ads_demography_navigation a.nav:hover,
+.Office__content #ads_graph_navigation a.nav_selected,
+.Office__content #ads_graph_navigation a.nav_selected:hover,
+.Office__content #ads_demography_navigation a.nav_selected,
+.Office__content #ads_demography_navigation a.nav_selected:hover,
+.GoalsList__column,
+.GoalsFilterList__item,
+.ads_edit_link_type_card,
+.ads_edit_link_type_card_image_wrapper,
+.Table__FiltersPanel .Table__Button.Table__FilterMenuButton,
+.Table__FiltersPanel .Table__Button.ads_stat_date_range,
+.Table__FiltersPanel .Table__Button,
+.Table__wrapper,
+.Table__Cell--header,
+.Table__Cell--footer,
+.Table__Cell,
+.ads_edit_panel_preview .ads_ad_box .ads_ad_box_border,
+.PredictionWidget__header,
+.ads_schedule_cell,
+.ads_schedule_cell_hovered,
+.ads_schedule_cell:hover,
+.ads_schedule_row:first-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:last-child,
+.ads_schedule_row:last-child .ads_schedule_cell:first-child,
+.ads_schedule_row:first-child .ads_schedule_cell,
+.ads_schedule_cell:first-child,
+.PredictionWidget,
+.FormulaInput__SuggestionsContainer,
+.tt .tt_text,
+.Office .ads_relevance_score,
+.ads_main_notice,
+.VideoRecomsItem__thumb_wrap::after,
+.FCWindow__header,
+.FCWindow,
+.ads_ad_snippet,
+.mv_chat_reply_form,
+.VideoChatHideButton-module__button--URjJQ,
+.wide_column .group-tab-clips .short_video_item,
+.group-tab-videos .VideoSectionCard .video_thumb_label,
+.page_video_thumb,
+.group-tab-videos .VideoSectionCard .video,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_back,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__sound_bars,
+.group-tab-audios.audio_w_covers .audio_row .audio_row__cover_icon,
+.group-tab-audios.audio_w_covers .blind_label._audio_row__play_btn,
+.PhotosPagePhotoGridVirtualItem-module__img--Qdmgl,
+.PhotosPagePhotoGridVirtualItem-module__wrapper--FuqyI,
+.Office__content .paginated_table > table > tbody > tr > th,
+.Office__content .ads_unions_table > tbody > tr > th,
+.pt_search_container input.text,
+.ads_stat_date_range,
+.HeaderProfile__Dropdown,
+input.ads_edit_easy_promote_box__payments-input-amount,
+.thumbed_link,
+.owner_photo_additional,
+.vkitSlider__fill--9yU7d,
+.vkitSlider__root--8vBVk::before,
+.bordered-thumb::after,
+.EcommPreviewProductCardProductPicture::after,
+.InfoBlock--neutral,
+.VideoPrimaryAttachment,
+.pg_flnk,
+.group-tab-addresses .group_info_row.map .group_info_map,
+.vkuidefault--mToMb .vkuitrack--r7_Kp::before,
+.group_info_rows_redesign .group_info_row.map .group_info_map,
+.ComposerFormattingMenu__panel,
+.vkitMediaGridItem__root--1XgQY,
+.inlMainTable td.inlContent,
+.ActionsMenu__inner,
+.BudgetBalance,
+.BudgetStats,
+.BudgetBalance__autoBudget,
+.EditableUnionName__inputWrapper,
+.TableColumnsSettings__selectedColumnsItem,
+.Office__content .ui_table tr.ui_table_row,
+.dd_menu .dd_menu_body table .dd_menu_rows,
+.ads_retargeting_menu .dd_menu_body,
+.vkitPrimaryAttachment__root--KMoC5,
+.vkuiFormField__focusVisible.vkuiFormField__focusVisible > .vkuiFormField__border,
+.vkuiPopover__inWithStyling,
+.groups_cover_box .groups_edit_cover_wrap .groups_edit_cover_wrap_main_wrap.loading,
+.vkuiTabsItem__selected.vkuiTabsItem__modeAccent:before,
+.oXPVlZtlcjoi6d8e,
+div.styles__tooltip--05bUL.styles__visible--HNVox,
+.HeaderSectionSwitcherDropdown,
+.HeaderSectionSwitcherDropdown__itemTitle,
+.MessageReactionPickerExtended--withShadow .MessageReactionPickerExtended__content,
+.exchange_title_head,
+.exchange_table tr:first-child,
+.exchange_table tr,
+.result_list,
+.CostEditFormPopover,
+.gf94yEMELbgGrm4E,
+.video_showcase .tt_w:not(.tt_black),
+.vkitMediaGridItem__root--mHSNF,
+.vkitMediaGridGrid__itemGrid--Q5nVx,
+.vkitMediaGridGrid__itemGrid--CQsng,
+.OwnerContentTabPhotos__items .OwnerContentTabPhotos__item,
+.OwnerContentTabPhotosItem{
+    border: none;
+}
 
-    .Office #ad_preview_top.promoted_post .ads_ad_box,
-    .Office #ad_preview_top .ads_ad_box.story {
-        border: #1b222a;
-    }
+.Office #ad_preview_top.promoted_post .ads_ad_box,
+.Office #ad_preview_top .ads_ad_box.story {
+    border: #1b222a;
+}
 
-    .SideOfficeMenu__toggleButton {
-        border: #2a3742;
-    }
+.SideOfficeMenu__toggleButton {
+    border: #2a3742;
+}
 
-    hr {
-        border-top: none;
-    }
+hr {
+    border-top: none;
+}
 
-    .audio_promo,
-    .im-mess.im-mess_unread:last-child::before,
-    .im-mess.im-mess_selected:last-child::before,
-    .im-mess.im-mess_unread+.im-mess::before,
-    .im-mess.im-mess_selected+.im-mess::before,
-    .ads_ads_box,
-    .LegalRecommendationsLinkLeftMenuAuthorized__link,
-    .left_menu_nav_wrap,
-    .side_bar .WideSeparator.WideSeparator--legalRecommendationsLink,
-    .ads_hero_unit{
-        display: none;
-    }
+.audio_promo,
+.im-mess.im-mess_unread:last-child::before,
+.im-mess.im-mess_selected:last-child::before,
+.im-mess.im-mess_unread + .im-mess::before,
+.im-mess.im-mess_selected + .im-mess::before,
+.ads_ads_box,
+.LegalRecommendationsLinkLeftMenuAuthorized__link,
+.left_menu_nav_wrap,
+.side_bar .WideSeparator.WideSeparator--legalRecommendationsLink,
+.ads_hero_unit {
+    display: none;
+}
 
-    .MEAppConfig {
-        --messageBorderRadius: 24px;
-        --mediaAttachBorderRadius: 24px;
-        --attachArticleBorderRadius: 24px;
-        --composerAttachBorderRadius: 24px;
-    }
+.MEAppConfig {
+    --messageBorderRadius: 24px;
+    --mediaAttachBorderRadius: 24px;
+    --attachArticleBorderRadius: 24px;
+    --composerAttachBorderRadius: 24px;
+}
 
-    .vkitVideoCardLayout__card--i7sFT {
-        --videocard-border-radius: 24px;
-    }
+.vkitVideoCardLayout__card--i7sFT {
+    --videocard-border-radius: 24px;
+}
 
-    body {
-        --vkui--size_border_radius--regular: 24px;
-        --vkui--size_border_radius_rounded--regular: 24px;
-        --vkui--size_border_radius_paper--regular: 24px;
-        --vkui--size_check_border_radius--regular: 24px;
-        --vkui--size_card_border_radius--regular: 24px;
-    }
+body {
+    --vkui--size_border_radius--regular: 24px;
+    --vkui--size_border_radius_rounded--regular: 24px;
+    --vkui--size_border_radius_paper--regular: 24px;
+    --vkui--size_check_border_radius--regular: 24px;
+    --vkui--size_card_border_radius--regular: 24px;
+}
 
-    body.redesign_web {
-        --catalog-section-border-radius: 24px;
-    }
+body.redesign_web {
+    --catalog-section-border-radius: 24px;
+}
 
-    #page_header_cont {
-        border-radius: 24px;
-        border: none;
-    }
+#page_header_cont {
+    border-radius: 24px;
+    border: none;
+}
 
-    .im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light) {
-        margin-bottom: 8px;
-    }
+.im-page_classic.im-page .im-mess:not(.im-mess_fwd).im-mess_unread:not(.im-mess_selected):not(.im-mess_light) {
+    margin-bottom: 8px;
+}
 
-    .AudioRadiostationItem__banner,
-    .ConvoComposer__stickersPanel,
-    .Header,
-    .HeaderProfile__Dropdown,
-    .FCPanel__list,
-    .vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
-    .vkuihover--eZhd8.vkuimodeAccent--FZTmT,
-    .article_editor_canvas[contenteditable=true] figure.article_ed__object_highlighted:not(.article__carousel):not(.article__carousel--noHover) .article_object_el,
-    .article_editor_canvas[contenteditable=true] figure.article__carousel.article_ed__object_highlighted .article_ed__img_wrapper,
-    .article_editor_canvas[contenteditable=true] figure.article__carousel:not(.article__carousel--noHover):hover .article_ed__img_wrapper,
-    .article_editor_canvas[contenteditable=true] figure:not(.article__carousel):not(.article__carousel--noHover):hover .article_object_el,
-    .vkitPrimaryAttachmentCrop__root--k639J,
-    .vkitPrimaryAttachment__root--C8cW1{
-        box-shadow: none;
-    }
+.AudioRadiostationItem__banner,
+.ConvoComposer__stickersPanel,
+.Header,
+.HeaderProfile__Dropdown,
+.FCPanel__list,
+.vkuiselected--HeAw6.vkuimodeAccent--FZTmT,
+.vkuihover--eZhd8.vkuimodeAccent--FZTmT,
+.article_editor_canvas[contenteditable=true] figure.article_ed__object_highlighted:not(.article__carousel):not(.article__carousel--noHover) .article_object_el,
+.article_editor_canvas[contenteditable=true] figure.article__carousel.article_ed__object_highlighted .article_ed__img_wrapper,
+.article_editor_canvas[contenteditable=true] figure.article__carousel:not(.article__carousel--noHover):hover .article_ed__img_wrapper,
+.article_editor_canvas[contenteditable=true] figure:not(.article__carousel):not(.article__carousel--noHover):hover .article_object_el,
+.vkitPrimaryAttachmentCrop__root--k639J,
+.vkitPrimaryAttachment__root--C8cW1,
+.feed_wall--no-islands .ads_ad_photo_box:after{
+    box-shadow: none;
+}
 
-    .vkuiButton__in,
-    .FlatButton__in,
-    .vkuiButton--mode-secondary,
-    .vkuiButton__in--GoeBI,
-    .vkuiButton--mode-primary.vkuiButton--appearance-positive,
-    .vkuiButton--mode-primary.vkuiButton--appearance-accent,
-    .vkuiButton--mode-primary.vkuiButton--appearance-accent.vkuiButton--hover,
-    .redesigned-group-info__actions .FlatButton+.FlatButton,
-    .redesigned-group-info__actions .FlatButton+.page-group-actions,
-    .redesigned-group-info__actions .FlatButton.redesigned-group-action--more,
-    .group-empty-tab__buttons .FlatButton--size-m,
-    .group-tab-buttons .FlatButton--size-m,
-    .FlatButton--size-m,
-    .FlatButton--size-s,
-    .FlatButton--primary,
-    .FlatButton--primary:not(.disable):hover,
-    .FlatButton--secondary,
-    .FlatButton--secondary:not(.disable):hover,
-    .FlatButton--positive,
-    .FlatButton--positive:not(.disable):hover,
-    .photos_choose_upload_area,
-    .photos_choose_upload_area:hover,
-    .page-cover-actions-btn,
-    .vkuiButtonGroup--mode-horizontal.vkuiButtonGroup--gap-m> :not(:last-child),
-    .Button--size-m:not(.Button--link),
-    .Button--secondary:not(.Button--disabled):hover,
-    .Button--secondary:not(.Button--disabled):focus,
-    .privacy_dropdown .item_sel,
-    .privacy_dropdown .item_sel_plus,
-    .ui_toggler,
-    .vkuiButton--mode-primary.vkuiButton--appearance-overlay,
-    .flat_button.secondary.hover,
-    .button_gray button:hover,
-    .button_gray button.hover,
-    .medadd_c_linkimg_big .medadd_c_linkimg_container,
-    .medadd_c_linkimg_controls .medadd_c_linkimg_controls_btn_group,
-    .editable_thumbs .thumb_wrap:only-child .ui_thumb_x_button,
-    .videoplayer_end_actions._large ._like,
-    .videoplayer_end_actions._large ._share,
-    .videoplayer_end_actions._large ._add,
-    .videoplayer_share_action,
-    .videoplayer_share_action:hover,
-    .VkIdForm__button.VkIdForm__signInButton.FlatButton,
-    .VkIdForm__signInButton.FlatButton--primary:not(.disable):hover,
-    .FlatButton--wide,
-    .VkIdForm__businessSignUpButton,
-    .FlatButton__in,
-    .FlatButton--size-l,
-    .FlatButton--overlay-primary,
-    .FlatButton--overlay-primary:not(.disable):hover,
-    .pv_cont .pv_comments_header,
-    .privacy_dropdown .header,
-    .flat_button.black,
-    .flat_button.secondary.black,
-    .FormulaInput,
-    .checkbox_container table td .checkbox_off,
-    .checkbox_container table td .checkbox_on_over,
-    .checkbox_container table td .checkbox_off_over,
-    .vkuiFormField--mode-default,
-    .vkuiInput__el,
-    .PredictionProgressBar,
-    .ads_schedule_preset,
-    .ads_edit_easy_promote_box__payments-pay,
-    .button_green:hover,
-    .vkuiButton--mode-primary--XbXnu.vkuiButton--appearance-overlay--qWDHl,
-    .VideoLayout__aside--collapsed~.VideoLayout__scrollTop,
-    .wGnjLCZ_kHG1SsM_,
-    .wGnjLCZ_kHG1SsM_:hover,
-    .vkuiButton__modePrimary.vkuiButton__appearanceAccent,
-    .vkuiButton__modePrimary.vkuiButton__appearanceOverlay,
-    .vkuiButton__modePrimary.vkuiButton__appearanceAccent.vkuiButton__hover,
-    .article_ed__carousel_btns .article_ed__carousel_counter,
-    .article_ed__extra_controls:hover .article_ed__carousel_btn_edit,
-    .article_ed__caredit .article_ed__caredit_cancel,
-    .article_ed__caredit .article_ed__caredit_save,
-    .article_ed__caredit .article_ed__caredit_photo,
-    .vkuimodePrimary--YuDiC.vkuiappearanceOverlay--PVCjD,
-    .vkuimodePrimary--YuDiC.vkuiappearanceOverlay--PVCjD.vkuihover--inVSh {
-        background: #2a3742;
-        color: #cdd6f4;
-        border-radius: 24px;
-        border: none;
-        box-shadow: none;
-    }
+.FlatButton__in,
+.vkuiInternalHorizontalScroll .vkuiTabsItem__host
+.vkuiButton__modeSecondary,
+.vkuiButton__in--GoeBI,
+.vkuiButton--mode-primary.vkuiButton--appearance-positive,
+.vkuiButton--mode-primary.vkuiButton--appearance-accent,
+.vkuiButton--mode-primary.vkuiButton--appearance-accent.vkuiButton--hover,
+.redesigned-group-info__actions .FlatButton + .FlatButton,
+.redesigned-group-info__actions .FlatButton + .page-group-actions,
+.redesigned-group-info__actions .FlatButton.redesigned-group-action--more,
+.group-empty-tab__buttons .FlatButton--size-m,
+.group-tab-buttons .FlatButton--size-m,
+.FlatButton--size-m,
+.FlatButton--size-s,
+.FlatButton--primary,
+.FlatButton--primary:not(.disable):hover,
+.FlatButton--secondary,
+.FlatButton--secondary:not(.disable):hover,
+.FlatButton--positive,
+.FlatButton--positive:not(.disable):hover,
+.photos_choose_upload_area,
+.photos_choose_upload_area:hover,
+.page-cover-actions-btn,
+.vkuiButtonGroup--mode-horizontal.vkuiButtonGroup--gap-m > :not(:last-child),
+.Button--size-m:not(.Button--link),
+.Button--secondary:not(.Button--disabled):hover,
+.Button--secondary:not(.Button--disabled):focus,
+.privacy_dropdown .item_sel,
+.privacy_dropdown .item_sel_plus,
+.ui_toggler,
+.vkuiButton--mode-primary.vkuiButton--appearance-overlay,
+.flat_button.secondary.hover,
+.button_gray button:hover,
+.button_gray button.hover,
+.medadd_c_linkimg_big .medadd_c_linkimg_container,
+.medadd_c_linkimg_controls .medadd_c_linkimg_controls_btn_group,
+.editable_thumbs .thumb_wrap:only-child .ui_thumb_x_button,
+.videoplayer_end_actions._large ._like,
+.videoplayer_end_actions._large ._share,
+.videoplayer_end_actions._large ._add,
+.videoplayer_share_action,
+.videoplayer_share_action:hover,
+.VkIdForm__button.VkIdForm__signInButton.FlatButton,
+.VkIdForm__signInButton.FlatButton--primary:not(.disable):hover,
+.FlatButton--wide,
+.VkIdForm__businessSignUpButton,
+.FlatButton__in,
+.FlatButton--size-l,
+.FlatButton--overlay-primary,
+.FlatButton--overlay-primary:not(.disable):hover,
+.pv_cont .pv_comments_header,
+.privacy_dropdown .header,
+.flat_button.black,
+.flat_button.secondary.black,
+.FormulaInput,
+.checkbox_container table td .checkbox_off,
+.checkbox_container table td .checkbox_on_over,
+.checkbox_container table td .checkbox_off_over,
+.vkuiFormField--mode-default,
+.vkuiInput__el,
+.PredictionProgressBar,
+.ads_schedule_preset,
+.ads_edit_easy_promote_box__payments-pay,
+.button_green:hover,
+.vkuiButton--mode-primary--XbXnu.vkuiButton--appearance-overlay--qWDHl,
+.VideoLayout__aside--collapsed ~ .VideoLayout__scrollTop,
+.wGnjLCZ_kHG1SsM_,
+.wGnjLCZ_kHG1SsM_:hover,
+.vkuiButton__modePrimary.vkuiButton__appearanceAccent,
+.vkuiButton__modePrimary.vkuiButton__appearanceOverlay,
+.vkuiButton__modePrimary.vkuiButton__appearanceAccent.vkuiButton__hover,
+.article_ed__carousel_btns .article_ed__carousel_counter,
+.article_ed__extra_controls:hover .article_ed__carousel_btn_edit,
+.article_ed__caredit .article_ed__caredit_cancel,
+.article_ed__caredit .article_ed__caredit_save,
+.article_ed__caredit .article_ed__caredit_photo,
+.vkuimodePrimary--YuDiC.vkuiappearanceOverlay--PVCjD,
+.vkuimodePrimary--YuDiC.vkuiappearanceOverlay--PVCjD.vkuihover--inVSh {
+    background: #2a3742;
+    color: #cdd6f4;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+}
 
-    .article_ed__carousel_btns .article_ed__carousel_counter,
-    .article_ed__caredit .article_ed__caredit_item.article_ed__caredit_item_add,
-    .article_ed__caredit .article_ed__caredit_remove {
-        background: #2a3742 !important;
-        color: #cdd6f4;
-        border-radius: 24px;
-        border: none;
-        box-shadow: none;
-        opacity: 1;
-    }
+.article_ed__carousel_btns .article_ed__carousel_counter,
+.article_ed__caredit .article_ed__caredit_item.article_ed__caredit_item_add,
+.article_ed__caredit .article_ed__caredit_remove {
+    background: #2a3742 !important;
+    color: #cdd6f4;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+}
 
-    .ads_schedule_preset:hover,
-    .checkbox_container table td .checkbox_on,
-    .vkitSecondaryAction__iconButtonCircle--Gu1mf {
-        background: #5885ba;
-        color: #1b222a;
-        border-radius: 24px;
-        border: none;
-        box-shadow: none;
-    }
+.ads_schedule_preset:hover,
+.checkbox_container table td .checkbox_on,
+.vkitSecondaryAction__iconButtonCircle--Gu1mf {
+    background: #5885ba;
+    color: #1b222a;
+    border-radius: 24px;
+    border: none;
+    box-shadow: none;
+}
 
-    .vkitVideoOverlay__playButton--Xvg8u {
-        background: rgba(0, 0, 0, .5)url(/images/icons/video_play_small.png?1)19px 13px no-repeat;
-        color: #ffffff;
-    }
+.vkitVideoOverlay__playButton--Xvg8u {
+    background: rgba(0, 0, 0, .5)url(/images/icons/video_play_small.png?1)19px 13px no-repeat;
+    color: #ffffff;
+}
 
-    .SideOfficeMenu {
-        border-right: 1px solid #2a3742;
-    }
+.SideOfficeMenu {
+    border-right: 1px solid #2a3742;
+}
 
-    .im-navigation--to-end .im-navigation__button {
-        background: var(--steel_gray_200_alpha12)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
-    }
+.im-navigation--to-end .im-navigation__button {
+    background: var(--steel_gray_200_alpha12)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
+}
 
-    .im-navigation--to-end .im-navigation__button:hover {
-        background: var(--vkui--color_background_accent_themed)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
-    }
+.im-navigation--to-end .im-navigation__button:hover {
+    background: var(--vkui--color_background_accent_themed)url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%227%22%20viewBox%3D%220%200%2014%207%22%20width%3D%2214%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1.64.232c-.424-.354-1.055-.296-1.408.128s-.296%201.055.128%201.408l6%205c.371.309.91.309%201.28%200l6-5c.424-.354.482-.984.128-1.408s-.984-.482-1.408-.128l-5.36%204.467z%22%20fill%3D%22%239db4cc%22%2F%3E%3C%2Fsvg%3E)center 17px no-repeat;
+}
 
-    .side_bar_nav_wrap {
-        width: inherit;
-        margin: 3px 0 10px -13px;
-        background: #222c37;
-        border-radius: 24px;
-    }
+.side_bar_nav_wrap {
+    width: inherit;
+    margin: 3px 0 10px -13px;
+    background: #222c37;
+    border-radius: 24px;
+}
 
-    .FCWindow {
-        --border-radius: 24px;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
+.FCWindow {
+    --border-radius: 24px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
-    /*ТЕНИ*/
-    .ComposerSelecting,
-    .ComposerFormattingMenu__panel,
-    .ui_search_sugg_list,
-    .inlMainTable td.inlContent,
-    .ActionsMenu__inner,
-    .ads_retargeting_menu .dd_menu_body,
-    .vkuiPopover__inWithStyling,
-    .ui_tabs_new .ui_tab_group_items,
-    .big.selector_container .result_list,
-    .article_ed__caredit .article_ed__caredit_header,
-    .HeaderSectionSwitcherDropdown,
-    .HeaderSectionSwitcher,
-    .CostEditFormPopover,
-    .gf94yEMELbgGrm4E,
-    .video_showcase .tt_w:not(.tt_black),
-    .vkuiCustomSelectDropdown__host{
-        box-shadow: var(--vkui--elevation2);
-    }
+/*ТЕНИ*/
+.ComposerSelecting,
+.ComposerFormattingMenu__panel,
+.ui_search_sugg_list,
+.inlMainTable td.inlContent,
+.ActionsMenu__inner,
+.ads_retargeting_menu .dd_menu_body,
+.vkuiPopover__inWithStyling,
+.ui_tabs_new .ui_tab_group_items,
+.big.selector_container .result_list,
+.article_ed__caredit .article_ed__caredit_header,
+.HeaderSectionSwitcherDropdown,
+.HeaderSectionSwitcher,
+.CostEditFormPopover,
+.gf94yEMELbgGrm4E,
+.video_showcase .tt_w:not(.tt_black),
+.vkuiCustomSelectDropdown__host {
+    box-shadow: var(--vkui--elevation2);
+}
 
-    #ads_left,
-    #page_bottom_banners_root,
-    /*._ads_block_data_w,*/
-    .ads_ad_box.ver.repeat_ver.size_site.adaptive_ad,
-    /*.mailru-visibility-check,*/
-    .page_block.apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app--,
-    .page_block.feed_blog_reminder_large,
-    .profile_rate_warning,
-    [class*=ads_ads_box] {
-        display: none;
-    }
+#ads_left,
+#page_bottom_banners_root,
+/*._ads_block_data_w,*/
+.ads_ad_box.ver.repeat_ver.size_site.adaptive_ad,
+/*.mailru-visibility-check,*/
+.page_block.apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app--,
+.page_block.feed_blog_reminder_large,
+.profile_rate_warning,
+[class*=ads_ads_box] {
+    display: none;
+}
 
-    .pg_fixed_back {
-        background: #2a3742;
-        border-radius: 24px;
-        opacity: 1;
-    }
+.pg_fixed_back {
+    background: #2a3742;
+    border-radius: 24px;
+    opacity: 1;
+}
 
-    .pg_flnk_sel {
-        border-bottom: 2px solid #5885ba;
-    }
+.pg_flnk_sel {
+    border-bottom: 2px solid #5885ba;
+}
 
-    .pg_flnk {
-        color: #7f849c;
-    }
+.pg_flnk {
+    color: #7f849c;
+}
