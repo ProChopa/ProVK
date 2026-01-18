@@ -1460,7 +1460,9 @@ textarea,
 .vkitIconButton__rootCustomSize--V5GwL.vkitIconButton__rootCustomSize--V5GwL,
 .vkitClipCard__rootRadiusSmall--pSY9P,
 .OwnerContentTabPhotos__items .OwnerContentTabPhotos__item,
-.OwnerContentTabPhotosItem{
+.OwnerContentTabPhotosItem,
+.pv_cont .pv_can_edit:hover,
+.photos_album_page .photos_row, .photos_tag_page .photos_row{
     border-radius: 24px;
 }
 
